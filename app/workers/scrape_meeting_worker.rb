@@ -6,7 +6,8 @@ class ScrapeMeetingWorker
 
     pdfs = recursive_get_pdfs(meeting.url)
     pdfs.each do |pdf|
-      meeting.documents.find_or_create_by!(url: pdf)
+      document = meeting.documents.find_or_create_by!(url: pdf)
+      document.extract_text!
     end
   end
 

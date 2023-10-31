@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    Ascii85 (1.1.0)
     actioncable (7.0.8)
       actionpack (= 7.0.8)
       activesupport (= 7.0.8)
@@ -68,6 +69,7 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.5)
       public_suffix (>= 2.0.2, < 6.0)
+    afm (0.2.2)
     bindex (0.8.1)
     bootsnap (1.17.0)
       msgpack (~> 1.2)
@@ -91,6 +93,10 @@ GEM
     erubi (1.12.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
+    hashery (2.1.2)
+    httparty (0.21.0)
+      mini_mime (>= 1.0.0)
+      multi_xml (>= 0.5.2)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
     importmap-rails (1.2.3)
@@ -118,6 +124,7 @@ GEM
     mini_mime (1.1.5)
     minitest (5.20.0)
     msgpack (1.7.2)
+    multi_xml (0.6.0)
     net-imap (0.4.3)
       date
       net-protocol
@@ -130,6 +137,12 @@ GEM
     nio4r (2.5.9)
     nokogiri (1.15.4-arm64-darwin)
       racc (~> 1.4)
+    pdf-reader (2.11.0)
+      Ascii85 (~> 1.0)
+      afm (~> 0.2.1)
+      hashery (~> 2.0)
+      ruby-rc4
+      ttfunk
     pg (1.5.4)
     psych (5.1.1.1)
       stringio
@@ -178,6 +191,7 @@ GEM
     reline (0.3.9)
       io-console (~> 0.5)
     rexml (3.2.6)
+    ruby-rc4 (0.1.5)
     rubyzip (2.3.2)
     selenium-webdriver (4.14.0)
       rexml (~> 3.2, >= 3.2.5)
@@ -200,6 +214,7 @@ GEM
     stringio (3.0.8)
     thor (1.3.0)
     timeout (0.4.0)
+    ttfunk (1.7.0)
     turbo-rails (1.5.0)
       actionpack (>= 6.0.0)
       activejob (>= 6.0.0)
@@ -226,9 +241,11 @@ DEPENDENCIES
   bootsnap
   capybara
   debug
+  httparty
   importmap-rails
   jbuilder
   nokogiri
+  pdf-reader
   pg (~> 1.1)
   puma (~> 5.0)
   rails (~> 7.0.8)

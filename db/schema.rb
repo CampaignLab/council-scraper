@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_10_30_233740) do
+ActiveRecord::Schema[7.0].define(version: 2023_10_31_220501) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -37,6 +37,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_30_233740) do
     t.text "url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.text "text"
+    t.text "extract_status", default: "pending", null: false
     t.index ["meeting_id"], name: "index_documents_on_meeting_id"
   end
 
@@ -51,6 +53,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_30_233740) do
     t.datetime "updated_at", null: false
     t.index ["committee_id"], name: "index_meetings_on_committee_id"
     t.index ["council_id"], name: "index_meetings_on_council_id"
+    t.index ["date"], name: "index_meetings_on_date"
   end
 
   create_table "people", force: :cascade do |t|
