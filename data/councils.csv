@@ -1,0 +1,304 @@
+id,name,url
+2,Cambridgeshire,https://democracy.cambridge.gov.uk/mgCalendarMonthView.aspx
+4,Derbyshire,https://democracy.derbyshire.gov.uk/mgCalendarMonthView.aspx
+5,Devon,https://democracy.devon.gov.uk/mgCalendarMonthView.aspx/
+7,East Sussex,https://democracy.eastsussex.gov.uk/mgCalendarMonthView.aspx
+8,Essex,https://democracy.southend.gov.uk/mgCalendarMonthView.aspx
+9,Gloucestershire,https://glostext.gloucestershire.gov.uk/mgCalendarMonthView.aspx
+10,Hampshire,https://democracy.hants.gov.uk/mgCalendarMonthView.aspx
+11,Hertfordshire,https://democracy.hertfordshire.gov.uk/mgCalendarMonthView.aspx
+12,Kent,https://democracy.kent.gov.uk/mgCalendarMonthView.aspx
+13,Lancashire,https://council.lancashire.gov.uk/mgCalendarMonthView.aspx
+14,Leicestershire,https://cabinet.leicester.gov.uk/mgCalendarMonthView.aspx
+15,Lincolnshire,https://lincolnshire.moderngov.co.uk/mgCalendarMonthView.aspx
+16,Norfolk,https://democracy.west-norfolk.gov.uk/mgCalendarMonthView.aspx
+19,Nottinghamshire,https://committee.nottinghamcity.gov.uk/mgCalendarMonthView.aspx
+20,Oxfordshire,https://mycouncil.oxfordshire.gov.uk/mgCalendarMonthView.aspx
+22,Staffordshire,https://moderngov.staffordshire.gov.uk/mgCalendarMonthView.aspx
+23,Suffolk,https://democracy.westsuffolk.gov.uk/mgCalendarMonthView.aspx
+24,Surrey,https://mycouncil.surreycc.gov.uk/mgCalendarMonthView.aspx
+25,Warwickshire,https://democracy.warwickshire.gov.uk/mgCalendarMonthView.aspx
+26,West Sussex,https://westsussex.moderngov.co.uk/mgCalendarMonthView.aspx
+27,Worcestershire,https://worcestershire.moderngov.co.uk/mgCalendarMonthView.aspx
+29,Arun,https://democracy.arun.gov.uk/mgCalendarMonthView.aspx
+30,Ashfield,https://democracy.ashfield.gov.uk/mgCalendarMonthView.aspx
+31,Ashford,https://ashford.moderngov.co.uk/mgCalendarMonthView.aspx
+33,Babergh,https://baberghmidsuffolk.moderngov.co.uk/mgCalendarMonthView.aspx
+35,Bassetlaw,https://bassetlaw.moderngov.co.uk/mgCalendarMonthView.aspx
+36,Blaby,https://w3.blaby.gov.uk/decision-making/mgCalendarMonthView.aspx
+37,Bolsover,https://committees.bolsover.gov.uk/mgCalendarMonthView.aspx
+38,Boston,https://democracy.boston.gov.uk/mgCalendarMonthView.aspx
+40,Breckland,https://democracy.breckland.gov.uk/mgCalendarMonthView.aspx
+42,Bromsgrove,https://moderngovwebpublic.bromsgrove.gov.uk/mgCalendarMonthView.aspx
+43,Broxtowe,https://democracy.broxtowe.gov.uk/mgCalendarMonthView.aspx
+44,Canterbury,https://democracy.kent.gov.uk/mgCalendarMonthView.aspx
+45,Charnwood,https://charnwood.moderngov.co.uk/mgCalendarMonthView.aspx
+47,Chesterfield,https://chesterfield.moderngov.co.uk/mgCalendarMonthView.aspx
+48,Chichester,https://chichester.moderngov.co.uk/mgCalendarMonthView.aspx
+53,Cotswold,https://meetings.cotswold.gov.uk/mgCalendarMonthView.aspx
+54,Dacorum,https://democracy.dacorum.gov.uk/mgCalendarMonthView.aspx
+55,Dartford,https://committeedmz.dartford.gov.uk/mgCalendarMonthView.aspx
+56,Derbyshire Dales,https://democracy.derbyshiredales.gov.uk/mgCalendarMonthView.aspx
+57,Dover,https://moderngov.dover.gov.uk/mgCalendarMonthView.aspx
+59,East Devon,https://democracy.eastdevon.gov.uk/mgCalendarMonthView.aspx
+61,East Hampshire,https://easthants.moderngov.co.uk/mgCalendarMonthView.aspx
+62,East Hertfordshire,https://democracy.eastherts.gov.uk/mgCalendarMonthView.aspx
+63,East Lindsey,https://democracy.west-lindsey.gov.uk/mgCalendarMonthView.aspx
+65,East Staffordshire,https://moderngov.staffordshire.gov.uk/mgCalendarMonthView.aspx
+412,East Suffolk,https://democracy.westsuffolk.gov.uk/mgCalendarMonthView.aspx
+66,Eastbourne,https://democracy.lewes-eastbourne.gov.uk/mgCalendarMonthView.aspx
+69,Epsom and Ewell,https://democracy.epsom-ewell.gov.uk/mgCalendarMonthView.aspx
+70,Erewash,https://moderngov.erewash.gov.uk/mgCalendarMonthView.aspx
+71,Fenland,https://www.fenland.gov.uk/localgov/mgCalendarMonthView.aspx
+123,Folkestone and Hythe,https://folkestone-hythe.moderngov.co.uk/mgCalendarMonthView.aspx
+73,Forest of Dean,https://glostext.gloucestershire.gov.uk/mgCalendarMonthView.aspx
+74,Fylde,https://wyre.moderngov.co.uk/mgCalendarMonthView.aspx
+75,Gedling,https://democracy.gedling.gov.uk/mgCalendarMonthView.aspx
+77,Gravesham,https://democracy.gravesham.gov.uk/mgCalendarMonthView.aspx
+190,Great Yarmouth,https://democracy.west-norfolk.gov.uk/mgCalendarMonthView.aspx
+78,Guildford,https://democracy.guildford.gov.uk/mgCalendarMonthView.aspx
+80,Harborough,https://politics.leics.gov.uk/mgCalendarMonthView.aspx
+83,Hertsmere,https://democracy.hertfordshire.gov.uk/mgCalendarMonthView.aspx
+84,High Peak,https://democracy.highpeak.gov.uk/mgCalendarMonthView.aspx
+85,Hinckley and Bosworth,https://moderngov.hinckley-bosworth.gov.uk/mgCalendarMonthView.aspx
+86,Horsham,https://horsham.moderngov.co.uk/mgCalendarMonthView.aspx
+87,Huntingdonshire,https://democracy.huntingdonshire.gov.uk/moderngov/mgCalendarMonthView.aspx
+89,King's Lynn and West Norfolk,https://democracy.west-norfolk.gov.uk/mgCalendarMonthView.aspx
+90,Lancaster,https://committeeadmin.lancaster.gov.uk/mgCalendarMonthView.aspx
+91,Lewes,https://democracy.lewes-eastbourne.gov.uk/mgCalendarMonthView.aspx
+92,Lichfield,https://democracy.lichfielddc.gov.uk/mgCalendarMonthView.aspx
+93,Maldon,https://democracy.maldon.gov.uk/mgCalendarMonthView.aspx
+94,Malvern Hills,https://worcestershire.moderngov.co.uk/mgCalendarMonthView.aspx
+95,Mansfield,https://democracy.newark-sherwooddc.gov.uk/mgCalendarMonthView.aspx
+96,Melton,https://democracy.melton.gov.uk/mgCalendarMonthView.aspx
+98,Mid Devon,https://democracy.middevon.gov.uk/mgCalendarMonthView.aspx
+99,Mid Suffolk,https://baberghmidsuffolk.moderngov.co.uk/mgCalendarMonthView.aspx
+100,Mid Sussex,https://midsussex.moderngov.co.uk/mgCalendarMonthView.aspx
+101,New Forest,https://democracy.newforest.gov.uk/mgCalendarMonthView.aspx
+102,Newark and Sherwood,https://democracy.newark-sherwooddc.gov.uk/mgCalendarMonthView.aspx
+103,Newcastle-under-Lyme,https://moderngov.newcastle-staffs.gov.uk/mgCalendarMonthView.aspx
+104,North Devon,https://democracy.northdevon.gov.uk/mgCalendarMonthView.aspx
+106,North East Derbyshire,https://democracy.ne-derbyshire.gov.uk/mgCalendarMonthView.aspx
+199,North Hertfordshire,https://democracy.north-herts.gov.uk/mgCalendarMonthView.aspx
+107,North Kesteven,https://moderngov.southkesteven.gov.uk/mgCalendarMonthView.aspx
+108,North Norfolk,https://modgov.north-norfolk.gov.uk/mgCalendarMonthView.aspx
+110,North West Leicestershire,https://minutes-1.nwleics.gov.uk/mgCalendarMonthView.aspx
+112,Oadby and Wigston,https://moderngov.oadby-wigston.gov.uk/mgCalendarMonthView.aspx
+114,Ribble Valley,https://democracy.ribblevalley.gov.uk/mgCalendarMonthView.aspx
+116,Rother,https://rother.moderngov.co.uk/mgCalendarMonthView.aspx
+117,Rushcliffe,https://democracy.rushcliffe.gov.uk/mgCalendarMonthView.aspx
+122,Sevenoaks,https://cds.sevenoaks.gov.uk/mgCalendarMonthView.aspx
+125,South Cambridgeshire,https://scambs.moderngov.co.uk/mgCalendarMonthView.aspx
+126,South Derbyshire,https://democracy.derbyshire.gov.uk/mgCalendarMonthView.aspx
+127,South Hams,http://mg.swdevon.gov.uk/mgCalendarMonthView.aspx
+128,South Holland,https://democracy.sholland.gov.uk/mgCalendarMonthView.aspx
+129,South Kesteven,https://moderngov.southkesteven.gov.uk/mgCalendarMonthView.aspx
+131,South Norfolk,https://democracy.west-norfolk.gov.uk/mgCalendarMonthView.aspx
+133,South Oxfordshire,https://democratic.southoxon.gov.uk/mgCalendarMonthView.aspx
+134,South Ribble,https://council.lancashire.gov.uk/mgCalendarMonthView.aspx
+136,South Staffordshire,https://moderngov.staffordshire.gov.uk/mgCalendarMonthView.aspx
+137,Spelthorne,https://democracy.spelthorne.gov.uk/mgCalendarMonthView.aspx
+407,Stafford,https://moderngov.staffordshire.gov.uk/mgCalendarMonthView.aspx
+139,Staffordshire Moorlands,https://democracy.staffsmoorlands.gov.uk/mgCalendarMonthView.aspx
+140,Stratford-on-Avon,https://democracy.stratford.gov.uk/mgCalendarMonthView.aspx
+212,Stroud,https://stroud.moderngov.co.uk/mgCalendarMonthView.aspx
+142,Surrey Heath,https://surreyheath.moderngov.co.uk/mgCalendarMonthView.aspx
+143,Swale,https://services.swale.gov.uk/meetings/mgCalendarMonthView.aspx
+145,Teignbridge,https://democracy.teignbridge.gov.uk/mgCalendarMonthView.aspx
+146,Tendring,https://tdcdemocracy.tendringdc.gov.uk/mgCalendarMonthView.aspx
+147,Test Valley,https://democracy.testvalley.gov.uk/mgCalendarMonthView.aspx
+148,Tewkesbury,https://minutes.tewkesbury.gov.uk/mgCalendarMonthView.aspx
+149,Thanet,https://democracy.thanet.gov.uk/mgCalendarMonthView.aspx
+150,Tonbridge and Malling,https://democracy.tmbc.gov.uk/mgCalendarMonthView.aspx
+151,Torridge,https://democracy.torridge.gov.uk/mgCalendarMonthView.aspx
+152,Uttlesford,https://uttlesford.moderngov.co.uk/mgCalendarMonthView.aspx
+153,Vale of White Horse,https://democratic.whitehorsedc.gov.uk/mgCalendarMonthView.aspx
+154,Warwick,https://democracy.warwickshire.gov.uk/mgCalendarMonthView.aspx
+156,Waverley,https://modgov.waverley.gov.uk/mgCalendarMonthView.aspx
+159,West Devon,http://mg.swdevon.gov.uk/mgCalendarMonthView.aspx
+160,West Lindsey,https://democracy.west-lindsey.gov.uk/mgCalendarMonthView.aspx
+410,West Suffolk,https://democracy.westsuffolk.gov.uk/mgCalendarMonthView.aspx
+162,Wychavon,https://worcestershire.moderngov.co.uk/mgCalendarMonthView.aspx
+164,Wyre,https://wyre.moderngov.co.uk/mgCalendarMonthView.aspx
+226,Wyre Forest,https://wyre.moderngov.co.uk/mgCalendarMonthView.aspx
+165,Adur,https://democracy.adur-worthing.gov.uk/mgCalendarMonthView.aspx
+166,Cheltenham,https://democracy.cheltenham.gov.uk/mgCalendarMonthView.aspx
+189,Fareham,https://moderngov.fareham.gov.uk/mgCalendarMonthView.aspx
+167,Gosport,https://democracy.gosport.gov.uk/mgCalendarMonthView.aspx
+82,Hastings,https://hastings.moderngov.co.uk/mgCalendarMonthView.aspx
+172,Basingstoke and Deane,https://democracy.basingstoke.gov.uk/mgCalendarMonthView.aspx
+173,Brentwood,https://brentwood.moderngov.co.uk/mgCalendarMonthView.aspx
+176,Cambridge,https://democracy.cambridge.gov.uk/mgCalendarMonthView.aspx
+177,Cannock Chase,https://moderngov.cheshireeast.gov.uk/ecminutes/mgCalendarMonthView.aspx
+180,Cherwell,http://modgov.cherwell.gov.uk/mgCalendarMonthView.aspx
+181,Chorley,https://democracy.chorley.gov.uk/mgCalendarMonthView.aspx
+182,Colchester,https://tdcdemocracy.tendringdc.gov.uk/mgCalendarMonthView.aspx
+184,Crawley,https://democracy.crawley.gov.uk/mgCalendarMonthView.aspx
+67,Eastleigh,https://meetings.eastleigh.gov.uk/mgCalendarMonthView.aspx
+186,Elmbridge,https://mygov.elmbridge.gov.uk/mgCalendarMonthView.aspx
+187,Epping Forest,https://rds.eppingforestdc.gov.uk/mgCalendarMonthView.aspx
+188,Exeter,https://committees.exeter.gov.uk/mgCalendarMonthView.aspx
+191,Harlow,https://moderngov.harlow.gov.uk/mgCalendarMonthView.aspx
+192,Hart,https://hart.moderngov.co.uk/mgCalendarMonthView.aspx
+193,Havant,https://havant.moderngov.co.uk/mgCalendarMonthView.aspx
+194,Hyndburn,https://democracy.hyndburnbc.gov.uk/mgCalendarMonthView.aspx
+195,Ipswich,https://democracy.ipswich.gov.uk/mgCalendarMonthView.aspx
+196,Lincoln,https://democratic.lincoln.gov.uk/mgCalendarMonthView.aspx
+198,Mole Valley,https://mycouncil.surreycc.gov.uk/mgCalendarMonthView.aspx
+202,Preston,https://council.lancashire.gov.uk/mgCalendarMonthView.aspx
+203,Redditch,https://moderngovwebpublic.redditchbc.gov.uk/mgCalendarMonthView.aspx
+204,Reigate and Banstead,https://reigate-banstead.moderngov.co.uk/mgCalendarMonthView.aspx
+205,Rochford,https://mycouncil.oxfordshire.gov.uk/mgCalendarMonthView.aspx
+207,Rugby,https://business.senedd.wales/mgCalendarMonthView.aspx
+208,Runnymede,https://democracy.runnymede.gov.uk/mgCalendarMonthView.aspx
+209,Rushmoor,https://democracy.rushmoor.gov.uk/mgCalendarMonthView.aspx
+210,St Albans,https://democracy.hertfordshire.gov.uk/mgCalendarMonthView.aspx
+211,Stevenage,https://democracy.stevenage.gov.uk/mgCalendarMonthView.aspx
+213,Tamworth,https://democracy.tamworth.gov.uk/mgCalendarMonthView.aspx
+214,Tandridge,https://tandridge.moderngov.co.uk/mgCalendarMonthView.aspx
+215,Three Rivers,https://moderngov.threerivers.gov.uk/mgCalendarMonthView.aspx
+216,Tunbridge Wells,https://democracy.tunbridgewells.gov.uk/mgCalendarMonthView.aspx
+217,Watford,https://watford.moderngov.co.uk/mgCalendarMonthView.aspx
+218,Welwyn Hatfield,https://democracy.welhat.gov.uk/mgCalendarMonthView.aspx
+219,West Lancashire,https://democracy.westlancs.gov.uk/mgCalendarMonthView.aspx
+220,West Oxfordshire,https://meetings.westoxon.gov.uk/mgCalendarMonthView.aspx
+222,Winchester,https://democracy.winchester.gov.uk/mgCalendarMonthView.aspx
+223,Woking,https://moderngov.woking.gov.uk/mgCalendarMonthView.aspx
+224,Worcester,https://worcestershire.moderngov.co.uk/mgCalendarMonthView.aspx
+225,Worthing,https://democracy.adur-worthing.gov.uk/mgCalendarMonthView.aspx
+227,Barking and Dagenham,https://modgov.lbbd.gov.uk/internet/mgCalendarMonthView.aspx
+228,Barnet,https://barnet.moderngov.co.uk/mgCalendarMonthView.aspx
+229,Bexley,http://democracy.bexley.gov.uk/mgCalendarMonthView.aspx
+230,Brent,https://democracy.brent.gov.uk/mgCalendarMonthView.aspx
+231,Bromley,https://cds.bromley.gov.uk/mgCalendarMonthView.aspx
+232,Camden,https://democracy.camden.gov.uk/mgCalendarMonthView.aspx
+233,Croydon,https://democracy.croydon.gov.uk/mgCalendarMonthView.aspx
+234,Ealing,https://ealing.moderngov.co.uk/mgCalendarMonthView.aspx
+235,Enfield,https://governance.enfield.gov.uk/mgCalendarMonthView.aspx
+237,Hackney,https://hackney.moderngov.co.uk/mgCalendarMonthView.aspx
+238,Hammersmith and Fulham,https://democracy.lbhf.gov.uk/mgCalendarMonthView.aspx
+239,Haringey,https://www.minutes.haringey.gov.uk/mgCalendarMonthView.asp
+240,Harrow,https://moderngov.harrow.gov.uk/mgCalendarMonthView.aspx
+241,Havering,https://democracy.havering.gov.uk/mgCalendarMonthView.aspx
+242,Hillingdon,https://modgov.hillingdon.gov.uk/mgCalendarMonthView.aspx
+243,Hounslow,https://democraticservices.hounslow.gov.uk/%28S%28czobl0450xbqi155ede3ifez%29%29/mgCalendarMonthView.aspx
+244,Islington,https://democracy.islington.gov.uk/mgCalendarMonthView.aspx
+246,Kingston upon Thames,https://moderngov.kingston.gov.uk/mgCalendarMonthView.aspx
+247,Lambeth,https://moderngov.lambeth.gov.uk/mgCalendarMonthView.aspx
+248,Lewisham,https://councilmeetings.lewisham.gov.uk/mgCalendarMonthView.aspx
+249,Merton,https://democracy.merton.gov.uk/mgCalendarMonthView.aspx
+253,Southwark,https://moderngov.southwark.gov.uk/mgCalendarMonthView.aspx
+254,Sutton,https://moderngov.sutton.gov.uk/mgCalendarMonthView.aspx
+255,Tower Hamlets,https://democracy.towerhamlets.gov.uk/mgCalendarMonthView.aspx
+257,Wandsworth,https://democracy.wandsworth.gov.uk/mgCalendarMonthView.aspx
+258,Westminster,https://committees.westminster.gov.uk/mgCalendarMonthView.aspx
+259,Birmingham,https://eservices.solihull.gov.uk/mginternet/mgCalendarMonthView.aspx
+260,Doncaster,https://doncaster.moderngov.co.uk/mgCalendarMonthView.aspx
+274,Liverpool,https://moderngov.merseytravel.gov.uk/mgCalendarMonthView.aspx
+278,Rotherham,https://moderngov.rotherham.gov.uk/mgCalendarMonthView.aspx
+285,St. Helens,https://sthelens.moderngov.co.uk/mgCalendarMonthView.aspx
+293,Wirral,https://democracy.wirral.gov.uk/mgCalendarMonthView.aspx
+264,Barnsley,https://barnsleymbc.moderngov.co.uk/mgCalendarMonthView.aspx
+265,Bolton,https://bradford.moderngov.co.uk/mgCalendarMonthView.aspx
+266,Bradford,https://bradford.moderngov.co.uk/mgCalendarMonthView.aspx
+267,Bury,https://councildecisions.bury.gov.uk/mgCalendarMonthView.aspx
+268,Calderdale,https://calderdale.moderngov.co.uk/mgCalendarMonthView.aspx
+269,Coventry,https://edemocracy.coventry.gov.uk/mgCalendarMonthView.aspx
+271,Gateshead,https://gateshead.moderngov.co.uk/mgCalendarMonthView.aspx
+272,Kirklees,https://democracy.kirklees.gov.uk/mgCalendarMonthView.aspx
+273,Knowsley,https://councillors.knowsley.gov.uk/mgCalendarMonthView.aspx
+261,Leeds,https://democracy.leeds.gov.uk/mgCalendarMonthView.aspx
+262,Manchester,https://democracy.manchester.gov.uk/mgCalendarMonthView.aspx
+263,Newcastle upon Tyne,https://democracy.northtyneside.gov.uk/mgCalendarMonthView.aspx
+275,North Tyneside,https://democracy.northtyneside.gov.uk/mgCalendarMonthView.aspx
+276,Oldham,https://committees.oldham.gov.uk/mgCalendarMonthView.aspx
+277,Rochdale,https://democracy.rochdale.gov.uk/mgCalendarMonthView.aspx
+279,Salford,https://sccdemocracy.salford.gov.uk/mgCalendarMonthView.aspx
+280,Sandwell,https://sandwell.moderngov.co.uk/mgCalendarMonthView.aspx
+281,Sefton,https://modgov.sefton.gov.uk/mgCalendarMonthView.aspx
+282,Sheffield,https://democracy.sheffield.gov.uk/mgCalendarMonthView.aspx
+283,Solihull,https://eservices.solihull.gov.uk/mginternet/mgCalendarMonthView.aspx
+284,South Tyneside,https://northumberland.moderngov.co.uk/mgCalendarMonthView.aspx
+286,Stockport,https://democracy.stockport.gov.uk/mgCalendarMonthView.aspx
+288,Tameside,https://tameside.moderngov.co.uk/mgCalendarMonthView.aspx
+289,Trafford,https://democratic.trafford.gov.uk/mgCalendarMonthView.aspx
+291,Walsall,https://calderdale.moderngov.co.uk/mgCalendarMonthView.aspx
+294,Wolverhampton,https://wolverhampton.moderngov.co.uk/mgCalendarMonthView.aspx
+1003,Belfast,https://minutes.belfastcity.gov.uk/mgCalendarMonthView.aspx
+295,Aberdeen City,https://committees.aberdeencity.gov.uk/mgCalendarMonthView.aspx
+296,Aberdeenshire,https://aberdeenshire.moderngov.co.uk/mgCalendarMonthView.aspx
+298,Argyll and Bute,https://www.argyll-bute.gov.uk/moderngov/mgCalendarMonthView.asp
+306,City of Edinburgh,https://democracy.edinburgh.gov.uk/mgCalendarMonthView.aspx
+309,Fife,https://democracy.bcpcouncil.gov.uk/mgCalendarMonthView.aspx
+319,Renfrewshire,https://modgov.waverley.gov.uk/mgCalendarMonthView.aspx
+320,Scottish Borders,https://scottishborders.moderngov.co.uk/mgCalendarMonthView.aspx
+327,Bath and North East Somerset,https://democracy.bathnes.gov.uk/mgCalendarMonthView.aspx
+329,Blackpool,https://democracy.blackpool.gov.uk/mgCalendarMonthView.aspx
+409,"Bournemouth, Christchurch and Poole",https://democracy.bcpcouncil.gov.uk/mgCalendarMonthView.aspx
+331,Bracknell Forest,https://democratic.bracknell-forest.gov.uk/mgCalendarMonthView.aspx
+332,Brighton and Hove,https://democracy.brighton-hove.gov.uk/mgCalendarMonthView.aspx
+366,"Bristol, City of",https://democracy.bristol.gov.uk/mgCalendarMonthView.aspx
+413,Buckinghamshire,https://buckinghamshire.moderngov.co.uk/mgCalendarMonthView.aspx
+334,Cheshire East,https://moderngov.cheshireeast.gov.uk/ecminutes/mgCalendarMonthView.aspx
+335,Cheshire West and Chester,https://democracy.wirral.gov.uk/mgCalendarMonthView.aspx
+336,Cornwall,https://democracy.plymouth.gov.uk/mgCalendarMonthView.aspx
+338,County Durham,https://democracy.durham.gov.uk/mgCalendarMonthView.aspx
+418,Cumberland,https://cumberland.moderngov.co.uk/mgCalendarMonthView.aspx
+337,Darlington,https://democracy.darlington.gov.uk/mgCalendarMonthView.aspx
+367,Derby,https://democracy.derbyshire.gov.uk/mgCalendarMonthView.aspx
+408,Dorset,https://moderngov.dorsetcouncil.gov.uk/mgCalendarMonthView.aspx
+339,East Riding of Yorkshire,https://edemocracy.northyorks.gov.uk/mgCalendarMonthView.aspx
+340,"Herefordshire, County of",https://councillors.herefordshire.gov.uk/mgCalendarMonthView.aspx
+342,Isle of Wight,https://iow.moderngov.co.uk/mgCalendarMonthView.aspx
+343,Leicester,https://cabinet.leicester.gov.uk/mgCalendarMonthView.aspx
+345,Medway,https://democracy.medway.gov.uk/mgCalendarMonthView.aspx
+346,Middlesbrough,https://moderngov.middlesbrough.gov.uk/mgCalendarMonthView.aspx
+347,North Lincolnshire,https://northlincolnshire.moderngov.co.uk/mgCalendarMonthView.aspx
+414,North Northamptonshire,https://northnorthants.moderngov.co.uk/mgCalendarMonthView.aspx
+348,North Somerset,https://democracy.somerset.gov.uk/mgCalendarMonthView.aspx
+417,North Yorkshire,https://edemocracy.northyorks.gov.uk/mgCalendarMonthView.aspx
+349,Northumberland,https://northumberland.moderngov.co.uk/mgCalendarMonthView.aspx
+350,Nottingham,https://committee.nottinghamcity.gov.uk/mgCalendarMonthView.aspx
+353,Rutland,https://rutlandcounty.moderngov.co.uk/mgCalendarMonthView.aspx
+354,Shropshire,https://shropshire.gov.uk/committee-services/mgCalendarMonthView.aspx
+376,Slough,http://democracy.slough.gov.uk/mgCalendarMonthView.asp
+416,Somerset,https://democracy.somerset.gov.uk/mgCalendarMonthView.aspx
+355,South Gloucestershire,https://glostext.gloucestershire.gov.uk/mgCalendarMonthView.aspx
+357,Stoke-on-Trent,https://moderngov.staffordshire.gov.uk/mgCalendarMonthView.aspx
+358,Telford and Wrekin,https://democracy.telford.gov.uk/mgCalendarMonthView.aspx
+359,Torbay,http://www.torbay.gov.uk/DemocraticServices/mgCalendarMonthView.aspx
+360,Warrington,https://moderngov.cheshireeast.gov.uk/ecminutes/mgCalendarMonthView.aspx
+415,West Northamptonshire,https://westnorthants.moderngov.co.uk/mgCalendarMonthView.aspx
+419,Westmorland and Furness,https://westmorlandandfurness.moderngov.co.uk/mgCalendarMonthView.aspx
+362,Wiltshire,https://cms.wiltshire.gov.uk/mgCalendarMonthView.aspx
+363,Windsor and Maidenhead,https://rbwm.moderngov.co.uk/mgCalendarMonthView.aspx
+365,Blackburn with Darwen,https://democracy.blackburn.gov.uk/mgCalendarMonthView.aspx
+368,Halton,https://moderngov.halton.gov.uk/mgCalendarMonthView.asp
+370,Milton Keynes,https://milton-keynes.moderngov.co.uk/mgCalendarMonthView.aspx
+371,North East Lincolnshire,https://northlincolnshire.moderngov.co.uk/mgCalendarMonthView.aspx
+372,Peterborough,https://democracy.peterborough.gov.uk/mgCalendarMonthView.aspx
+373,Plymouth,https://democracy.plymouth.gov.uk/mgCalendarMonthView.aspx
+374,Portsmouth,https://democracy.portsmouth.gov.uk/mgCalendarMonthView.aspx
+377,Southampton,https://www.southampton.gov.uk/modernGov/mgCalendarMonthView.aspx
+378,Southend-on-Sea,https://democracy.southend.gov.uk/mgCalendarMonthView.aspx
+380,Thurrock,https://democracy.thurrock.gov.uk/mgCalendarMonthView.aspx
+381,Wokingham,https://wokingham.moderngov.co.uk/mgCalendarMonthView.aspx
+382,Blaenau Gwent,https://democracy.blaenau-gwent.gov.uk/mgCalendarMonthView.aspx
+383,Bridgend,https://democratic.bridgend.gov.uk/mgCalendarMonthView.aspx
+384,Caerphilly,https://democracy.caerphilly.gov.uk/mgCalendarMonthView.aspx
+385,Cardiff,https://cardiff.moderngov.co.uk/mgCalendarMonthView.aspx
+386,Carmarthenshire,https://democracy.carmarthenshire.gov.wales/mgCalendarMonthView.aspx
+387,Ceredigion,https://council.ceredigion.gov.uk/mgCalendarMonthView.aspx
+388,Conwy,https://moderngov.denbighshire.gov.uk/mgCalendarMonthView.aspx
+389,Denbighshire,https://moderngov.denbighshire.gov.uk/mgCalendarMonthView.aspx
+390,Flintshire,https://committeemeetings.flintshire.gov.uk/mgCalendarMonthView.aspx
+391,Gwynedd,https://democracy.gwynedd.llyw.cymru/mgCalendarMonthView.aspx
+392,Isle of Anglesey,https://democracy.anglesey.gov.uk/mgCalendarMonthView.aspx
+393,Merthyr Tydfil,https://democracy.merthyr.gov.uk/mgCalendarMonthView.aspx
+394,Monmouthshire,https://democracy.monmouthshire.gov.uk/mgCalendarMonthView.aspx
+395,Neath Port Talbot,https://democracy.npt.gov.uk/mgCalendarMonthView.aspx
+396,Newport,https://democracy.newport.gov.uk/mgCalendarMonthView.aspx
+398,Powys,https://powys.moderngov.co.uk/mgCalendarMonthView.aspx
+400,Swansea,https://democracy.swansea.gov.uk/mgCalendarMonthView.aspx
+401,Torfaen,http://moderngov.torfaen.gov.uk/mgCalendarMonthView.aspx
+403,Wrexham,https://moderngov.wrexham.gov.uk/mgCalendarMonthView.aspx

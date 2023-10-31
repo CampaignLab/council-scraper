@@ -1,0 +1,18 @@
+<h1><%= @meeting.name %></h1>
+<h2>Documents</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Document Name</th>
+      <th>Document URL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @meeting.documents.each do |document| %>
+      <tr>
+        <td><%= document.name %></td>
+        <td><%= link_to document.url, document.url %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

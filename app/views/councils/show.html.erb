@@ -1,0 +1,22 @@
+<h1><%= @council.name %></h1>
+<h2>Meetings</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Committee</th>
+      <th>Meeting Date</th>
+      <th>Meeting Name</th>
+      <th>Documents</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @meetings.each do |meeting| %>
+      <tr>
+        <td><%= meeting.committee.name %></td>
+        <td><%= meeting.date.strftime('%B %d, %Y') %></td>
+        <td><%= meeting.name %></td>
+        <td><%= link_to "#{meeting.documents.count} Document", meeting.documents.first.url if meeting.documents.any? %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
