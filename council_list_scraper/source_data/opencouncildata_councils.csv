@@ -1,0 +1,382 @@
+id,name,"model (C=county, D=district, 1=all-up, 3=thirds, etc.)","type (LC=leader&cabinet, etc.)",total,majority,coalition,con,lab,ld,grn,ukip,pc,snp,dup,sf,uup,sdlp,ali,tuv,pup,ind,vacant,boundary,"ons code","start of records (or creation of council)","end of records (or abolition of council)",url,"last update"
+2,Cambridgeshire,C1,LC,61,NOC,LD/LAB/IND,26,9,22,0,0,0,0,0,0,0,0,0,0,0,4,0,,E10000003,2016,2030,https://cambridgeshire.cmis.uk.com/ccc_live/Councillors.aspx,2023-09-28
+4,Derbyshire,C1,LC,64,CON,CON,41,16,4,1,0,0,0,0,0,0,0,0,0,0,2,0,,E10000007,2016,2030,https://democracy.derbyshire.gov.uk/mgMemberIndex.aspx?FN=WARD&VW=TABLE&PIC=1,2023-09-28
+5,Devon,C1,LC,60,CON,CON,38,7,9,2,0,0,0,0,0,0,0,0,0,0,4,0,,E10000008,2016,2030,http://democracy.devon.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-09-28
+7,"East Sussex",C1,LC,50,CON,CON,25,5,12,5,0,0,0,0,0,0,0,0,0,0,3,0,,E10000011,2016,2030,https://democracy.eastsussex.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-09-28
+8,Essex,C1,LC,75,CON,CON,52,5,8,1,0,0,0,0,0,0,0,0,0,0,9,0,,E10000012,2016,2030,https://cmis.essex.gov.uk/essexcmis5/Councillors.aspx,2023-09-28
+9,Gloucestershire,C1,LC,53,NOC,"CON min",26,5,16,4,0,0,0,0,0,0,0,0,0,0,2,0,,E10000013,2016,2030,http://glostext.gloucestershire.gov.uk/mgMemberIndex.aspx?FN=WARD&VW=LIST&PIC=0,2023-09-28
+10,Hampshire,C1,LC,78,CON,CON,53,3,18,0,0,0,0,0,0,0,0,0,0,0,4,0,,E10000014,2016,2030,http://democracy.hants.gov.uk/mgMemberIndex.aspx?bcr=1,2023-09-28
+11,Hertfordshire,C1,LC,78,CON,CON,45,7,23,1,0,0,0,0,0,0,0,0,0,0,1,1,,E10000015,2016,2030,https://democracy.hertfordshire.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-22
+12,Kent,C1,LC,81,CON,CON,61,7,6,5,0,0,0,0,0,0,0,0,0,0,2,0,,E10000016,2016,2030,https://democracy.kent.gov.uk/mgMemberIndex.aspx?FN=WARD&VW=LIST&PIC=0,2023-09-29
+13,Lancashire,C1,LC,84,CON,CON,48,32,2,2,0,0,0,0,0,0,0,0,0,0,0,0,,E10000017,2016,2030,http://council.lancashire.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=TABLE&PIC=1,2023-10-30
+14,Leicestershire,C1,LC,55,CON,CON,42,4,9,0,0,0,0,0,0,0,0,0,0,0,0,0,,E10000018,2016,2030,https://politics.leics.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-09-28
+15,Lincolnshire,C1,LC,70,CON,CON,53,4,3,0,0,0,0,0,0,0,0,0,0,0,9,1,,E10000019,2016,2030,http://lincolnshire.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-09-28
+16,Norfolk,C1,LC,84,CON,CON,54,12,11,4,0,0,0,0,0,0,0,0,0,0,3,0,,E10000020,2016,2030,http://norfolkcc.cmis.uk.com/norfolkcc/Councillors/tabid/63/ScreenMode/Alphabetical/Default.aspx,2023-09-28
+19,Nottinghamshire,C1,LC,66,CON,CON,34,15,0,0,0,0,0,0,0,0,0,0,0,0,17,0,,E10000024,2016,2030,http://www.nottinghamshire.gov.uk/council-and-democracy/councillors/contact-a-councillor,2023-08-05
+20,Oxfordshire,C1,LC,63,NOC,LD/LAB/GRN,21,14,21,3,0,0,0,0,0,0,0,0,0,0,4,0,,E10000025,2016,2030,http://mycouncil.oxfordshire.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=TABLE&PIC=1,2023-09-28
+22,Staffordshire,C1,LC,62,CON,CON,55,5,0,0,0,0,0,0,0,0,0,0,0,0,2,0,,E10000028,2016,2030,https://moderngov.staffordshire.gov.uk/mgMemberIndex.aspx?FN=WARD&VW=LIST&PIC=0,2023-03-05
+23,Suffolk,C1,LC,75,CON,CON,54,5,5,9,0,0,0,0,0,0,0,0,0,0,2,0,,E10000029,2016,2030,http://www.suffolk.gov.uk/council-and-democracy/councillors-and-elected-representatives/find-your-councillor/?ward=&party=&name=&action=SEARCH,2023-10-13
+24,Surrey,C1,LC,81,CON,CON,44,2,16,2,0,0,0,0,0,0,0,0,0,0,17,0,,E10000030,2016,2030,http://mycouncil.surreycc.gov.uk/mgMemberIndex.aspx?VW=TABLE&PIC1=&FN=,2023-10-21
+25,Warwickshire,C1,LC,57,CON,CON,42,6,5,3,0,0,0,0,0,0,0,0,0,0,1,0,,E10000031,2016,2030,https://democracy.warwickshire.gov.uk/mgMemberIndex.aspx?FN=WARD&VW=TABLE&PIC=1,2023-09-28
+26,"West Sussex",C1,LC,70,CON,CON,46,9,11,1,0,0,0,0,0,0,0,0,0,0,3,0,,E10000032,2016,2030,https://www.westsussex.gov.uk/location-directories/find-your-councillor/?Keyword=&Location=&politicalParty=,2023-06-30
+27,Worcestershire,C1,LC,57,CON,CON,43,4,3,5,0,0,0,0,0,0,0,0,0,0,2,0,,E10000034,2016,2030,http://worcestershire.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-21
+170,"Amber Valley",D1,LC,42,LAB,LAB,7,26,1,6,0,0,0,0,0,0,0,0,0,0,2,0,,E07000032,2016,2030,https://www.ambervalley.gov.uk/councillors-and-elections/borough-councillors/,2023-06-05
+29,Arun,D1,CO,54,NOC,LD/LAB/GRN,20,8,14,6,0,0,0,0,0,0,0,0,0,0,6,0,,E07000224,2016,2030,https://democracy.arun.gov.uk/mgMemberIndex.aspx?bcr=1,2023-09-28
+30,Ashfield,D1,LC,35,IND,IND,2,1,0,0,0,0,0,0,0,0,0,0,0,0,32,0,,E07000170,2016,2030,https://democracy.ashfield.gov.uk/mgMemberIndex.aspx?bcr=1,2023-09-28
+31,Ashford,D1,LC,47,NOC,"CON min",18,11,0,8,0,0,0,0,0,0,0,0,0,0,10,0,,E07000105,2016,2030,http://ashford.moderngov.co.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH&sPC=Enter%20postcode,2023-09-28
+33,Babergh,D1,AA,32,NOC,GRN/IND/LD,7,1,5,10,0,0,0,0,0,0,0,0,0,0,9,0,,E07000200,2016,2030,http://baberghmidsuffolk.moderngov.co.uk/mgMemberIndexGroup.aspx?bcr=1&g=bdcc&m=bdccw,2023-09-28
+35,Bassetlaw,D1,LC,48,LAB,LAB,8,38,0,0,0,0,0,0,0,0,0,0,0,0,2,0,,E07000171,2016,2030,https://bassetlaw.moderngov.co.uk/mgMemberIndex.aspx?FN=WARD&VW=LIST&PIC=0,2023-09-29
+36,Blaby,D1,LC,36,CON,CON,19,6,9,2,0,0,0,0,0,0,0,0,0,0,0,0,,E07000129,2016,2030,https://w3.blaby.gov.uk/decision-making/mgMemberIndex.aspx?bcr=1,2023-09-29
+37,Bolsover,D1,LC,37,LAB,LAB,3,31,0,0,0,0,0,0,0,0,0,0,0,0,3,0,,E07000033,2016,2030,https://committees.bolsover.gov.uk/mgMemberIndex.aspx?FN=WARD&VW=LIST&PIC=0,2022-12-09
+38,Boston,D1,LC,30,IND,IND,5,0,1,0,0,0,0,0,0,0,0,0,0,0,24,0,,E07000136,2016,2030,http://moderngov.boston.gov.uk/mgMemberIndex.aspx?FN=GROUPING&VW=LIST&PIC=0,2023-10-13
+39,Braintree,D1,LC,49,CON,CON,26,10,0,4,0,0,0,0,0,0,0,0,0,0,9,0,,E07000067,2016,2030,http://braintree.cmis.uk.com/braintree/Councillors.aspx,2023-10-13
+40,Breckland,D1,LC,49,CON,CON,30,12,1,1,0,0,0,0,0,0,0,0,0,0,5,0,,E07000143,2016,2030,http://democracy.breckland.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+41,Broadland,D1,LC,47,NOC,LD/LAB/GRN,22,7,14,4,0,0,0,0,0,0,0,0,0,0,0,0,,E07000144,2016,2030,https://southnorfolkandbroadland.moderngov.co.uk/mgMemberIndexGroup.aspx?bcr=1&g=BCLLR&m=BCLLR,2023-10-13
+42,Bromsgrove,D1,LC,31,NOC,CON/IND,11,8,5,0,0,0,0,0,0,0,0,0,0,0,7,0,,E07000234,2016,2030,https://moderngovwebpublic.bromsgrove.gov.uk/mgMemberIndex.aspx?FN=WARD&VW=LIST&PIC=0,2022-01-24
+43,Broxtowe,D1,CO,44,LAB,LAB,10,26,3,0,0,0,0,0,0,0,0,0,0,0,5,0,,E07000172,2016,2030,https://democracy.broxtowe.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+44,Canterbury,D1,CO,39,NOC,LAB/LD,8,18,9,4,0,0,0,0,0,0,0,0,0,0,0,0,,E07000106,2016,2030,http://democracy.canterbury.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+45,Charnwood,D1,LC,52,NOC,"LAB min",23,20,0,8,0,0,0,0,0,0,0,0,0,0,1,0,,E07000130,2016,2030,https://charnwood.moderngov.co.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+46,Chelmsford,D1,LC,57,LD,LD,21,0,33,0,0,0,0,0,0,0,0,0,0,0,3,0,,E07000070,2016,2030,https://www.chelmsford.gov.uk/your-council/councillors-committees-and-decision-making/councillors/find-a-councillor/,2023-05-27
+47,Chesterfield,D1,LC,40,LAB,LAB,0,28,12,0,0,0,0,0,0,0,0,0,0,0,0,0,,E07000034,2016,2030,http://chesterfield.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+48,Chichester,D1,LC,36,LD,LD,5,0,25,2,0,0,0,0,0,0,0,0,0,0,4,0,,E07000225,2016,2030,http://chichester.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+53,Cotswold,D1,LC,34,LD,LD,9,0,21,2,0,0,0,0,0,0,0,0,0,0,2,0,,E07000079,2016,2030,https://meetings.cotswold.gov.uk/mgMemberIndex.aspx?FN=WARD&VW=LIST&PIC=0,2023-10-13
+54,Dacorum,D1,LC,51,LD,LD,18,3,28,0,0,0,0,0,0,0,0,0,0,0,2,0,,E07000096,2016,2030,https://democracy.dacorum.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+55,Dartford,D1,LC,42,CON,CON,29,11,0,1,0,0,0,0,0,0,0,0,0,0,1,0,,E07000107,2016,2030,http://committeedmz.dartford.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0&J=1,2023-10-13
+56,"Derbyshire Dales",D1,AA,34,NOC,LD/LAB/GRN,10,6,12,4,0,0,0,0,0,0,0,0,0,0,1,1,,E07000035,2016,2030,https://democracy.derbyshiredales.gov.uk/mgMemberIndex.aspx?FN=WARD&VW=LIST&PIC=0,2023-10-13
+57,Dover,D1,LC,32,LAB,LAB,14,17,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,E07000108,2016,2030,http://moderngov.dover.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+58,"East Cambridgeshire",D1,AA,28,CON,CON,15,0,13,0,0,0,0,0,0,0,0,0,0,0,0,0,,E07000009,2016,2030,http://www.eastcambs.gov.uk/council-and-democracy/search-for-councillors,2023-03-24
+59,"East Devon",D1,LC,60,NOC,LD/GRN/IND,17,3,18,2,0,0,0,0,0,0,0,0,0,0,20,0,,E07000040,2016,2030,https://democracy.eastdevon.gov.uk//mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-13
+61,"East Hampshire",D1,LC,43,NOC,CON/IND,19,1,14,2,0,0,0,0,0,0,0,0,0,0,7,0,,E07000085,2016,2030,http://easthants.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+62,"East Hertfordshire",D1,LC,50,NOC,GRN/LD,16,5,10,18,0,0,0,0,0,0,0,0,0,0,1,0,,E07000242,2016,2030,http://democracy.eastherts.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-22
+63,"East Lindsey",D1,LC,55,NOC,"CON min",26,7,1,1,0,0,0,0,0,0,0,0,0,0,20,0,,E07000137,2016,2030,https://democracy.e-lindsey.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+65,"East Staffordshire",D1,LC,37,LAB,LAB,15,21,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,E07000193,2016,2030,http://www.eaststaffsbc.gov.uk/council-democracy/councillors,2023-08-18
+412,"East Suffolk",D1,,55,NOC,GRN/LD/IND,15,12,11,16,0,0,0,0,0,0,0,0,0,0,1,0,,E07000244,2019,2030,https://eastsuffolk.cmis.uk.com/eastsuffolk/councillors.aspx,2023-10-15
+66,Eastbourne,D1,LC,27,LD,LD,8,0,19,0,0,0,0,0,0,0,0,0,0,0,0,0,,E07000061,2016,2030,https://democracy.lewes-eastbourne.gov.uk/mgMemberIndexGroup.aspx?bcr=1&g=EastbourneCllrs&m=EastbourneCllrs,2023-10-13
+69,"Epsom and Ewell",D1,AA,35,IND,IND,2,3,4,0,0,0,0,0,0,0,0,0,0,0,26,0,,E07000208,2016,2030,https://democracy.epsom-ewell.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+70,Erewash,D1,LC,47,LAB,LAB,16,28,1,1,0,0,0,0,0,0,0,0,0,0,1,0,,E07000036,2016,2030,http://moderngov.erewash.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+71,Fenland,D1,LC,43,CON,CON,35,0,2,0,0,0,0,0,0,0,0,0,0,0,6,0,,E07000010,2016,2030,https://www.fenland.gov.uk/localgov/mgMemberIndex.aspx?bcr=1,2023-10-13
+123,"Folkestone and Hythe",D1,LC,30,NOC,GRN/LD,5,10,2,11,0,0,0,0,0,0,0,0,0,0,2,0,,E07000112,2016,2030,https://folkestone-hythe.moderngov.co.uk/mgMemberIndex.aspx?FN=WARD&VW=LIST&PIC=0,2023-10-13
+73,"Forest of Dean",D1,LC,38,NOC,"GRN min",4,5,3,15,0,0,0,0,0,0,0,0,0,0,11,0,,E07000080,2016,2030,https://meetings.fdean.gov.uk/mgMemberIndex.aspx?FN=WARD&VW=LIST&PIC=0,2023-10-13
+74,Fylde,D1,LC,37,CON,CON,19,2,2,0,0,0,0,0,0,0,0,0,0,0,14,0,,E07000119,2016,2030,https://fylde.cmis.uk.com/fylde/CouncillorsandMP.aspx,2023-02-15
+75,Gedling,D1,LC,41,LAB,LAB,9,27,4,0,0,0,0,0,0,0,0,0,0,0,1,0,,E07000173,2016,2030,https://democracy.gedling.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-19
+76,Gloucester,D1,LC,39,CON,CON,22,2,12,0,0,0,0,0,0,0,0,0,0,0,3,0,,E07000081,2016,2030,http://democracy.gloucester.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH,2023-10-19
+77,Gravesham,D1,LC,39,LAB,LAB,17,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,E07000109,2016,2030,https://democracy.gravesham.gov.uk/mgMemberIndex.aspx?VW=TABLE&PIC=1&FN=PARTY,2023-10-13
+190,"Great Yarmouth",D1,LC,39,NOC,"CON min",19,18,0,0,0,0,0,0,0,0,0,0,0,0,2,0,,E07000145,2016,2030,https://great-yarmouth.cmis.uk.com/great-yarmouth/Councillors/tabid/63/ScreenMode/Alphabetical/Default.aspx,2023-10-13
+78,Guildford,D1,LC,48,LD,LD,10,3,25,0,0,0,0,0,0,0,0,0,0,0,10,0,,E07000209,2016,2030,https://democracy.guildford.gov.uk/mgMemberIndex.aspx?FN=WARD&VW=LIST&PIC=0,2023-10-13
+80,Harborough,D1,LC,34,NOC,LD/LAB/GRN,15,3,13,3,0,0,0,0,0,0,0,0,0,0,0,0,,E07000131,2016,2030,https://cmis.harborough.gov.uk/cmis5/Councillors.aspx,2022-10-20
+83,Hertsmere,D1,LC,39,NOC,LAB/LD,16,14,9,0,0,0,0,0,0,0,0,0,0,0,0,0,,E07000098,2016,2030,https://hertsmere.moderngov.co.uk/mgMemberIndex.aspx?FN=WARD&VW=LIST&PIC=0,2023-10-13
+84,"High Peak",D1,LC,43,LAB,LAB,10,29,1,2,0,0,0,0,0,0,0,0,0,0,1,0,,E07000037,2016,2030,https://democracy.highpeak.gov.uk/mgMemberIndexGroup.aspx?g=HPCLLRS&m=hpcllrs,2023-10-13
+85,"Hinckley and Bosworth",D1,LC,34,LD,LD,10,2,22,0,0,0,0,0,0,0,0,0,0,0,0,0,,E07000132,2016,2030,http://moderngov.hinckley-bosworth.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-03-05
+86,Horsham,D1,LC,48,LD,LD,11,0,28,8,0,0,0,0,0,0,0,0,0,0,1,0,,E07000227,2016,2030,http://horsham.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+87,Huntingdonshire,D1,LC,52,NOC,LD/LAB/IND/GRN,21,4,11,1,0,0,0,0,0,0,0,0,0,0,15,0,,E07000011,2016,2030,https://democracy.huntingdonshire.gov.uk/moderngov/mgFindMember.aspx?XXR=0&AC=USERSEARCH&sPC=Enter%20postcode,2023-10-13
+89,"King's Lynn and West Norfolk",D1,LC,55,NOC,IND/LD/GRN,21,11,3,2,0,0,0,0,0,0,0,0,0,0,18,0,,E07000146,2016,2030,http://democracy.west-norfolk.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+90,Lancaster,D1,LC,61,NOC,LAB/GRN/LD,5,24,7,21,0,0,0,0,0,0,0,0,0,0,4,0,,E07000121,2016,2030,https://committeeadmin.lancaster.gov.uk/mgMemberIndex.aspx?FN=WARD&VW=LIST&PIC=0,2023-10-13
+91,Lewes,D1,LC,41,NOC,GRN/LAB,0,9,15,17,0,0,0,0,0,0,0,0,0,0,0,0,,E07000063,2016,2030,https://democracy.lewes-eastbourne.gov.uk/mgMemberIndexGroup.aspx?bcr=1&g=LewesCllrs&m=LewesCllrs,2023-10-13
+92,Lichfield,D1,LC,47,NOC,"CON min",21,17,7,0,0,0,0,0,0,0,0,0,0,0,2,0,,E07000194,2016,2030,https://democracy.lichfielddc.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+93,Maldon,D1,LC,31,NOC,"IND min",10,1,6,0,0,0,0,0,0,0,0,0,0,0,14,0,,E07000074,2016,2030,https://democracy.maldon.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH&sPC=Enter%20postcode,2023-10-13
+94,"Malvern Hills",D1,LC,31,NOC,IND/LD,7,0,3,7,0,0,0,0,0,0,0,0,0,0,14,0,,E07000235,2016,2030,http://moderngov.malvernhills.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0&J=3,2023-10-13
+95,Mansfield,D1,MC,36,LAB,"LAB Mayor",5,25,0,0,0,0,0,0,0,0,0,0,0,0,6,0,,E07000174,2016,2030,https://portal.mansfield.gov.uk/cmadexternal/councillorslist.aspx,2023-10-13
+96,Melton,D1,AA,28,NOC,IND/LAB,11,5,1,0,0,0,0,0,0,0,0,0,0,0,10,1,,E07000133,2016,2030,https://democracy.melton.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+98,"Mid Devon",D1,CO,42,LD,LD,4,0,33,3,0,0,0,0,0,0,0,0,0,0,2,0,,E07000042,2016,2030,https://democracy.middevon.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+99,"Mid Suffolk",D1,LC,34,GRN,GRN,6,0,4,24,0,0,0,0,0,0,0,0,0,0,0,0,,E07000203,2016,2030,http://baberghmidsuffolk.moderngov.co.uk/mgMemberIndexGroup.aspx?bcr=1&g=MSDCC&m=MSDCCW,2023-10-13
+100,"Mid Sussex",D1,LC,48,NOC,LD/IND,18,1,20,4,0,0,0,0,0,0,0,0,0,0,5,0,,E07000228,2016,2030,http://midsussex.moderngov.co.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+101,"New Forest",D1,LC,48,CON,CON,26,1,14,3,0,0,0,0,0,0,0,0,0,0,4,0,,E07000091,2016,2030,https://democracy.newforest.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+102,"Newark and Sherwood",D1,LC,39,NOC,"LAB min",14,11,3,0,0,0,0,0,0,0,0,0,0,0,11,0,,E07000175,2016,2030,https://democracy.newark-sherwooddc.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+103,Newcastle-under-Lyme,D1,LC,44,CON,CON,25,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,E07000195,2016,2030,http://moderngov.newcastle-staffs.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+104,"North Devon",D1,LC,42,LD,LD,7,0,22,3,0,0,0,0,0,0,0,0,0,0,10,0,,E07000043,2016,2030,https://democracy.northdevon.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+106,"North East Derbyshire",D1,LC,53,LAB,LAB,19,28,3,1,0,0,0,0,0,0,0,0,0,0,2,0,,E07000038,2016,2030,https://democracy.ne-derbyshire.gov.uk/mgMemberIndex.aspx?FN=WARD&VW=LIST&PIC=0,2023-04-26
+199,"North Hertfordshire",D1,LC,49,NOC,LAB/LD,15,19,15,0,0,0,0,0,0,0,0,0,0,0,0,0,"One-off all-up 2024. 49->51.",E07000099,2016,2030,https://democracy.north-herts.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+107,"North Kesteven",D1,LC,43,CON,CON,24,2,0,0,0,0,0,0,0,0,0,0,0,0,16,1,,E07000139,2016,2030,https://democracy.n-kesteven.gov.uk/mgMemberIndex.aspx?FN=WARD&VW=LIST&PIC=0,2023-10-19
+108,"North Norfolk",D1,LC,40,LD,LD,12,0,24,0,0,0,0,0,0,0,0,0,0,0,3,1,,E07000147,2016,2030,https://modgov.north-norfolk.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-30
+109,"North Warwickshire",D1,AA,35,NOC,"CON min",17,15,0,0,0,0,0,0,0,0,0,0,0,0,3,0,,E07000218,2016,2030,https://www.northwarks.gov.uk/councillors/name,2023-06-17
+110,"North West Leicestershire",D1,LC,38,NOC,CON/LD/IND,12,17,5,0,0,0,0,0,0,0,0,0,0,0,4,0,,E07000134,2016,2030,http://minutes-1.nwleics.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+112,"Oadby and Wigston",D1,AA,26,LD,LD,7,0,19,0,0,0,0,0,0,0,0,0,0,0,0,0,,E07000135,2016,2030,https://moderngov.oadby-wigston.gov.uk/mgMemberIndex.aspx?FN=WARD&VW=LIST&PIC=0,2023-10-13
+114,"Ribble Valley",D1,AA,40,NOC,"CON min",17,8,8,2,0,0,0,0,0,0,0,0,0,0,5,0,,E07000124,2016,2030,https://www.ribblevalley.gov.uk/councillors,2023-10-13
+116,Rother,D1,LC,38,NOC,IND/LD/LAB/GRN,10,8,7,3,0,0,0,0,0,0,0,0,0,0,10,0,,E07000064,2016,2030,http://www.rother.gov.uk/index.cfm?articleid=179,2023-10-13
+117,Rushcliffe,D1,LC,44,CON,CON,25,9,1,2,0,0,0,0,0,0,0,0,0,0,7,0,,E07000176,2016,2030,https://democracy.rushcliffe.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+122,Sevenoaks,D1,LC,54,CON,CON,33,0,14,4,0,0,0,0,0,0,0,0,0,0,3,0,,E07000111,2016,2030,http://cds.sevenoaks.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+125,"South Cambridgeshire",D1,LC,45,LD,LD,8,0,36,0,0,0,0,0,0,0,0,0,0,0,1,0,,E07000012,2016,2030,http://scambs.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+126,"South Derbyshire",D1,AA,36,LAB,LAB,10,23,2,0,0,0,0,0,0,0,0,0,0,0,1,0,,E07000039,2016,2030,http://south-derbys.cmis.uk.com/south-derbys/Councillors.aspx,2023-10-13
+127,"South Hams",D1,LC,31,LD,LD,7,1,19,3,0,0,0,0,0,0,0,0,0,0,1,0,,E07000044,2016,2030,https://www.southhams.gov.uk/councillorsSH,2023-10-13
+128,"South Holland",D1,LC,37,CON,CON,20,0,0,0,0,0,0,0,0,0,0,0,0,0,16,1,,E07000140,2016,2030,https://democracy.sholland.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+129,"South Kesteven",D1,LC,56,NOC,IND/GRN/LD,23,2,4,4,0,0,0,0,0,0,0,0,0,0,22,1,,E07000141,2016,2030,http://moderngov.southkesteven.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0&J=1,2023-10-13
+131,"South Norfolk",D1,LC,46,CON,CON,24,9,11,0,0,0,0,0,0,0,0,0,0,0,2,0,,E07000149,2016,2030,https://southnorfolkandbroadland.moderngov.co.uk/mgMemberIndexGroup.aspx?bcr=1&g=SNCLLR&m=SNCLLR,2023-10-13
+133,"South Oxfordshire",D1,LC,36,LD,LD,1,3,21,8,0,0,0,0,0,0,0,0,0,0,3,0,,E07000179,2016,2030,http://democratic.southoxon.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+134,"South Ribble",D1,LC,50,LAB,LAB,16,29,5,0,0,0,0,0,0,0,0,0,0,0,0,0,,E07000126,2016,2030,http://southribble.moderngov.co.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+136,"South Staffordshire",D1,LC,42,CON,CON,29,2,4,2,0,0,0,0,0,0,0,0,0,0,5,0,,E07000196,2016,2030,https://southstaffs.cmis.uk.com/Councillors.aspx,2023-10-13
+137,Spelthorne,D1,LC,39,NOC,LD/IND,13,7,10,2,0,0,0,0,0,0,0,0,0,0,7,0,,E07000213,2016,2030,http://democracy.spelthorne.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+407,Stafford,D1,LC,40,NOC,LAB/IND/GRN,14,13,1,5,0,0,0,0,0,0,0,0,0,0,7,0,,E07000197,2016,2030,http://www.staffordbc.gov.uk/DemServCouncillors,2022-03-29
+139,"Staffordshire Moorlands",D1,LC,56,NOC,"LAB min",22,24,1,1,0,0,0,0,0,0,0,0,0,0,8,0,,E07000198,2016,2030,https://democracy.staffsmoorlands.gov.uk/mgMemberIndexGroup.aspx?g=smcllrs&m=smcllrs,2023-10-13
+140,Stratford-on-Avon,D1,LC,41,LD,LD,12,0,25,3,0,0,0,0,0,0,0,0,0,0,1,0,,E07000221,2016,2030,https://democracy.stratford.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+212,Stroud,D1,LC,51,NOC,GRN/IND,17,4,3,14,0,0,0,0,0,0,0,0,0,0,13,0,,E07000082,2016,2030,https://stroud.moderngov.co.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-19
+142,"Surrey Heath",D1,LC,35,LD,LD,6,2,24,0,0,0,0,0,0,0,0,0,0,0,3,0,,E07000214,2016,2030,http://surreyheath.moderngov.co.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+143,Swale,D1,CO,47,NOC,LAB/IND/GRN,11,16,4,3,0,0,0,0,0,0,0,0,0,0,12,1,,E07000113,2016,2030,http://services.swale.gov.uk/meetings/mgMemberIndex.aspx?bcr=1,2023-10-30
+145,Teignbridge,D1,LC,47,LD,LD,9,0,26,0,0,0,0,0,0,0,0,0,0,0,12,0,,E07000045,2016,2030,https://democracy.teignbridge.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+146,Tendring,D1,LC,48,NOC,IND/LAB/LD,18,8,4,0,0,0,0,0,0,0,0,0,0,0,18,0,,E07000076,2016,2030,http://tdcdemocracy.tendringdc.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+147,"Test Valley",D1,LC,43,CON,CON,26,0,17,0,0,0,0,0,0,0,0,0,0,0,0,0,,E07000093,2016,2030,https://democracy.testvalley.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+148,Tewkesbury,D1,LC,38,NOC,LD/IND/GRN,9,0,16,4,0,0,0,0,0,0,0,0,0,0,9,0,,E07000083,2016,2030,http://minutes.tewkesbury.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0&J=1,2023-10-13
+149,Thanet,D1,LC,56,LAB,LAB,17,30,0,5,0,0,0,0,0,0,0,0,0,0,4,0,,E07000114,2016,2030,http://democracy.thanet.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+150,"Tonbridge and Malling",D1,LC,44,NOC,"CON min",20,3,11,8,0,0,0,0,0,0,0,0,0,0,2,0,,E07000115,2016,2030,https://democracy.tmbc.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+151,Torridge,D1,AA,36,NOC,IND,6,2,8,4,0,0,0,0,0,0,0,0,0,0,16,0,,E07000046,2016,2030,https://democracy.torridge.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+152,Uttlesford,D1,LC,39,IND,IND,11,0,4,0,0,0,0,0,0,0,0,0,0,0,24,0,,E07000077,2016,2030,https://uttlesford.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+153,"Vale of White Horse",D1,LC,38,LD,LD,0,0,34,4,0,0,0,0,0,0,0,0,0,0,0,0,,E07000180,2016,2030,http://democratic.whitehorsedc.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+154,Warwick,D1,LC,44,NOC,GRN/LAB,6,11,10,14,0,0,0,0,0,0,0,0,0,0,3,0,,E07000222,2016,2030,https://estates8.warwickdc.gov.uk/cmis/CouncillorsAtoZ/tabid/39/ScreenMode/Ward/Default.aspx,2022-12-09
+156,Waverley,D1,LC,50,NOC,LD/IND/LAB/GRN,10,2,22,1,0,0,0,0,0,0,0,0,0,0,15,0,,E07000216,2016,2030,https://modgov.waverley.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+157,Wealden,D1,LC,45,NOC,LD/GRN,9,2,13,11,0,0,0,0,0,0,0,0,0,0,10,0,,E07000065,2016,2030,http://council.wealden.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH,2023-10-13
+159,"West Devon",D1,AA,31,NOC,IND/GRN/LD/LAB,11,1,4,4,0,0,0,0,0,0,0,0,0,0,11,0,,E07000047,2016,2030,https://westdevon.gov.uk/councillorsWD,2023-10-13
+160,"West Lindsey",D1,AA,36,NOC,"LD min",14,0,18,0,0,0,0,0,0,0,0,0,0,0,4,0,,E07000142,2016,2030,https://democracy.west-lindsey.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+410,"West Suffolk",D1,,64,NOC,LAB/IND/GRN/LD,26,17,1,1,0,0,0,0,0,0,0,0,0,0,19,0,,E07000245,2019,2030,https://democracy.westsuffolk.gov.uk/mgMemberIndex.aspx?FN=WARD&VW=LIST&PIC=0,2023-10-15
+162,Wychavon,D1,LC,43,CON,CON,29,1,7,6,0,0,0,0,0,0,0,0,0,0,0,0,,E07000238,2016,2030,http://mgov.wychavon.gov.uk/modern.gov/mgFindMember.aspx?XXR=0&AC=USERSEARCH,2023-10-13
+164,Wyre,D1,LC,50,CON,CON,30,17,0,0,0,0,0,0,0,0,0,0,0,0,3,0,,E07000128,2016,2030,https://wyre.moderngov.co.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+226,"Wyre Forest",D1,LC,33,CON,CON,20,4,2,1,0,0,0,0,0,0,0,0,0,0,6,0,,E07000239,2016,2030,https://forms.wyreforestdc.gov.uk/council/committees/com55.htm,2022-06-22
+165,Adur,D2,LC,29,CON,CON,16,9,0,2,0,0,0,0,0,0,0,0,0,0,2,0,,E07000223,2016,2030,https://democracy.adur-worthing.gov.uk/mgMemberIndexGroup.aspx?bcr=1&g=MEMADC&m=MEMADC,2023-08-20
+166,Cheltenham,D2,LC,40,LD,LD,5,0,30,2,0,0,0,0,0,0,0,0,0,0,3,0,,E07000078,2016,2030,https://democracy.cheltenham.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+189,Fareham,D2,LC,31,CON,CON,24,0,4,0,0,0,0,0,0,0,0,0,0,0,3,0,,E07000087,2016,2030,http://moderngov.fareham.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=TABLE&PIC=1,2023-10-13
+167,Gosport,D2,AA,28,LD,LD,10,2,16,0,0,0,0,0,0,0,0,0,0,0,0,0,,E07000088,2016,2030,https://democracy.gosport.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+82,Hastings,D2,LC,32,NOC,"LAB min",10,15,0,5,0,0,0,0,0,0,0,0,0,0,2,0,,E07000062,2016,2030,http://hastings.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+168,"Nuneaton and Bedworth",D2,LC,34,CON,CON,27,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,"One-off all-up 2024. 24->38.",E07000219,2016,2030,https://www.nuneatonandbedworth.gov.uk/councillors/name,2021-11-27
+169,Oxford,D2,LC,48,NOC,"LAB min",0,23,9,6,0,0,0,0,0,0,0,0,0,0,10,0,,E07000178,2016,2030,http://mycouncil.oxford.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-30
+171,Basildon,D3,LC,42,CON,CON,26,10,0,0,0,0,0,0,0,0,0,0,0,0,6,0,,E07000066,2016,2030,http://www.basildonmeetings.info/mgMemberIndex.aspx?FN=WARD&VW=LIST&PIC=0,2023-06-17
+172,"Basingstoke and Deane",D3,LC,54,NOC,IND/LD,23,10,9,1,0,0,0,0,0,0,0,0,0,0,11,0,,E07000084,2016,2030,https://democracy.basingstoke.gov.uk/mgMemberIndex.aspx?FN=WARD&VW=LIST&PIC=0,2023-10-13
+173,Brentwood,D3,AA,37,NOC,LD/LAB,18,2,17,0,0,0,0,0,0,0,0,0,0,0,0,0,,E07000068,2016,2030,https://brentwood.moderngov.co.uk/mgMemberIndex.aspx?FN=WARD&VW=TABLE&PIC=1,2023-10-13
+174,Broxbourne,D3,LC,30,CON,CON,27,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,E07000095,2016,2030,https://www.broxbourne.gov.uk/councillors,2023-01-22
+175,Burnley,D3,LC,45,NOC,"LAB min",7,22,7,7,0,0,0,0,0,0,0,0,0,0,2,0,,E07000117,2016,2030,https://burnley.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=TABLE&PIC=1,2023-10-30
+176,Cambridge,D3,LC,42,LAB,LAB,1,24,11,4,0,0,0,0,0,0,0,0,0,0,1,1,,E07000008,2016,2030,http://democracy.cambridge.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-19
+177,"Cannock Chase",D3,LC,41,NOC,LAB/GRN,18,17,0,5,0,0,0,0,0,0,0,0,0,0,1,0,"One-off all-up 2024. 41->36.",E07000192,2016,2030,http://www.cannockchasedc.gov.uk/council/about-council/your-councillors,2023-08-18
+179,"Castle Point",D3,LC,41,IND,CIIP/PIP,9,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,,E07000069,2016,2030,https://www.castlepoint.gov.uk/councillors,2023-06-17
+180,Cherwell,D3,LC,48,NOC,"CON min",20,12,10,3,0,0,0,0,0,0,0,0,0,0,3,0,,E07000177,2016,2030,http://modgov.cherwell.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+181,Chorley,D3,LC,42,LAB,LAB,5,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,E07000118,2016,2030,https://democracy.chorley.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+182,Colchester,D3,LC,51,NOC,"LD min",19,14,16,2,0,0,0,0,0,0,0,0,0,0,0,0,,E07000071,2016,2030,http://colchester.cmis.uk.com/colchester/Councillors.aspx,2023-10-13
+184,Crawley,D3,LC,36,LAB,LAB,16,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,E07000226,2016,2030,http://democracy.crawley.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+67,Eastleigh,D3,LC,39,LD,LD,1,0,35,0,0,0,0,0,0,0,0,0,0,0,3,0,,E07000086,2016,2030,https://meetings.eastleigh.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+186,Elmbridge,D3,LC,48,NOC,LD/IND,12,0,19,0,0,0,0,0,0,0,0,0,0,0,16,1,,E07000207,2016,2030,http://mygov.elmbridge.gov.uk/mgMemberIndex.aspx?FN=ALPHA,2023-10-13
+187,"Epping Forest",D3,LC,58,CON,CON,34,0,6,2,0,0,0,0,0,0,0,0,0,0,16,0,,E07000072,2016,2030,http://rds.eppingforestdc.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+188,Exeter,D3,LC,39,LAB,LAB,4,25,3,6,0,0,0,0,0,0,0,0,0,0,1,0,,E07000041,2016,2030,http://committees.exeter.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+191,Harlow,D3,AA,33,CON,CON,21,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,E07000073,2016,2030,http://moderngov.harlow.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+192,Hart,D3,LC,33,NOC,LD/IND,11,0,11,0,0,0,0,0,0,0,0,0,0,0,11,0,,E07000089,2016,2030,https://hart.moderngov.co.uk/mgMemberIndex.aspx?FN=WARD&VW=LIST&PIC=0,2023-10-13
+193,Havant,D3,LC,38,CON,CON,30,4,2,1,0,0,0,0,0,0,0,0,0,0,1,0,,E07000090,2016,2030,http://havant.moderngov.co.uk/mgMemberIndex.aspx?VW=TABLE&PIC=1&FN=PARTY,2023-10-13
+194,Hyndburn,D3,LC,35,NOC,"CON min",16,16,0,2,0,0,0,0,0,0,0,0,0,0,1,0,,E07000120,2016,2030,https://democracy.hyndburnbc.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+195,Ipswich,D3,LC,48,LAB,LAB,10,33,3,0,0,0,0,0,0,0,0,0,0,0,2,0,,E07000202,2016,2030,https://democracy.ipswich.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+196,Lincoln,D3,LC,33,LAB,LAB,9,20,4,0,0,0,0,0,0,0,0,0,0,0,0,0,,E07000138,2016,2030,http://democratic.lincoln.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+197,Maidstone,D3,LC,55,NOC,"CON min",25,4,12,3,0,0,0,0,0,0,0,0,0,0,11,0,,E07000110,2016,2030,https://services.maidstone.gov.uk/meetings/mgMemberIndex.aspx?bcr=1,2023-10-13
+198,"Mole Valley",D3,LC,39,LD,LD,3,0,30,0,0,0,0,0,0,0,0,0,0,0,6,0,,E07000210,2016,2030,https://www.molevalley.gov.uk/home/council/councillors/who-are-your-councillors,2022-09-21
+200,Norwich,D3,LC,39,LAB,LAB,0,23,3,13,0,0,0,0,0,0,0,0,0,0,0,0,,E07000148,2016,2030,https://cmis.norwich.gov.uk/live/Councillors.aspx,2023-10-13
+201,Pendle,D3,LC,33,NOC,LAB/LD,14,9,7,0,0,0,0,0,0,0,0,0,0,0,3,0,,E07000122,2016,2030,https://www.pendle.gov.uk/councillors/name,2023-10-30
+202,Preston,D3,LC,48,LAB,LAB,10,31,7,0,0,0,0,0,0,0,0,0,0,0,0,0,,E07000123,2016,2030,http://preston.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+203,Redditch,D3,LC,29,CON,CON,16,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,E07000236,2016,2030,http://moderngovwebpublic.redditchbc.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+204,"Reigate and Banstead",D3,LC,45,CON,CON,23,1,3,11,0,0,0,0,0,0,0,0,0,0,7,0,,E07000211,2016,2030,https://reigate-banstead.moderngov.co.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-13
+205,Rochford,D3,LC,39,NOC,IND/LD/GRN,12,0,8,1,0,0,0,0,0,0,0,0,0,0,18,0,,E07000075,2016,2030,https://rochford.cmis.uk.com/rochford/Members/tabid/62/ScreenMode/Alphabetical/Default.aspx,2023-06-05
+206,Rossendale,D3,LC,36,LAB,LAB,9,22,0,1,0,0,0,0,0,0,0,0,0,0,4,0,"One-off all-up 2024. 36->30.",E07000125,2016,2030,http://www.rossendale.gov.uk/councillors/name,2022-10-20
+207,Rugby,D3,LC,42,NOC,"CON min",21,12,9,0,0,0,0,0,0,0,0,0,0,0,0,0,,E07000220,2016,2030,https://www.rugby.gov.uk/councillors/name,2022-05-31
+208,Runnymede,D3,AA,41,NOC,"CON min",20,4,4,2,0,0,0,0,0,0,0,0,0,0,11,0,,E07000212,2016,2030,https://democracy.runnymede.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-13
+209,Rushmoor,D3,LC,39,CON,CON,23,14,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,E07000092,2016,2030,http://www.rushmoor.gov.uk/councillors,2023-10-13
+210,"St Albans",D3,LC,56,LD,LD,4,0,47,3,0,0,0,0,0,0,0,0,0,0,1,1,,E07000240,2016,2030,http://stalbans.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-22
+211,Stevenage,D3,LC,39,LAB,LAB,9,24,6,0,0,0,0,0,0,0,0,0,0,0,0,0,,E07000243,2016,2030,http://democracy.stevenage.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+213,Tamworth,D3,LC,30,NOC,"CON min",14,9,0,0,0,0,0,0,0,0,0,0,0,0,7,0,,E07000199,2016,2030,http://democracy.tamworth.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH&,2023-10-13
+214,Tandridge,D3,AA,42,NOC,IND,9,0,11,0,0,0,0,0,0,0,0,0,0,0,22,0,"One-off all-up 2024.",E07000215,2016,2030,https://tandridge.moderngov.co.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-13
+215,"Three Rivers",D3,LC,39,LD,LD,12,3,22,2,0,0,0,0,0,0,0,0,0,0,0,0,,E07000102,2016,2030,https://moderngov.threerivers.gov.uk/mgCommitteeDetails.aspx?ID=1139,2023-10-13
+216,"Tunbridge Wells",D3,LC,48,NOC,LD/IND/LAB,11,7,17,0,0,0,0,0,0,0,0,0,0,0,13,0,"One-off all-up 2024. 48->39",E07000116,2016,2030,https://democracy.tunbridgewells.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-13
+217,Watford,D3,MC,36,LD,LD,0,9,27,0,0,0,0,0,0,0,0,0,0,0,0,0,,E07000103,2016,2030,http://watford.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-08-20
+218,"Welwyn Hatfield",D3,LC,48,NOC,LD/LAB,22,12,14,0,0,0,0,0,0,0,0,0,0,0,0,0,,E07000241,2016,2030,https://democracy.welhat.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-13
+219,"West Lancashire",D3,LC,45,LAB,LAB,15,26,0,0,0,0,0,0,0,0,0,0,0,0,4,0,,E07000127,2016,2030,https://democracy.westlancs.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+220,"West Oxfordshire",D3,LC,49,NOC,LD/LAB/GRN,16,11,17,3,0,0,0,0,0,0,0,0,0,0,2,0,,E07000181,2016,2030,https://meetings.westoxon.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-30
+222,Winchester,D3,LC,45,LD,LD,12,0,30,2,0,0,0,0,0,0,0,0,0,0,1,0,,E07000094,2016,2030,https://democracy.winchester.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-08-20
+223,Woking,D3,LC,30,LD,LD,4,3,20,0,0,0,0,0,0,0,0,0,0,0,3,0,,E07000217,2016,2030,https://moderngov.woking.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+224,Worcester,D3,LC,35,NOC,LAB/GRN,7,13,4,11,0,0,0,0,0,0,0,0,0,0,0,0,"One-off all-up 2024.",E07000237,2016,2030,http://committee.worcester.gov.uk/mgMemberIndex.aspx?FN=WARD&J=2,2023-10-21
+225,Worthing,D3,LC,37,LAB,LAB,10,24,1,1,0,0,0,0,0,0,0,0,0,0,1,0,,E07000229,2016,2030,https://democracy.adur-worthing.gov.uk/mgMemberIndexGroup.aspx?bcr=1&g=MEMWBC&m=MEMWBC,2023-04-21
+227,"Barking and Dagenham",L1,LC,51,LAB,LAB,0,50,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,E09000002,2016,2030,https://modgov.lbbd.gov.uk/Internet/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-13
+228,Barnet,L1,LC,63,LAB,LAB,21,41,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,E09000003,2016,2030,https://barnet.moderngov.co.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+229,Bexley,L1,LC,45,CON,CON,32,12,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,E09000004,2016,2030,http://democracy.bexley.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+230,Brent,L1,LC,57,LAB,LAB,5,49,3,0,0,0,0,0,0,0,0,0,0,0,0,0,,E09000005,2016,2030,http://democracy.brent.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+231,Bromley,L1,LC,58,CON,CON,33,12,5,0,0,0,0,0,0,0,0,0,0,0,7,1,,E09000006,2016,2030,http://cds.bromley.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+232,Camden,L1,LC,55,LAB,LAB,3,46,5,0,0,0,0,0,0,0,0,0,0,0,0,1,,E09000007,2016,2030,http://democracy.camden.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-19
+233,Croydon,L1,MC,70,NOC,"CON Mayor",33,34,1,2,0,0,0,0,0,0,0,0,0,0,0,0,,E09000008,2016,2030,https://democracy.croydon.gov.uk/mgMemberIndex.aspx?FN=WARD&VW=LIST&PIC=0,2023-10-13
+234,Ealing,L1,LC,70,LAB,LAB,5,59,6,0,0,0,0,0,0,0,0,0,0,0,0,0,,E09000009,2016,2030,https://ealing.moderngov.co.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-13
+235,Enfield,L1,LC,63,LAB,LAB,25,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,E09000010,2016,2030,https://governance.enfield.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+236,Greenwich,L1,LC,55,LAB,LAB,3,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,E09000011,2016,2030,https://committees.royalgreenwich.gov.uk/Councillors/tabid/63/ScreenMode/Alphabetical/Default.aspx,2023-10-13
+237,Hackney,L1,MC,57,LAB,"LAB Mayor",5,50,0,2,0,0,0,0,0,0,0,0,0,0,0,0,,E09000012,2016,2030,http://mginternet.hackney.gov.uk/mgMemberIndex.aspx?bcr=1,2022-07-17
+238,"Hammersmith and Fulham",L1,LC,50,LAB,LAB,10,39,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,E09000013,2016,2030,https://democracy.lbhf.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=TABLE&PIC=1,2023-10-13
+239,Haringey,L1,LC,57,LAB,LAB,0,47,7,0,0,0,0,0,0,0,0,0,0,0,3,0,,E09000014,2016,2030,http://www.minutes.haringey.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-30
+240,Harrow,L1,LC,55,CON,CON,31,23,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,E09000015,2016,2030,https://moderngov.harrow.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-13
+241,Havering,L1,LC,55,NOC,IND/LAB,23,9,0,0,0,0,0,0,0,0,0,0,0,0,23,0,,E09000016,2016,2030,http://democracy.havering.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+242,Hillingdon,L1,LC,53,CON,CON,30,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,E09000017,2016,2030,http://modgov.hillingdon.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+243,Hounslow,L1,LC,62,LAB,LAB,10,51,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,E09000018,2016,2030,https://democraticservices.hounslow.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-19
+244,Islington,L1,LC,51,LAB,LAB,0,46,0,3,0,0,0,0,0,0,0,0,0,0,2,0,,E09000019,2016,2030,http://democracy.islington.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-19
+245,"Kensington and Chelsea",L1,LC,50,CON,CON,35,11,2,0,0,0,0,0,0,0,0,0,0,0,2,0,,E09000020,2016,2030,https://www.rbkc.gov.uk/committees/Members/tabid/62/ScreenMode/Alphabetical/Default.aspx,2023-10-19
+246,"Kingston upon Thames",L1,LC,48,LD,LD,3,0,43,0,0,0,0,0,0,0,0,0,0,0,2,0,,E09000021,2016,2030,https://moderngov.kingston.gov.uk/mgMemberIndex.aspx,2023-10-13
+247,Lambeth,L1,LC,63,LAB,LAB,0,58,3,2,0,0,0,0,0,0,0,0,0,0,0,0,,E09000022,2016,2030,https://moderngov.lambeth.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-11
+248,Lewisham,L1,MC,54,LAB,"LAB Mayor",0,53,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,E09000023,2016,2030,http://councilmeetings.lewisham.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+249,Merton,L1,LC,57,LAB,LAB,7,31,17,0,0,0,0,0,0,0,0,0,0,0,2,0,,E09000024,2016,2030,http://democracy.merton.gov.uk/mgMemberIndex.aspx?bcr=1&FN=GROUPING&VW=LIST&PIC=0,2023-10-13
+250,Newham,L1,MC,66,LAB,"LAB Mayor",0,61,0,2,0,0,0,0,0,0,0,0,0,0,2,1,,E09000025,2016,2030,https://mgov.newham.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-19
+251,Redbridge,L1,LC,63,LAB,LAB,5,57,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,E09000026,2016,2030,http://moderngov.redbridge.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH,2023-10-13
+252,"Richmond upon Thames",L1,LC,54,LD,LD,1,0,48,5,0,0,0,0,0,0,0,0,0,0,0,0,,E09000027,2016,2030,https://cabnet.richmond.gov.uk/mgMemberIndex.aspx,2023-10-13
+253,Southwark,L1,LC,63,LAB,LAB,0,52,11,0,0,0,0,0,0,0,0,0,0,0,0,0,,E09000028,2016,2030,https://moderngov.southwark.gov.uk/mgMemberIndex.aspx?FN=WARD&VW=LIST&PIC=0,2023-10-13
+254,Sutton,L1,LC,55,LD,LD,20,3,29,0,0,0,0,0,0,0,0,0,0,0,3,0,,E09000029,2016,2030,https://moderngov.sutton.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-13
+255,"Tower Hamlets",L1,LC,45,IND,"Aspire Mayor",1,19,0,1,0,0,0,0,0,0,0,0,0,0,24,0,,E09000030,2016,2030,http://democracy.towerhamlets.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-13
+256,"Waltham Forest",L1,LC,60,LAB,LAB,13,46,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,E09000031,2016,2030,https://democracy.walthamforest.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH&sPC=Enter%20postcode,2023-10-30
+257,Wandsworth,L1,LC,58,LAB,LAB,22,35,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,E09000032,2016,2030,https://democracy.wandsworth.gov.uk/mgMemberIndex.aspx,2023-10-13
+258,Westminster,L1,LC,54,LAB,LAB,23,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,E09000033,2016,2030,http://committees.westminster.gov.uk/mgMemberIndex.aspx?bcr=11,2023-10-13
+259,Birmingham,M1,LC,101,LAB,LAB,22,64,12,2,0,0,0,0,0,0,0,0,0,0,1,0,,E08000025,2016,2030,https://www.birmingham.gov.uk/councillors/name,2023-09-29
+260,Doncaster,M1,MC,55,LAB,"LAB Mayor",11,39,0,0,0,0,0,0,0,0,0,0,0,0,4,1,,E08000017,2016,2030,http://doncaster.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-14
+274,Liverpool,M1,MC,85,LAB,"LAB Mayor",0,61,15,3,0,0,0,0,0,0,0,0,0,0,6,0,,E08000012,2016,2030,https://councillors.liverpool.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-14
+278,Rotherham,M1,LC,59,LAB,LAB,15,33,4,0,0,0,0,0,0,0,0,0,0,0,6,1,,E08000018,2016,2030,https://moderngov.rotherham.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-14
+285,"St. Helens",M1,LC,48,LAB,LAB,2,29,4,6,0,0,0,0,0,0,0,0,0,0,7,0,,E08000013,2016,2030,https://sthelens.moderngov.co.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-14
+293,Wirral,M1,CO,66,NOC,"LAB min",17,30,6,13,0,0,0,0,0,0,0,0,0,0,0,0,,E08000015,2016,2030,http://democracy.wirral.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-14
+264,Barnsley,M3,LC,63,LAB,LAB,2,48,10,0,0,0,0,0,0,0,0,0,0,0,3,0,,E08000016,2016,2030,http://barnsleymbc.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-14
+265,Bolton,M3,LC,60,NOC,"LAB min",15,28,6,0,0,0,0,0,0,0,0,0,0,0,9,2,,E08000001,2016,2030,https://www.bolton.gov.uk/councillors,2023-10-19
+266,Bradford,M3,LC,90,LAB,LAB,15,54,5,8,0,0,0,0,0,0,0,0,0,0,8,0,,E08000032,2016,2030,https://bradford.moderngov.co.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-30
+267,Bury,M3,LC,51,LAB,LAB,11,31,0,0,0,0,0,0,0,0,0,0,0,0,9,0,,E08000002,2016,2030,https://councildecisions.bury.gov.uk/mgMemberIndex.aspx?FN=WARD&VW=LIST&PIC=0,2023-10-14
+268,Calderdale,M3,LC,51,LAB,LAB,15,28,6,2,0,0,0,0,0,0,0,0,0,0,0,0,,E08000033,2016,2030,http://www.calderdale.gov.uk/council/councillors/councillors/search/browse.jsp,2023-10-14
+269,Coventry,M3,LC,54,LAB,LAB,15,37,0,2,0,0,0,0,0,0,0,0,0,0,0,0,,E08000026,2016,2030,https://edemocracy.coventry.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-30
+270,Dudley,M3,LC,72,CON,CON,42,26,1,0,0,0,0,0,0,0,0,0,0,0,3,0,"One-off all-up 2024.",E08000027,2016,2030,http://cmis.dudley.gov.uk/cmis5/Councillors.aspx,2023-10-30
+271,Gateshead,M3,LC,66,LAB,LAB,0,49,17,0,0,0,0,0,0,0,0,0,0,0,0,0,,E08000037,2016,2030,http://democracy.gateshead.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-14
+272,Kirklees,M3,LC,69,LAB,LAB,18,39,8,3,0,0,0,0,0,0,0,0,0,0,1,0,,E08000034,2016,2030,https://democracy.kirklees.gov.uk/mgMemberIndex.aspx,2023-10-14
+273,Knowsley,M3,LC,45,LAB,LAB,0,31,3,7,0,0,0,0,0,0,0,0,0,0,4,0,,E08000011,2016,2030,http://councillors.knowsley.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-14
+261,Leeds,M3,LC,99,LAB,LAB,18,61,6,3,0,0,0,0,0,0,0,0,0,0,11,0,,E08000035,2016,2030,http://democracy.leeds.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-14
+262,Manchester,M3,LC,96,LAB,LAB,0,87,4,4,0,0,0,0,0,0,0,0,0,0,1,0,,E08000003,2016,2030,https://democracy.manchester.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH&sPC=Enter%20postcode,2023-10-19
+263,"Newcastle upon Tyne",M3,LC,78,LAB,LAB,0,48,23,0,0,0,0,0,0,0,0,0,0,0,7,0,,E08000021,2016,2030,http://democracy.newcastle.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH,2023-10-14
+275,"North Tyneside",M3,MC,60,LAB,LAB,6,47,0,0,0,0,0,0,0,0,0,0,0,0,6,1,"One-off all-up 2024.",E08000022,2016,2030,https://democracy.northtyneside.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-19
+276,Oldham,M3,LC,60,LAB,LAB,11,32,10,0,0,0,0,0,0,0,0,0,0,0,7,0,,E08000004,2016,2030,http://www.oldham.gov.uk/councillors/name,2023-10-14
+277,Rochdale,M3,LC,60,LAB,LAB,9,46,3,0,0,0,0,0,0,0,0,0,0,0,2,0,,E08000005,2016,2030,http://democracy.rochdale.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-14
+279,Salford,M3,LC,60,LAB,"LAB Mayor",8,49,1,0,0,0,0,0,0,0,0,0,0,0,2,0,,E08000006,2016,2030,http://www.salford.gov.uk/your-council/councillors/councillors-by-name/,2023-10-14
+280,Sandwell,M3,LC,72,LAB,LAB,11,60,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,E08000028,2016,2030,https://sandwell.moderngov.co.uk/mgMemberIndex.aspx?FN=ALPHA&VW=TABLE&PIC=1,2023-10-14
+281,Sefton,M3,LC,66,LAB,LAB,7,49,9,0,0,0,0,0,0,0,0,0,0,0,1,0,,E08000014,2016,2030,https://modgov.sefton.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-14
+282,Sheffield,M3,CO,84,NOC,LAB/LD/GRN,1,31,29,14,0,0,0,0,0,0,0,0,0,0,9,0,,E08000019,2016,2030,http://democracy.sheffield.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-30
+283,Solihull,M3,LC,51,CON,CON,29,0,6,13,0,0,0,0,0,0,0,0,0,0,3,0,,E08000029,2016,2030,,2023-04-26
+284,"South Tyneside",M3,LC,54,LAB,LAB,1,38,0,9,0,0,0,0,0,0,0,0,0,0,6,0,,E08000023,2016,2030,https://www.southtyneside.gov.uk/article/13600/list-of-councillors-by-ward?p=1063,2023-07-03
+286,Stockport,M3,LC,63,NOC,"LD min",0,24,29,3,0,0,0,0,0,0,0,0,0,0,7,0,,E08000007,2016,2030,http://democracy.stockport.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-14
+287,Sunderland,M3,LC,75,LAB,LAB,13,48,12,0,0,0,0,0,0,0,0,0,0,0,2,0,,E08000024,2016,2030,https://committees.sunderland.gov.uk/committees/cmis5/Members.aspx,2023-09-13
+288,Tameside,M3,LC,57,LAB,LAB,6,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,E08000008,2016,2030,https://tameside.moderngov.co.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-14
+289,Trafford,M3,LC,63,LAB,LAB,10,40,6,6,0,0,0,0,0,0,0,0,0,0,0,1,,E08000009,2016,2030,https://democratic.trafford.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-14
+290,Wakefield,M3,LC,63,LAB,LAB,5,49,3,0,0,0,0,0,0,0,0,0,0,0,6,0,,E08000036,2016,2030,http://mg.wakefield.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-14
+291,Walsall,M3,LC,60,CON,CON,37,20,0,0,0,0,0,0,0,0,0,0,0,0,3,0,,E08000030,2016,2030,https://cmispublic.walsall.gov.uk/cmis/Councillors.aspx,2023-10-14
+292,Wigan,M3,LC,75,LAB,LAB,2,64,0,0,0,0,0,0,0,0,0,0,0,0,9,0,,E08000010,2016,2030,http://democracy.wigan.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-14
+294,Wolverhampton,M3,LC,60,LAB,LAB,13,47,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,E08000031,2016,2030,http://wolverhampton.moderngov.co.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-14
+1001,"Antrim and Newtownabbey",N1,,40,NOC,,0,0,0,0,0,0,0,13,9,7,1,8,0,0,2,0,,N09000001,2016,2030,http://www.antrimandnewtownabbey.gov.uk/Council/Your-Councillors?utm_source=PP&utm_medium=web&utm_campaign=Councillors&utm_content=9,2023-05-29
+1011,"Ards and North Down",N1,,40,NOC,,0,0,0,2,0,0,0,14,0,8,1,12,0,0,3,0,,N09000011,2016,2030,http://www.ardsandnorthdown.gov.uk/about-the-council/find-my-councillor/view-all,2023-05-29
+1002,"Armagh City, Banbridge and Craigavon",N1,,41,NOC,,0,0,0,0,0,0,0,13,15,6,1,4,0,0,2,0,,N09000002,2016,2030,https://www.armaghbanbridgecraigavon.gov.uk/councillors/,2023-05-29
+1003,Belfast,N1,,60,NOC,,0,0,0,3,0,0,0,14,22,2,5,11,0,0,3,0,,N09000003,2016,2030,https://minutes3.belfastcity.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-05-29
+1004,"Causeway Coast and Glens",N1,,40,NOC,,0,0,0,0,0,0,0,13,12,4,3,5,0,0,3,0,,N09000004,2016,2030,https://www.causewaycoastandglens.gov.uk/council/councillors,2023-05-29
+1005,"Derry City and Strabane",N1,,40,NOC,,0,0,0,0,0,0,0,5,18,3,10,0,0,0,4,0,,N09000005,2016,2030,http://meetings.derrycityandstrabanedistrict.com/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-05-29
+1006,"Fermanagh and Omagh",N1,,40,NOC,,0,0,0,0,0,0,0,6,21,7,3,2,0,0,1,0,,N09000006,2016,2030,http://www.fermanaghomagh.com/your-council/councillors/,2023-05-29
+1007,"Lisburn and Castlereagh",N1,,40,NOC,,0,0,0,0,0,0,0,14,4,6,2,13,0,0,1,0,,N09000007,2016,2030,https://www.lisburncastlereagh.gov.uk/council/elected-members,2023-05-29
+1008,"Mid and East Antrim",N1,,40,NOC,,0,0,0,0,0,0,0,14,4,8,0,7,0,0,7,0,,N09000008,2016,2030,https://www.midandeastantrim.gov.uk/council/councillors,2023-05-29
+1009,"Mid Ulster",N1,,40,NOC,,0,0,0,0,0,0,0,11,19,2,5,0,0,0,3,0,,N09000009,2016,2030,https://mid-ulster.cmis-ni.org/Midulster/Councillors.aspx,2023-05-29
+1010,"Newry, Mourne and Down",N1,,41,NOC,,0,0,0,0,0,0,0,5,20,1,8,5,0,0,2,0,,N09000010,2016,2030,http://www.newrymournedown.org/your-councillors,2023-05-29
+295,"Aberdeen City",S1,,45,NOC,SNP/LD,7,11,4,0,0,0,19,0,0,0,0,0,0,0,4,0,,S30000026,2016,2030,http://committees.aberdeencity.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-14
+296,Aberdeenshire,S1,,70,NOC,CON/LD/IND,24,0,14,0,0,0,21,0,0,0,0,0,0,0,11,0,,S30000027,2016,2030,http://committees.aberdeenshire.gov.uk/Committees.aspx?councillors=1,2023-05-26
+297,Angus,S1,,28,NOC,SNP/IND,7,1,0,0,0,0,13,0,0,0,0,0,0,0,7,0,,S30000001,2016,2030,https://www.angus.gov.uk/councillors,2022-06-01
+298,"Argyll and Bute",S1,,36,NOC,CON/IND/LD,9,1,5,1,0,0,12,0,0,0,0,0,0,0,7,1,,S30000036,2016,2030,https://liveargyllonline.argyll-bute.gov.uk/moderngov/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-09-29
+306,"City of Edinburgh",S1,,63,NOC,"LAB min",9,12,13,10,0,0,18,0,0,0,0,0,0,0,1,0,,S30000008,2016,2030,https://democracy.edinburgh.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-14
+299,Clackmannanshire,S1,,18,NOC,"SNP min",3,5,0,1,0,0,8,0,0,0,0,0,0,0,1,0,,S30000003,2016,2030,http://www.clacks.gov.uk/council/wards/,2022-12-10
+300,"Dumfries and Galloway",S1,,43,NOC,SNP/LAB/IND/LD,17,8,1,0,0,0,11,0,0,0,0,0,0,0,6,0,,S30000016,2016,2030,https://dumfriesgalloway.moderngov.co.uk/mgMemberIndex.aspx?bcr=1,2023-10-14
+301,"Dundee City",S1,,29,SNP,SNP,1,9,4,0,0,0,15,0,0,0,0,0,0,0,0,0,,S30000002,2016,2030,https://www.dundeecity.gov.uk/councillors/cllorsurname/,2022-02-07
+302,"East Ayrshire",S1,,32,NOC,"SNP min",4,10,0,0,0,0,14,0,0,0,0,0,0,0,4,0,,S30000017,2016,2030,https://www.east-ayrshire.gov.uk/CouncilAndGovernment/About-the-Council/Councillors-and-Provost/YourCouncillor.aspx,2022-03-27
+303,"East Dunbartonshire",S1,,22,NOC,LD/CON,2,4,5,0,0,0,8,0,0,0,0,0,0,0,3,0,,S30000015,2016,2030,https://www.eastdunbarton.gov.uk/council/committees-councillors/councillors-2017,2022-11-01
+304,"East Lothian",S1,,22,NOC,"LAB min",4,10,0,1,0,0,6,0,0,0,0,0,0,0,1,0,,S30000005,2016,2030,http://www.eastlothian.gov.uk/councillors/name,2023-05-26
+305,"East Renfrewshire",S1,,18,NOC,LAB/IND,5,5,0,0,0,0,6,0,0,0,0,0,0,0,2,0,,S30000020,2016,2030,https://www.eastrenfrewshire.gov.uk/Find-my-councillor,2022-01-24
+308,Falkirk,S1,,30,NOC,"SNP min",5,9,0,0,0,0,11,0,0,0,0,0,0,0,5,0,,S30000009,2016,2030,http://www.falkirk.gov.uk/services/council-democracy/councillors-decision-making/councillors/,2023-08-04
+309,Fife,S1,,75,NOC,"LAB min",8,20,13,0,0,0,34,0,0,0,0,0,0,0,0,0,,S30000004,2016,2030,https://www.fife.gov.uk/kb/docs/articles/about-your-council2/politicians-and-committees/your-local-councillors/councillor,2022-05-25
+310,"Glasgow City",S1,,85,NOC,"SNP min",2,36,0,10,0,0,37,0,0,0,0,0,0,0,0,0,,S30000019,2016,2030,http://www.glasgow.gov.uk/councillorsandcommittees/allMembers.asp?sort=0&page=0&rec=78,2022-11-21
+311,Highland,S1,,74,NOC,SNP/IND,9,2,14,4,0,0,22,0,0,0,0,0,0,0,23,0,,S12000017,2016,2030,http://www.highland.gov.uk/councillors/name,2023-09-29
+312,Inverclyde,S1,,22,NOC,"LAB min",2,9,0,0,0,0,8,0,0,0,0,0,0,0,3,0,,S30000022,2016,2030,http://www.inverclyde.gov.uk/meetings/councillors,2022-01-24
+313,Midlothian,S1,,18,NOC,"SNP min",3,7,0,0,0,0,8,0,0,0,0,0,0,0,0,0,,S30000006,2016,2030,https://midlothian.cmis.uk.com/Live/Councillors.aspx,2023-10-14
+314,Moray,S1,,26,NOC,"CON min",9,3,0,1,0,0,9,0,0,0,0,0,0,0,4,0,,S12000020,2016,2030,https://moray.cmis.uk.com/moray/CouncilandGovernance/Councillors.aspx,2023-10-14
+307,"Na h-Eileanan Siar",S1,,29,IND,IND,1,0,0,0,0,0,6,0,0,0,0,0,0,0,22,0,,S30000039,2016,2030,https://www.cne-siar.gov.uk/your-council/wards-and-councillors/council-members/,2023-07-03
+315,"North Ayrshire",S1,,33,NOC,"SNP min",10,9,0,0,0,0,12,0,0,0,0,0,0,0,2,0,,S30000018,2016,2030,https://north-ayrshire.cmis.uk.com/North-Ayrshire/-ayrshire.cmis.uk.com/north-ayrshire/Councillors/CurrentCouncillors/tabid/98/ScreenMode/Alphabetical/Default.aspx,2023-10-14
+316,"North Lanarkshire",S1,,77,NOC,"LAB min",5,33,0,1,0,0,24,0,0,0,0,0,0,0,13,1,,S30000023,2016,2030,https://mars.northlanarkshire.gov.uk/egenda/public/main.pl?op=ListCurrentMembers,2023-09-29
+317,"Orkney Islands",S1,,21,IND,IND,0,0,0,2,0,0,0,0,0,0,0,0,0,0,19,0,,S30000040,2016,2030,https://www.orkney.gov.uk/Council/Councillors/councillors.htm,2022-01-24
+318,"Perth and Kinross",S1,,40,NOC,"SNP min",14,2,4,0,0,0,16,0,0,0,0,0,0,0,4,0,,S30000010,2016,2030,https://perth-and-kinross.cmis.uk.com/perth-and-kinross/Councillors/OverviewofCouncillors/tabid/144/ScreenMode/Alphabetical/Default.aspx,2023-10-14
+319,Renfrewshire,S1,,43,NOC,"SNP min",5,13,1,0,0,0,21,0,0,0,0,0,0,0,3,0,,S30000021,2016,2030,http://renfrewshire.cmis.uk.com/renfrewshire/Councillors.aspx,2023-10-14
+320,"Scottish Borders",S1,,34,NOC,CON/IND,14,0,3,1,0,0,9,0,0,0,0,0,0,0,7,0,,S30000007,2016,2030,https://www.scotborders.gov.uk/councillors/name,2022-05-24
+321,Shetland,S1,,23,IND,IND,0,1,0,1,0,0,1,0,0,0,0,0,0,0,20,0,,S30000041,2016,2030,http://www.shetland.gov.uk/about_your_councillors/,2022-11-21
+322,"South Ayrshire",S1,,28,NOC,"CON min",11,5,0,0,0,0,8,0,0,0,0,0,0,0,4,0,,S30000024,2016,2030,https://www.south-ayrshire.gov.uk/councillors/,2023-09-29
+323,"South Lanarkshire",S1,,64,NOC,LAB/LD/IND,7,25,3,1,0,0,25,0,0,0,0,0,0,0,3,0,,S30000025,2016,2030,https://southlanarkshire.cmis.uk.com/southlanarkshire/Councillors.aspx,2023-10-30
+324,Stirling,S1,,23,NOC,"LAB min",8,5,0,1,0,0,7,0,0,0,0,0,0,0,2,0,,S30000011,2016,2030,https://my.stirling.gov.uk/council-democracy/politicians-elections-democracy/your-councillors/,2023-03-24
+325,"West Dunbartonshire",S1,,22,LAB,LAB,0,11,0,0,0,0,8,0,0,0,0,0,0,0,3,0,,S30000014,2016,2030,http://www.west-dunbarton.gov.uk/council/councillors-and-committees/councillor/councillors-by-name/,2023-01-22
+326,"West Lothian",S1,,33,NOC,"LAB min",4,12,1,0,0,0,15,0,0,0,0,0,0,0,1,0,,S30000012,2016,2030,https://www.westlothian.gov.uk/councillors,2022-12-09
+327,"Bath and North East Somerset",U1,,59,LD,LD,3,7,41,3,0,0,0,0,0,0,0,0,0,0,5,0,,E06000022,2016,2030,https://democracy.bathnes.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-14
+328,Bedford,U1,,46,NOC,"CON Mayor",14,14,13,3,0,0,0,0,0,0,0,0,0,0,2,0,,E06000055,2016,2030,https://councillorsupport.bedford.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH&sPC=Enter%20postcode,2023-10-14
+329,Blackpool,U1,,42,LAB,LAB,14,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,E06000009,2016,2030,http://democracy.blackpool.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-14
+409,"Bournemouth, Christchurch and Poole",U1,,76,NOC,LD/IND,12,10,28,6,0,0,0,0,0,0,0,0,0,0,20,0,,E43000261,2019,2030,https://democracy.bcpcouncil.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-15
+331,"Bracknell Forest",U1,,41,LAB,LAB,10,22,7,2,0,0,0,0,0,0,0,0,0,0,0,0,,E06000036,2016,2030,http://democratic.bracknell-forest.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-14
+332,"Brighton and Hove",U1,,54,LAB,LAB,6,38,0,7,0,0,0,0,0,0,0,0,0,0,3,0,,E06000043,2016,2030,http://present.brighton-hove.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-14
+366,"Bristol, City of",U1,,70,NOC,"LAB Mayor",14,24,5,25,0,0,0,0,0,0,0,0,0,0,2,0,,E06000023,2016,2030,https://democracy.bristol.gov.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH,2023-10-15
+413,Buckinghamshire,U1,LC,147,CON,CON,86,4,15,1,0,0,0,0,0,0,0,0,0,0,4,37,,E06000060,2021,2030,https://buckinghamshire.moderngov.co.uk/mgMemberIndex.aspx?bcr=1https://buckinghamshire.moderngov.co.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-30
+333,"Central Bedfordshire",U1,,63,NOC,"IND min",20,5,9,1,0,0,0,0,0,0,0,0,0,0,28,0,,E06000056,2016,2030,http://centralbeds.moderngov.co.uk/mgMemberIndex.aspx?bcr=1,2023-06-26
+334,"Cheshire East",U1,,82,NOC,LAB/IND,33,31,2,0,0,0,0,0,0,0,0,0,0,0,16,0,,E06000049,2016,2030,https://moderngov.cheshireeast.gov.uk/ecminutes/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-14
+335,"Cheshire West and Chester",U1,,70,LAB,LAB,23,37,1,2,0,0,0,0,0,0,0,0,0,0,7,0,,E06000050,2016,2030,http://cmttpublic.cheshirewestandchester.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-14
+336,Cornwall,U1,LC,87,CON,CON,46,5,13,1,0,0,0,0,0,0,0,0,0,0,22,0,,E06000052,2016,2030,https://democracy.cornwall.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-14
+338,"County Durham",U1,LC,126,NOC,IND/CON/LD,22,54,17,1,0,0,0,0,0,0,0,0,0,0,31,1,,E06000047,2016,2030,https://democracy.durham.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-09-20
+418,Cumberland,U1,,46,LAB,LAB,8,29,4,2,0,0,0,0,0,0,0,0,0,0,3,0,,E06000063,2022,2030,https://cumberland.moderngov.co.uk/mgMemberIndex.aspx?FN=WARD&VW=LIST&PIC=0,2023-10-15
+337,Darlington,U1,,50,NOC,LAB/LD,14,24,3,7,0,0,0,0,0,0,0,0,0,0,2,0,,E06000005,2016,2030,https://democracy.darlington.gov.uk//mgMemberIndex.aspx?bcr=1,2023-10-14
+367,Derby,U1,,51,NOC,"LAB min",15,23,4,0,0,0,0,0,0,0,0,0,0,0,9,0,,E06000015,2016,2030,https://cmis.derby.gov.uk/cmis5/Councillors/tabid/62/ScreenMode/Alphabetical/Default.aspx,2023-10-15
+408,Dorset,U1,,82,CON,CON,43,1,27,5,0,0,0,0,0,0,0,0,0,0,6,0,,E06000059,2019,2030,https://moderngov.dorsetcouncil.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-15
+339,"East Riding of Yorkshire",U1,,67,NOC,"CON min",29,4,22,0,0,0,0,0,0,0,0,0,0,0,12,0,,E06000011,2016,2030,http://www2.eastriding.gov.uk/council/councillors-and-members-of-parliament/councillor-finder/,2022-08-28
+340,"Herefordshire, County of",U1,,53,NOC,"CON min",21,1,12,9,0,0,0,0,0,0,0,0,0,0,10,0,,E06000019,2016,2030,http://councillors.herefordshire.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0&J=2&zTS=undefined,2023-10-30
+342,"Isle of Wight",U1,LC,39,NOC,IND/GRN,15,1,4,2,0,0,0,0,0,0,0,0,0,0,16,1,,E06000046,2016,2030,https://iow.moderngov.co.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-30
+343,Leicester,U1,,54,LAB,"LAB Mayor",17,30,3,3,0,0,0,0,0,0,0,0,0,0,1,0,,E06000016,2016,2030,https://cabinet.leicester.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-14
+344,Luton,U1,,48,LAB,LAB,4,29,15,0,0,0,0,0,0,0,0,0,0,0,0,0,,E06000032,2016,2030,http://democracy.luton.gov.uk/cmis5public/Councillors.aspx,2023-10-13
+345,Medway,U1,,59,LAB,LAB,22,33,0,0,0,0,0,0,0,0,0,0,0,0,4,0,,E06000035,2016,2030,https://democracy.medway.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-14
+346,Middlesbrough,U1,,46,LAB,"LAB Mayor",4,24,2,0,0,0,0,0,0,0,0,0,0,0,16,0,,E06000002,2016,2030,https://moderngov.middlesbrough.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-14
+347,"North Lincolnshire",U1,,43,CON,CON,27,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,E06000013,2016,2030,http://www.northlincs.gov.uk/your-council/have-your-say/councillors-and-mps/councillors/,2023-10-14
+414,"North Northamptonshire",U1,,78,CON,CON,56,16,1,3,0,0,0,0,0,0,0,0,0,0,2,0,,E06000061,2021,2030,https://northnorthants.moderngov.co.uk/mgFindMember.aspx?XXR=0&AC=USERSEARCH,2023-10-30
+348,"North Somerset",U1,,50,NOC,IND/LAB/LD/GRN,13,10,9,7,0,0,0,0,0,0,0,0,0,0,10,1,,E06000024,2016,2030,https://n-somerset.moderngov.co.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-19
+417,"North Yorkshire",U1,,90,NOC,"CON min",45,11,12,4,0,0,0,0,0,0,0,0,0,0,17,1,,E10000023,2022,2030,https://edemocracy.northyorks.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-13
+349,Northumberland,U1,LC,67,NOC,"CON min",33,19,4,2,0,0,0,0,0,0,0,0,0,0,9,0,,E07000154,2016,2030,https://northumberland.moderngov.co.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-14
+350,Nottingham,U1,,55,LAB,LAB,0,50,0,0,0,0,0,0,0,0,0,0,0,0,5,0,,E06000018,2016,2030,https://committee.nottinghamcity.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-22
+352,"Redcar and Cleveland",U1,,59,NOC,"LAB min",12,23,11,0,0,0,0,0,0,0,0,0,0,0,13,0,,E06000003,2016,2030,https://rcbc.moderngov.co.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-14
+353,Rutland,U1,,27,NOC,"LD/GRN min",6,2,11,1,0,0,0,0,0,0,0,0,0,0,7,0,,E06000017,2016,2030,http://rutlandcounty.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-14
+354,Shropshire,U1,LC,74,CON,CON,39,10,17,4,0,0,0,0,0,0,0,0,0,0,4,0,,E06000051,2016,2030,http://shropshire.gov.uk/committee-services/mgMemberIndex.aspx?FN=PARTY,2023-10-21
+376,Slough,U1,,42,NOC,CON/LD,21,18,3,0,0,0,0,0,0,0,0,0,0,0,0,0,,E06000039,2016,2030,http://democracy.slough.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-15
+416,Somerset,U1,,110,LD,LD,35,5,62,5,0,0,0,0,0,0,0,0,0,0,3,0,,E10000027,2022,2030,https://democracy.somerset.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-08-24
+355,"South Gloucestershire",U1,CO,61,NOC,LD/LAB,23,17,20,0,0,0,0,0,0,0,0,0,0,0,1,0,,E06000025,2016,2030,https://council.southglos.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-14
+356,Stockton-on-Tees,U1,,56,NOC,"LAB min",26,22,0,0,0,0,0,0,0,0,0,0,0,0,8,0,,E06000004,2016,2030,http://www.egenda.stockton.gov.uk/aksstockton/users/public/admin/main.pl?op=ListCurrentMembers,2023-09-14
+357,Stoke-on-Trent,U1,,44,LAB,LAB,14,29,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,E06000021,2016,2030,http://www.moderngov.stoke.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-14
+358,"Telford and Wrekin",U1,,54,LAB,LAB,8,38,6,0,0,0,0,0,0,0,0,0,0,0,2,0,,E06000020,2016,2030,https://democracy.telford.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-14
+359,Torbay,U1,,36,CON,CON,17,0,15,0,0,0,0,0,0,0,0,0,0,0,4,0,,E06000027,2016,2030,https://www.torbay.gov.uk/DemocraticServices/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-30
+360,Warrington,U1,LC,58,LAB,LAB,10,36,8,0,0,0,0,0,0,0,0,0,0,0,4,0,,E06000007,2016,2030,https://cmis.warrington.gov.uk/cmis5/Councillors.aspx,2023-07-29
+361,"West Berkshire",U1,,43,LD,LD,11,1,28,2,0,0,0,0,0,0,0,0,0,0,1,0,,E06000037,2016,2030,http://decisionmaking.westberks.gov.uk/mgMemberIndex.aspx?VW=TABLE&PIC=1&FN=ALPHA,2023-10-30
+415,"West Northamptonshire",U1,,93,CON,CON,64,20,5,0,0,0,0,0,0,0,0,0,0,0,4,0,,E06000062,2021,2030,https://westnorthants.moderngov.co.uk/mgMemberIndex.aspx?FN=WARD&VW=LIST&PIC=0,2023-10-15
+419,"Westmorland and Furness",U1,,65,LD,LD,11,15,36,1,0,0,0,0,0,0,0,0,0,0,2,0,,E06000064,2022,2030,https://westmorlandandfurness.moderngov.co.uk/mgMemberIndex.aspx?FN=WARD&VW=LIST&PIC=0,2023-10-15
+362,Wiltshire,U1,,98,CON,CON,61,3,28,0,0,0,0,0,0,0,0,0,0,0,6,0,,E06000054,2016,2030,http://cms.wiltshire.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-14
+363,"Windsor and Maidenhead",U1,,41,LD,LD,7,0,22,0,0,0,0,0,0,0,0,0,0,0,12,0,,E06000040,2016,2030,http://rbwm.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-14
+364,York,U1,,47,LAB,LAB,3,24,19,0,0,0,0,0,0,0,0,0,0,0,1,0,,E06000014,2016,2030,http://democracy.york.gov.uk/mgMemberIndex.aspx,2023-10-14
+365,"Blackburn with Darwen",U3,,51,LAB,LAB,11,31,0,0,0,0,0,0,0,0,0,0,0,0,9,0,,E06000008,2016,2030,https://democracy.blackburn.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-30
+368,Halton,U3,,54,LAB,LAB,2,49,3,0,0,0,0,0,0,0,0,0,0,0,0,0,,E06000006,2016,2030,http://councillors.halton.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-15
+369,Hartlepool,U3,,36,NOC,CON/IND,12,17,0,0,0,0,0,0,0,0,0,0,0,0,7,0,,E06000001,2016,2030,https://www.hartlepool.gov.uk/councillors/name,2023-07-29
+341,"Kingston upon Hull, City of",U3,,57,LD,LD,0,25,32,0,0,0,0,0,0,0,0,0,0,0,0,0,,E06000010,2016,2030,https://cmis.hullcc.gov.uk/cmis/CouncillorsandSeniorOfficers/CouncillorsandSeniorOfficers.aspx,2023-10-14
+370,"Milton Keynes",U3,,57,NOC,LAB/LD,14,27,16,0,0,0,0,0,0,0,0,0,0,0,0,0,,E06000042,2016,2030,https://milton-keynes.moderngov.co.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-15
+371,"North East Lincolnshire",U3,,42,CON,CON,27,9,3,0,0,0,0,0,0,0,0,0,0,0,3,0,,E06000012,2016,2030,https://www.nelincs.gov.uk/your-council/councillors-mps-and-meps/find-your-councillor/councillors-by-party/,2022-05-24
+372,Peterborough,U3,,60,NOC,"CON min",23,14,8,3,0,0,0,0,0,0,0,0,0,0,12,0,,E06000031,2016,2030,https://democracy.peterborough.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-15
+373,Plymouth,U3,,57,LAB,LAB,16,33,0,2,0,0,0,0,0,0,0,0,0,0,6,0,,E06000026,2016,2030,https://democracy.plymouth.gov.uk/mgMemberIndex.aspx?FN=WARD&VW=LIST&PIC=0,2023-10-15
+374,Portsmouth,U3,,42,NOC,"LD min",8,8,18,0,0,0,0,0,0,0,0,0,0,0,8,0,,E06000044,2016,2030,http://democracy.portsmouth.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-15
+375,Reading,U3,,48,LAB,LAB,5,32,3,7,0,0,0,0,0,0,0,0,0,0,1,0,,E06000038,2016,2030,https://democracy.reading.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-15
+377,Southampton,U3,,51,LAB,LAB,9,38,3,1,0,0,0,0,0,0,0,0,0,0,0,0,,E06000045,2016,2030,http://www.southampton.gov.uk/modernGov/mgMemberIndex.aspx?bcr=1,2023-10-15
+378,Southend-on-Sea,U3,,51,NOC,"CON min",22,16,4,1,0,0,0,0,0,0,0,0,0,0,8,0,,E06000033,2016,2030,http://democracy.southend.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-15
+379,Swindon,U3,,57,LAB,LAB,23,32,1,0,0,0,0,0,0,0,0,0,0,0,1,0,,E06000030,2016,2030,http://ww5.swindon.gov.uk/moderngov/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0&J=2,2023-10-15
+380,Thurrock,U3,,49,CON,CON,25,19,0,0,0,0,0,0,0,0,0,0,0,0,5,0,,E06000034,2016,2030,https://www.thurrock.gov.uk/current-councillors,2023-10-15
+381,Wokingham,U3,,54,NOC,"LD min",22,5,26,0,0,0,0,0,0,0,0,0,0,0,1,0,"One-off all-up 2024. 54->54.",E06000041,2016,2030,http://wokingham.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-15
+382,"Blaenau Gwent",W1,,33,LAB,LAB,0,22,0,0,0,0,0,0,0,0,0,0,0,0,11,0,,W06000019,2016,2030,https://democracy.blaenau-gwent.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=TABLE&PIC=1&LLL=0,2023-10-15
+383,Bridgend,W1,,51,LAB,LAB,1,26,0,0,0,2,0,0,0,0,0,0,0,0,22,0,,W06000013,2016,2030,https://democratic.bridgend.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=TABLE&PIC=1,2023-10-15
+384,Caerphilly,W1,,69,LAB,LAB,0,45,0,0,0,18,0,0,0,0,0,0,0,0,6,0,,W06000018,2016,2030,https://democracy.caerphilly.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0&LLL=0,2023-10-15
+385,Cardiff,W1,,79,LAB,LAB,11,55,10,0,0,2,0,0,0,0,0,0,0,0,1,0,,W06000015,2016,2030,http://cardiff.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-15
+386,Carmarthenshire,W1,,75,PC,PC,0,21,0,0,0,38,0,0,0,0,0,0,0,0,16,0,,W06000010,2016,2030,http://democracy.carmarthenshire.gov.wales/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-19
+387,Ceredigion,W1,,38,PC,PC,0,0,7,0,0,20,0,0,0,0,0,0,0,0,10,1,,W06000008,2016,2030,https://council.ceredigion.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0&LLL=0,2023-10-19
+388,Conwy,W1,,55,NOC,IND/LAB/PC,10,10,4,1,0,7,0,0,0,0,0,0,0,0,23,0,,W06000003,2016,2030,https://modgovpub-eng.secure.conwy.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0,2023-10-15
+389,Denbighshire,W1,,48,NOC,LAB/PC,7,16,0,2,0,8,0,0,0,0,0,0,0,0,14,1,,W06000004,2016,2030,https://moderngov.denbighshire.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0&LLL=0,2023-10-15
+390,Flintshire,W1,,67,NOC,"LAB min",2,31,4,0,0,0,0,0,0,0,0,0,0,0,30,0,,W06000005,2016,2030,http://cyfarfodyddpwyllgor.siryfflint.gov.uk/mgMemberIndex.aspx?FN=GROUPING&VW=LIST&PIC=0&LLL=1,2023-10-15
+391,Gwynedd,W1,,69,PC,PC,0,1,1,0,0,44,0,0,0,0,0,0,0,0,22,1,,W06000002,2016,2030,https://democracy.cyngor.gwynedd.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-30
+392,"Isle of Anglesey",W1,,35,PC,PC,0,3,1,0,0,21,0,0,0,0,0,0,0,0,10,0,,W06000001,2016,2030,http://democracy.anglesey.gov.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0&LLL=0,2023-10-15
+393,"Merthyr Tydfil",W1,,30,NOC,"IND min",0,14,0,0,0,0,0,0,0,0,0,0,0,0,16,0,,W06000024,2016,2030,http://democracy.merthyr.gov.uk/mgMemberIndex.aspx?VW=TABLE&PIC=1&FN=PARTY,2023-10-22
+394,Monmouthshire,W1,,46,NOC,"LAB min",18,22,0,1,0,0,0,0,0,0,0,0,0,0,5,0,,W06000021,2016,2030,https://democracy.monmouthshire.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-15
+395,"Neath Port Talbot",W1,,60,NOC,IND/PC,0,26,2,1,0,12,0,0,0,0,0,0,0,0,19,0,,W06000012,2016,2030,https://democracy.npt.gov.uk/mgMemberIndex.aspx?VW=TABLE&PIC=1&FN=PARTY,2023-10-15
+396,Newport,W1,,51,LAB,LAB,7,34,1,1,0,0,0,0,0,0,0,0,0,0,8,0,,W06000022,2016,2030,https://democracy.newport.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0&LLL=0,2023-10-19
+397,Pembrokeshire,W1,,60,NOC,IND/LAB/LD,10,10,2,0,0,2,0,0,0,0,0,0,0,0,36,0,,W06000009,2016,2030,http://mgenglish.pembrokeshire.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-15
+398,Powys,W1,,68,NOC,LD/LAB,14,9,19,1,0,3,0,0,0,0,0,0,0,0,19,3,,W06000023,2016,2030,http://powys.moderngov.co.uk/mgMemberIndex.aspx?FN=PARTY&VW=LIST&PIC=0,2023-10-22
+399,"Rhondda Cynon Taf",W1,,75,LAB,LAB,2,59,0,0,0,8,0,0,0,0,0,0,0,0,6,0,,W06000016,2016,2030,https://rctcbc.moderngov.co.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0&LLL=0,2023-10-15
+400,Swansea,W1,,75,LAB,LAB,7,45,11,1,0,0,0,0,0,0,0,0,0,0,11,0,,W06000011,2016,2030,http://democracy.swansea.gov.uk/mgMemberIndex.aspx?bcr=1&LLL=0?Lang=eng,2023-10-15
+401,Torfaen,W1,,40,LAB,LAB,0,29,0,0,0,0,0,0,0,0,0,0,0,0,11,0,,W06000020,2016,2030,http://moderngov.torfaen.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-15
+402,"Vale of Glamorgan",W1,,54,NOC,LAB/IND,13,25,0,0,0,8,0,0,0,0,0,0,0,0,8,0,,W06000014,2016,2030,https://www.valeofglamorgan.gov.uk/en/our_council/Council-Structure/councillors/Councillors.aspx,2021-06-18
+403,Wrexham,W1,,56,NOC,IND/CON,9,14,0,0,0,9,0,0,0,0,0,0,0,0,24,0,,W06000006,2016,2030,https://moderngov.wrexham.gov.uk/mgMemberIndex.aspx?FN=ALPHA&VW=LIST&PIC=0&LLL=0,2023-10-15
+405,"Isles of Scilly",,,16,IND,IND,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,,E06000053,2016,2030,http://committees.scilly.gov.uk/mgMemberIndex.aspx?bcr=1,2023-10-15

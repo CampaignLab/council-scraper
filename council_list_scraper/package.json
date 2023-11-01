@@ -1,0 +1,27 @@
+{
+  "name": "advert_bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "James Rees",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": "18.15.x"
+  },
+  "dependencies": {
+    "browserify-middleware": "^8.1.1",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-winston": "^4.1.0",
+    "http": "^0.0.1-security",
+    "papaparse": "^5.4.1",
+    "path": "^0.12.7",
+    "puppeteer": "^8.0.0",
+    "request": "^2.88.2",
+    "winston": "^3.3.3"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
