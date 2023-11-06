@@ -9,6 +9,8 @@ require 'net/http'
 Bundler.require(*Rails.groups)
 
 module CouncilScraper
+  GLOBAL_DELAY = 0.5 # seconds
+  
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.0

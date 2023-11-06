@@ -2,7 +2,7 @@ class ScrapeCouncilWorker
   include Sidekiq::Worker
 
   def perform(council_id, beginning_of_week_str)
-    sleep 1
+    sleep CouncilScraper::GLOBAL_DELAY
     council = Council.find(council_id)
     beginning_of_week = Date.parse(beginning_of_week_str)
 

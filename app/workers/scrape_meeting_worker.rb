@@ -12,7 +12,7 @@ class ScrapeMeetingWorker
   end
 
   def recursive_get_pdfs(url, depth = 0)
-    sleep 1
+    sleep CouncilScraper::GLOBAL_DELAY
 
     return [] if !url.start_with?('http')
     puts "fetching #{url}"
