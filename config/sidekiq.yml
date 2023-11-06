@@ -3,6 +3,6 @@
   - default
 :scheduler:
   :schedule:
-    check_auth_status:
+    scrape_councils:
       cron: '* * 3 * * *'   # Runs once per day at 3am
-      class: CheckAuthStatusWorker
+      class: ScrapeCouncilsWorker
