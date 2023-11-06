@@ -1,0 +1,55 @@
+databases:
+  - name: council-scraper
+    region: frankfurt
+    databaseName: councilscraper
+    user: councilscraper
+
+services:
+  - type: web
+    plan: starter
+    name: council-scraper-web
+    region: frankfurt
+    runtime: ruby
+    buildCommand: "WEB=1 ./bin/render-build.sh"
+    startCommand: "WEB=1 bundle exec puma -C config/puma.rb"
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: council-scraper
+          property: connectionString
+      - key: REDIS_URL
+        fromService:
+          type: redis
+          name: council-scraper-redis
+          property: connectionString
+      - key: RAILS_MASTER_KEY
+        sync: false
+      - key: RAILS_ENV
+        value: production
+  - type: worker
+    plan: starter
+    name: council-scraper-sidekiq
+    region: frankfurt
+    runtime: ruby
+    buildCommand: "./bin/render-build.sh"
+    startCommand: "bundle exec sidekiq"
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: council-scraper
+          property: connectionString
+      - key: REDIS_URL
+        fromService:
+          type: redis
+          name: council-scraper-redis
+          property: connectionString
+      - key: RAILS_MASTER_KEY
+        sync: false
+      - key: RAILS_ENV
+        value: production
+  - type: redis
+    name: council-scraper-redis
+    ipAllowList: []
+    region: frankfurt # optional (defaults to oregon)
+    plan: starter # optional (defaults to starter)
+    maxmemoryPolicy: volatile-lru # optional (defaults to allkeys-lru)
