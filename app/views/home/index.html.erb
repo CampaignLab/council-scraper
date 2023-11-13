@@ -7,6 +7,7 @@
   <thead>
     <tr>
       <th>Council Name</th>
+      <th>Council Control</th>
       <th>Committee</th>
       <th>Meeting Date</th>
       <th>Meeting Name</th>
@@ -17,6 +18,7 @@
     <% @meetings.each do |meeting| %>
       <tr>
         <td><%= meeting.council.name %></td>
+        <td><%= meeting.council.majority_party %></td>
         <td><%= meeting.committee.name %></td>
         <td><%= meeting.date.strftime('%B %d, %Y') %></td>
         <td><%= link_to meeting.name, meeting.url %></td>

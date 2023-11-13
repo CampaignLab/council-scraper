@@ -4,6 +4,6 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   root "home#index"
 
-  resources :councils, only: [:show]
+  resources :councils, only: [:index, :show]
   resources :meetings, only: [:show]
 end
