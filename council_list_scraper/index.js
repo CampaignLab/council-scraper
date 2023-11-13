@@ -193,7 +193,10 @@ async function close(error) {
   isClosing = true;
 
   if (error) {
-    logger.error(`\n\n${indent(error.stack)}\n`);
+    logger.error(`
+
+${indent(error.stack)}
+`);
   }
 
   if (page) {
@@ -214,7 +217,9 @@ async function close(error) {
 }
 
 function indent(str, n) {
-  return (str || '').split('\n').map(line => `  ${line}`).join('\n');
+  return (str || '').split('
+').map(line => `  ${line}`).join('
+');
 }
 
 [

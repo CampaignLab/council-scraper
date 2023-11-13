@@ -1,0 +1,17 @@
+<h1>Councils</h1>
+<table>
+  <thead>
+    <tr>
+      <th>Council</th>
+      <th>Party</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @councils.each do |council| %>
+      <tr>
+        <td><%= link_to council.name, council_path(council) %></td>
+        <td><%= council.majority_party %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

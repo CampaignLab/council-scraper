@@ -4,11 +4,40 @@ class ScrapeMeetingWorker
   def perform(meeting_id)
     meeting = Meeting.find(meeting_id)
 
-    pdfs = recursive_get_pdfs(meeting.url)
+    pdfs = get_printed_minutes(meeting.url)
+    puts meeting.url
     pdfs.each do |pdf|
       document = meeting.documents.find_or_create_by!(url: pdf)
+      document.update!(is_minutes: true)
       document.extract_text!
     end
+  end
+
+  def get_printed_minutes(url)
+    return nil if !url.start_with?('http')
+    sleep CouncilScraper::GLOBAL_DELAY
+
+    base_domain = 'https://' + URI(url).host
+
+    doc = get_doc(url)
+    links = doc.css('.mgContent a, .mgActionList a')
+      .select do |link| 
+        link.content.downcase.include?('printed minutes') || link.content.downcase.include?('printed draft minutes') 
+      end
+      .map { |link| link['href'] }.compact.uniq
+
+    if links.length > 1
+      puts "FOUND IT"
+    end
+
+    links.map do |link| 
+      clean_link = link.gsub(' ', '+')
+      begin
+        URI.join(base_domain, clean_link).to_s 
+      rescue URI::InvalidURIError
+        nil
+      end
+    end.compact
   end
 
   def recursive_get_pdfs(url, depth = 0)

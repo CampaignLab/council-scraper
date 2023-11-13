@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_10_31_220501) do
+ActiveRecord::Schema[7.0].define(version: 2023_11_13_212317) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -20,6 +20,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_31_220501) do
     t.text "url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "modern_gov_id"
     t.index ["council_id"], name: "index_committees_on_council_id"
   end
 
@@ -29,6 +30,21 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_31_220501) do
     t.text "base_scrape_url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.text "majority_party"
+  end
+
+  create_table "document_classifications", force: :cascade do |t|
+    t.bigint "document_id", null: false
+    t.text "input"
+    t.jsonb "output"
+    t.jsonb "classifications"
+    t.integer "input_token_count"
+    t.integer "output_token_count"
+    t.integer "cost"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.text "model", null: false
+    t.index ["document_id"], name: "index_document_classifications_on_document_id"
   end
 
   create_table "documents", force: :cascade do |t|
@@ -39,7 +55,22 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_31_220501) do
     t.datetime "updated_at", null: false
     t.text "text"
     t.text "extract_status", default: "pending", null: false
+    t.text "processing_status", default: "waiting", null: false
+    t.text "kind", default: "unclassified", null: false
+    t.boolean "contains_agenda", default: false, null: false
+    t.boolean "contains_attendees", default: false, null: false
+    t.boolean "contains_decisions", default: false, null: false
+    t.boolean "is_minutes", default: false, null: false
     t.index ["meeting_id"], name: "index_documents_on_meeting_id"
+  end
+
+  create_table "meeting_tags", force: :cascade do |t|
+    t.bigint "meeting_id", null: false
+    t.bigint "tag_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["meeting_id"], name: "index_meeting_tags_on_meeting_id"
+    t.index ["tag_id"], name: "index_meeting_tags_on_tag_id"
   end
 
   create_table "meetings", force: :cascade do |t|
@@ -51,6 +82,10 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_31_220501) do
     t.datetime "date"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.text "agenda"
+    t.text "about"
+    t.jsonb "additional_attendees", default: [], null: false
+    t.jsonb "decisions", default: [], null: false
     t.index ["committee_id"], name: "index_meetings_on_committee_id"
     t.index ["council_id"], name: "index_meetings_on_council_id"
     t.index ["date"], name: "index_meetings_on_date"
@@ -62,12 +97,37 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_31_220501) do
     t.text "role"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "modern_gov_id"
+    t.integer "ocd_id"
+    t.text "party"
+    t.boolean "is_councillor", default: false, null: false
     t.index ["council_id"], name: "index_people_on_council_id"
   end
 
+  create_table "person_meetings", force: :cascade do |t|
+    t.bigint "meeting_id", null: false
+    t.bigint "person_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["meeting_id"], name: "index_person_meetings_on_meeting_id"
+    t.index ["person_id"], name: "index_person_meetings_on_person_id"
+  end
+
+  create_table "tags", force: :cascade do |t|
+    t.text "tag", null: false
+    t.text "description"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   add_foreign_key "committees", "councils"
+  add_foreign_key "document_classifications", "documents"
   add_foreign_key "documents", "meetings"
+  add_foreign_key "meeting_tags", "meetings"
+  add_foreign_key "meeting_tags", "tags"
   add_foreign_key "meetings", "committees"
   add_foreign_key "meetings", "councils"
   add_foreign_key "people", "councils"
+  add_foreign_key "person_meetings", "meetings"
+  add_foreign_key "person_meetings", "people"
 end
