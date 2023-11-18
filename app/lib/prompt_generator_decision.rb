@@ -12,6 +12,7 @@ class PromptGeneratorDecision
           (contentiousness_score) On a scale of 0 to 10 how contentious is this?
           (affected_stakeholders) Which stakeholders are affected by this decision?
           (political_party_relevance) Are there any mentions or implication of political parties, or political influence on the decision?
+          (topline) A topline, singular sentence, as if written as the start of a newspaper article. Should always resemble: "The {decision_maker} has decided to {summation of decision}"
 
           -------
 

@@ -33,5 +33,6 @@ class Integrations::ClassifyDecisionWorker
       output_token_count: classification[:output_tokens],
       model: classification[:model]
     )
+    decision.update!(topline: document_metadata[:topline])
   end
 end
