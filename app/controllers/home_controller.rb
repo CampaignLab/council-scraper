@@ -16,7 +16,7 @@ class HomeController < ApplicationController
   end
 
   def assemble_meetings(council)
-    scope = council ? council.meetings.with_minutes : Meeting
+    scope = council ? council.meetings.with_minutes : Meeting.with_minutes
     scope.where.not(date: nil).order(date: :desc).limit(10)
   end
 
