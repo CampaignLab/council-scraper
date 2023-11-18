@@ -10,14 +10,16 @@
   </form>
 </div>
 
-<% @feed_items.each do |item| %>
-  <% if item[:kind] == 'meeting' %>
-    <%= render :partial => 'home/partials/meeting', :object => item[:item] %>
-  <% elsif item[:kind] == 'decision' %>
-    <%= render :partial => 'home/partials/decision', :object => item[:item] %>
+<div class="feed">
+  <% @feed_items.each do |item| %>
+    <% if item[:kind] == 'meeting' %>
+      <%= render :partial => 'home/partials/meeting', :object => item[:item] %>
+    <% elsif item[:kind] == 'decision' %>
+      <%= render :partial => 'home/partials/decision', :object => item[:item] %>
+    <% end %>
   <% end %>
-<% end %>
 
-<% if @feed_items.length == 0 %>
-  <p>There's no data for <%= @council.name %> yet.</p>
-<% end %>
+  <% if @feed_items.length == 0 %>
+    <p>There's no data for <%= @council&.name || "any councils" %> yet.</p>
+  <% end %>
+</div>
