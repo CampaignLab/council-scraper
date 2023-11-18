@@ -5,5 +5,5 @@ Rails.application.routes.draw do
   root 'home#index'
 
   resources :councils, only: %i[index show]
-  resources :meetings, only: [:show]
+  resources :meetings, only: %i[index show]
 end

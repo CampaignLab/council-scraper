@@ -1,0 +1,21 @@
+<div class="card primary" style="width: 100%;">
+    <div class="card-divider">
+        <strong>Decision:</strong>&nbsp; <%= decision.purpose %>
+    </div>
+    <table>
+        <tbody>
+            <tr>
+                <td width="25%"><strong>Date</strong></td>
+                <td><% if decision.date.present? %><%= decision.date.strftime("%d/%m/%Y") %><% end %></td>
+            </tr>
+            <tr>
+                <td width="25%"><strong>Decision maker</strong></td>
+                <td><%= decision.decision_maker %></td>
+            </tr>
+            <tr>
+                <td width="25%"><strong>Summary</strong></td>
+                <td><%= decision.outcome %></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

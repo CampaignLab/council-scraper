@@ -8,13 +8,38 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
-  </head>
 
+    <!-- Compressed CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/css/foundation.min.css" crossorigin="anonymous">
+
+    <!-- Compressed JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/js/foundation.min.js" crossorigin="anonymous"></script>
+  </head>
+ 
   <body>
-    <header>
-      <%= link_to "Latest", root_path %>
-      <%= link_to "Councils", councils_path %>
-    </header>
-    <%= yield %>
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu" data-dropdown-menu>
+          <li class="menu-text">CouncilData</li>
+          <li>
+            <%= link_to "Feed", root_path %>
+          </li>
+          <li>
+            <%= link_to "Meetings", meetings_path %>
+          </li>
+          <li>
+            <%= link_to "Councils", councils_path %>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="grid-container">
+      <div class="grid-x">
+        <div class="cell">
+          <%= yield %>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

@@ -1,0 +1,7 @@
+{
+    "plugins": ["html"],
+    "settings": {
+      "html/html-extensions": [".html"],  // consider .html files as HTML
+    }
+  }
+  

@@ -1,0 +1,29 @@
+<div>
+  <%= Meeting.count %> meetings, <%= Document.all.count %> documents<br />
+  Current jobs: <%= @council_job_count %> council jobs, <%= @meeting_job_count %> meeting jobs<br />
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th>Council Name</th>
+      <th>Council Control</th>
+      <th>Committee</th>
+      <th>Meeting Date</th>
+      <th>Meeting Name</th>
+      <th>Documents</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @meetings.each do |meeting| %>
+      <tr>
+        <td><%= meeting.council.name %></td>
+        <td><%= meeting.council.majority_party %></td>
+        <td><%= meeting.committee.name %></td>
+        <td><%= meeting.date.strftime('%B %d, %Y') %></td>
+        <td><%= link_to meeting.name, meeting.url %></td>
+        <td><%= link_to "#{meeting.documents.count} Document", meeting_path(meeting) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
