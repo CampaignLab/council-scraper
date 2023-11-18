@@ -37,6 +37,7 @@
         <tr style="background-color: <%= decision.color %>">
           <td>
             <strong><%= decision.decision_maker %></strong><br>
+            <%= decision.topline %> <br>
             <%= decision.decision_classifications.last&.output.try(:[], "summary") %>
           </td>
           <td><%= decision.date.strftime('%B %d, %Y') if decision.date %></td>
