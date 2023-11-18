@@ -1,0 +1,21 @@
+<div>
+  <h1>Decisions Index</h1>
+
+  <% if @decisions.any? %>
+    <ul>
+      <% @decisions.each do |decision| %>
+        <li>
+          <h2><%= decision.decision_maker %></h2>
+          <p><strong>Outcome:</strong> <%= decision.outcome %></p>
+          <p><strong>Date:</strong> <%= decision.date.strftime("%B %e, %Y") if decision.date %></p>
+          <p><%= link_to 'View Decision', decision.url %></p>
+          <% if decision.council %>
+            <p><%= link_to decision.council.name, "/councils/#{decision.council_id}" %></p>
+          <% end %>
+        </li>
+      <% end %>
+    </ul>
+  <% else %>
+    <p>No decisions available.</p>
+  <% end %>
+</div>

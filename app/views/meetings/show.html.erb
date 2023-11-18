@@ -1,4 +1,37 @@
 <h1><%= @meeting.name %></h1>
+
+<h2>Meeting Details</h2>
+  <p><strong>Name:</strong> <%= @meeting.name %></p>
+  <p><strong>URL:</strong> <%= @meeting.url %></p>
+  <p><strong>Notes:</strong> <%= @meeting.notes %></p>
+  <p><strong>Date:</strong> <%= @meeting.date.strftime("%B %e, %Y %H:%M") if @meeting.date %></p>
+  <p><strong>Agenda:</strong> <%= @meeting.agenda %></p>
+  <p><strong>About:</strong> <%= @meeting.about %></p>
+
+  <%# Additional Attendees %>
+  <% if @meeting.additional_attendees.any? %>
+    <h2>Additional Attendees</h2>
+    <ul>
+      <% @meeting.additional_attendees.each do |attendee| %>
+        <li><%= attendee %></li>
+      <% end %>
+    </ul>
+  <% else %>
+    <p>No additional attendees.</p>
+  <% end %>
+
+  <%# Decisions %>
+  <% if @meeting.decisions.any? %>
+    <h2>Decisions</h2>
+    <ul>
+      <% @meeting.decisions.each do |decision| %>
+        <li><%= decision %></li>
+      <% end %>
+    </ul>
+  <% else %>
+    <p>No decisions recorded.</p>
+  <% end %>
+
 <h2>Documents</h2>
 <table>
   <thead>

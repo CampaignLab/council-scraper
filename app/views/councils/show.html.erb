@@ -20,3 +20,29 @@
     <% end %>
   </tbody>
 </table>
+
+<h2>Decisions</h2>
+<% if @decisions.any? %>
+  <table>
+    <thead>
+      <tr>
+        <th>Decision Maker</th>
+        <th>Date</th>
+        <th>Outcome</th>
+        <th>Details</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @decisions.each do |decision| %>
+        <tr>
+          <td><%= decision.decision_maker %></td>
+          <td><%= decision.date.strftime('%B %d, %Y') if decision.date %></td>
+          <td><%= decision.outcome %></td>
+          <td><%= link_to 'View Decision', decision_path(decision) %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+<% else %>
+  <p>No decisions available for this council.</p>
+<% end %>

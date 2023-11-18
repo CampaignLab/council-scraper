@@ -1,0 +1,12 @@
+<div>
+  <h1>Decision Details</h1>
+
+  <p><strong>URL:</strong> <%= @decision.url %></p>
+  <p><strong>Decision Maker:</strong> <%= @decision.decision_maker %></p>
+  <p><strong>Outcome:</strong> <%= @decision.outcome %></p>
+  <p><strong>Is Key Decision?:</strong> <%= @decision.is_key ? 'Yes' : 'No' %></p>
+  <p><strong>Is Callable In?:</strong> <%= @decision.is_callable_in ? 'Yes' : 'No' %></p>
+  <p><strong>Purpose:</strong> <%= @decision.purpose %></p>
+  <p><strong>Content:</strong> <%= @decision.content %></p>
+  <p><strong>Date of Decision:</strong> <%= @decision.date.strftime("%B %e, %Y") if @decision.date %></p>
+</div>
