@@ -8,7 +8,7 @@ class AddMeetingMetadata < ActiveRecord::Migration[7.0]
     create_table :person_meetings do |t|
       t.references :meeting, null: false, foreign_key: true
       t.references :person, null: false, foreign_key: true
-      
+
       t.timestamps
     end
   end

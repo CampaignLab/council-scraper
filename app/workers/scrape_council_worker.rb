@@ -12,9 +12,10 @@ class ScrapeCouncilWorker
     doc = get_doc(url)
 
     puts beginning_of_week
-    (0..6).each do |day|
-      block = doc.css(".mgCalendarWeekGrid")[day]
+    7.times do |day|
+      block = doc.css('.mgCalendarWeekGrid')[day]
       next if block.nil?
+
       links = block.css('a').map { |link| URI.join(base_domain, link['href']).to_s }
 
       links.each do |link|
@@ -25,7 +26,7 @@ class ScrapeCouncilWorker
         committee = council.committees.find_or_create_by!(name: committee_name)
 
         meeting = council.meetings.find_or_create_by!(url: link)
-        meeting.update!(name: name, committee: committee, date: beginning_of_week + day.days)
+        meeting.update!(name:, committee:, date: beginning_of_week + day.days)
 
         ScrapeMeetingWorker.perform_async(meeting.id)
       end
@@ -40,9 +41,10 @@ class ScrapeCouncilWorker
   end
 
   def make_url(url, beginning_of_week)
-    week_number = beginning_of_week.strftime("%W").to_i
-    year = beginning_of_week.strftime("%Y").to_i
+    week_number = beginning_of_week.strftime('%W').to_i
+    year = beginning_of_week.strftime('%Y').to_i
 
-    url.gsub("mgCalendarMonthView.aspx", "mgCalendarWeekView.aspx") + "?WN=#{week_number}&CID=0&OT=&C=-1&MR=0&DL=0&ACT=Later&DD=#{year}"
+    url.gsub('mgCalendarMonthView.aspx',
+             'mgCalendarWeekView.aspx') + "?WN=#{week_number}&CID=0&OT=&C=-1&MR=0&DL=0&ACT=Later&DD=#{year}"
   end
 end

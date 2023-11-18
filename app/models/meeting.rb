@@ -7,13 +7,21 @@ class Meeting < ApplicationRecord
 
   def apply_tags!(tags)
     tags.each do |tag|
-      MeetingTag.find_or_create_by!(meeting: self, tag: Tag.find_or_create_by!(tag: tag))
+      MeetingTag.find_or_create_by!(meeting: self, tag: Tag.find_or_create_by!(tag:))
     end
   end
 
-  def add_attendees!(attendees)
-    # TODO: try and fuzzy match the list to people who belong to this committee/council (which need importing first, e.g. councillors)
-    # this function will currently just upsert the list onto the attendees list on the meeting, which ideally would just be 3rd parties
-    update!(additional_attendees: additional_attendees + attendees - additional_attendees)
+  def upsert_attendees!(attendees)
+    string_matcher = StringMatcher.new(strings: council.people.pluck(:id, :name))
+    unmatched_attendees = []
+    attendees.each do |attendee|
+      if matched_person = string_matcher.match(input: attendee, threshold: 5)
+        person_meetings.find_or_create_by!(person: Person.find(matched_person[:id]))
+      else
+        unmatched_attendees << attendee
+      end
+    end
+
+    update!(additional_attendees: additional_attendees + unmatched_attendees - additional_attendees)
   end
 end

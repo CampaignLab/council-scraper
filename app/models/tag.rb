@@ -1,4 +1,3 @@
-class Tag < ApplicationRecord 
-    has_many :meeting_tags
+class Tag < ApplicationRecord
+  has_many :meeting_tags
 end
-  

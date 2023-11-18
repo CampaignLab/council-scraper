@@ -8,7 +8,7 @@ class DocumentClassifications < ActiveRecord::Migration[7.0]
       t.integer :input_token_count
       t.integer :output_token_count
       t.integer :cost
-      
+
       t.timestamps
     end
   end

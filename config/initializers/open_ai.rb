@@ -1,5 +1,5 @@
-if ENV.has_key?("OPENAI_ACCESS_TOKEN")
-    OpenAI.configure do |config|
-        config.access_token = ENV.fetch("OPENAI_ACCESS_TOKEN")
-    end
+if ENV.has_key?('OPENAI_ACCESS_TOKEN')
+  OpenAI.configure do |config|
+    config.access_token = ENV.fetch('OPENAI_ACCESS_TOKEN')
+  end
 end

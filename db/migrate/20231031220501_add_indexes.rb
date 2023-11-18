@@ -6,4 +6,3 @@ class AddIndexes < ActiveRecord::Migration[7.0]
     add_column :documents, :extract_status, :text, default: 'pending', null: false
   end
 end
-

@@ -2,19 +2,19 @@ class Document < ApplicationRecord
   belongs_to :meeting
   has_many :document_classifications
 
-  PROCESSING_STATUSES = ['waiting', 'processing', 'processed', 'failed'].freeze
-  DOCUMENT_KINDS = ['unclassified', 'meeting_notes', 'other'].freeze # TODO: expand classifications
+  PROCESSING_STATUSES = %w[waiting processing processed failed].freeze
+  DOCUMENT_KINDS = %w[unclassified meeting_notes other].freeze # TODO: expand classifications
 
   scope :processed, -> { where(processing_status: 'processed') }
   scope :unprocessed, -> { where(processing_status: 'waiting') }
 
   def extract_text!
-    return if !pdf?
+    return unless pdf?
     return if text.present?
 
-    puts "fetching #{self.url}"
-    response = HTTParty.get(self.url)
-    
+    puts "fetching #{url}"
+    response = HTTParty.get(url)
+
     begin
       Tempfile.create(['downloaded', '.pdf']) do |temp_pdf|
         temp_pdf.write(response.body)
@@ -22,11 +22,9 @@ class Document < ApplicationRecord
 
         # Extract text from the PDF
         reader = PDF::Reader.new(temp_pdf.path)
-        text = reader.pages.map(&:text).join("
-").gsub(/
-{2,}/, "
-") # trim any excess newlines
-        update!(text: text, extract_status: 'success')
+        text = reader.pages.map(&:text).join("\n").gsub(/
+{2,}/, "\n") # trim any excess newlines
+        update!(text:, extract_status: 'success')
       end
     rescue PDF::Reader::MalformedPDFError => e
       update!(extract_status: 'failed')
