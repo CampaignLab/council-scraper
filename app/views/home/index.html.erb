@@ -2,8 +2,17 @@
   <form method="GET" action="/">
     <label>Council</label>
     <select name="council_id">
+      <option value="">-- Select --</option>
       <% Council.all.order(name: :asc).each do |council| %>
         <option value="<%= council.id %>" <% if @council&.id == council.id %>selected="selected"<% end %>><%= council.name %></option>
+      <% end %>
+    </select>
+
+    <label>Tag</label>
+    <select name="tag_id">
+      <option value="">-- Select --</option>
+      <% Tag.all.order(tag: :asc).each do |tag| %>
+        <option value="<%= tag.id %>" <% if @tag&.id == tag.id %>selected="selected"<% end %>><%= tag.tag %></option>
       <% end %>
     </select>
     <input type="submit" class="button" value="Filter">
