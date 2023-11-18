@@ -7,7 +7,7 @@ class Integrations::ClassifyDocumentWorker
 
     # classify document with OpenAI
     openai_client = Integrations::OpenAi.new(model:)
-    prompt = PromptGenerator.meeting_notes_classification(document.text)
+    prompt = PromptGenerator2.meeting_notes_classification(document.text)
     classification = openai_client.chat(prompt)
 
     # TODO: currently we are only classifying meeting notes, to determine if we should find primary information on the meeting
