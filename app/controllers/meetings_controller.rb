@@ -1,3 +1,5 @@
+require 'sidekiq/api'
+
 class MeetingsController < ApplicationController
   def index
     @meetings = Meeting.includes(:council, :documents, :committee).order(date: :desc).limit(100)
