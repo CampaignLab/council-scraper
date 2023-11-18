@@ -14,6 +14,14 @@
  *= require_self
  */
 
+ .topbar {
+    background: #8EACCD;
+
+    a {
+        color: black !important;
+    }
+ }
+
  .filters {
     display: flex;
     align-items: center;
@@ -62,7 +70,44 @@
     align-items: flex-start;
     padding: 10px;
     margin: 10px 0;
-    background: rgb(245, 245, 245);
+    
+    &.meeting {
+        background: rgba(#F9F3CC, 0.45);
+    }
+
+    &.decision {
+        background: rgba(215, 229, 202, 0.45);
+    }
+
+    p {
+        color: rgb(70, 70, 70);
+    }
+
+    .see-more {
+        font-weight: bold;
+        display: block;
+        margin-top: 10px;
+        width: 100px !important;
+        background: rgb(100, 100, 100) !important;
+        margin-bottom: 0px !important;
+    }
+
+    .label {
+        background: #8EACCD !important;
+        color: white;
+
+        > span {
+            color: white;
+        }
+    }
+
+    .tags {
+        margin-top: 15px;
+
+        .label {
+            background: #8EACCD !important;
+        }
+    }
 
     .date {
         margin-right: 20px;
@@ -90,6 +135,7 @@
         .label {
             margin-right: 5px;
             display: inline-block;
+            color: white;
         }
 
         .tags {

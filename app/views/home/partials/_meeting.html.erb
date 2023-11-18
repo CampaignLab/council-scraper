@@ -8,7 +8,7 @@
     <div class="right">
         <p><%= meeting.topline %></p>
         <p><i><%= meeting.committee.name %></i> <span class="label success"><%= meeting.person_meetings.length %></span></p>
-        <a class="button primary small" href="/meetings/<%= meeting.id %>">See more</a>
+        <a class="see-more button small" href="/meetings/<%= meeting.id %>">See more</a>
         <div class="tags">
             <% meeting.tags.each do |tag| %><span class="label secondary"><%= tag.tag %></span><% end %>
         </div>
