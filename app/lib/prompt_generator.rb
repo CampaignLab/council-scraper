@@ -9,7 +9,7 @@ class PromptGenerator
           1 (attendees). Who attended this meeting? (Comma separated list of names). When answering this, please don't include anyone who is in the 'apologies' section. Only include people from the first section of attendees, then stop. No one mentioned lower down in the notes
           2 (about). What is this meeting about, if it appears to describe a meeting? If this is an appendix or supporting document, what is it about?
           3 (agenda). Sum up the agenda contained in a few sentences. If there is no clearly labelled agenda, return a blank string
-          4 (keywords). List up to 10 keywords which cover the topics of this meeting
+          4 (keywords). List up to 5 keywords which cover the topics of this meeting. All keywords should be 1 word, and be very topline, e.g. 'Planning', 'Licensing', 'Executive'
           5 (decisions). List the most important few decisions made, if the document does contain any decisions. Otherwise an empty array
           6 (is_agenda). A true/false indicator of whether this contains an agenda of the meeting, 'true' if so, 'false' if it appears to be an appendix, supporting documents, without explicitly saying it is an agenda, or supporting agenda
           7 (has_attendees). A true/false indicator of whether this contains a list of attendees. 'true' if so, 'false' if not. This must be a labelled list of 'Present', or 'Attendees'
