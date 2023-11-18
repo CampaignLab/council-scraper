@@ -9,6 +9,9 @@
                 <td><% if meeting.date.present? %><%= meeting.date.strftime("%d/%m/%Y") %><% end %></td>
             </tr>
             <tr>
+                <td width="25%"><strong>Committee</strong></td>
+                <td><%= meeting.committee.name %> <span class="label secondary"><%= meeting.person_meetings.length %></span></td>
+            <tr>
                 <td width="25%"><strong>Summary</strong></td>
                 <td><%= meeting.about %></td>
             </tr>
