@@ -1,7 +1,7 @@
 class PromptGenerator
   MAX_INPUT = 16_000 # this can be set longer, but be careful of model restrictions and cost!
 
-  def self.document_classification(document)
+  def self.meeting_notes_classification(document)
     text = document.slice(0, MAX_INPUT)
 
     prompt = <<-TEXT

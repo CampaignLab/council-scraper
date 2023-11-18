@@ -7,7 +7,7 @@ class Integrations::ClassifyDocumentWorker
 
     # classify document with OpenAI
     openai_client = Integrations::OpenAi.new(model:)
-    prompt = PromptGenerator.document_classification(document.text)
+    prompt = PromptGenerator.meeting_notes_classification(document.text)
     classification = openai_client.chat(prompt)
 
     # TODO: currently we are only classifying meeting notes, to determine if we should find primary information on the meeting
@@ -28,18 +28,19 @@ class Integrations::ClassifyDocumentWorker
 
     document.update!(processing_status: 'processed')
 
+    if document_metadata['is_agenda']
+      # add metadata to the right places
+      document.update!(kind: 'meeting_notes')
+      document.meeting.update!(
+        about: document_metadata['about'],
+        agenda: document_metadata['agenda'],
+        decisions: document_metadata['decisions']
+      )
+      document.meeting.apply_tags!(document_metadata['keywords'])
+      document.meeting.upsert_attendees!(document_metadata['attendees'].split(',').map(&:strip))
+    else
+      document.update!(kind: 'other')
+    end
     document_classification
-
-    # if document_metadata["is_summary"]
-    #   # add metadata to the right places
-    #   document.update!(kind: 'meeting_notes')
-    #   document.meeting.update!(
-    #     about: document_metadata["about"],
-    #     agenda: document_metadata["agenda"]
-    #   )
-    #   document.meeting.apply_tags!(document_metadata["keywords"])
-    # else
-    #   document.update!(kind: 'other')
-    # end
   end
 end
