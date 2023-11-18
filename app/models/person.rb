@@ -3,7 +3,5 @@ class Person < ApplicationRecord
   has_many :person_meetings
 
   # TODO: implement fuzzy match function
-  def self.fuzzy_match(input)
-    #
-  end
+  def self.fuzzy_match(input); end
 end

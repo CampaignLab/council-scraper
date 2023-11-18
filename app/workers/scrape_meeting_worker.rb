@@ -1,4 +1,4 @@
-class ScrapeMeetingWorker 
+class ScrapeMeetingWorker
   attr_reader :base_domain
 
   include Sidekiq::Worker
@@ -34,19 +34,17 @@ class ScrapeMeetingWorker
 
   def get_printed_minutes(doc)
     links = doc.css('.mgContent a, .mgActionList a')
-      .select do |link| 
-        link.content.downcase.include?('printed minutes') || link.content.downcase.include?('printed draft minutes') 
-      end
+               .select do |link|
+              link.content.downcase.include?('printed minutes') || link.content.downcase.include?('printed draft minutes')
+            end
       .map { |link| link['href'] }.compact.uniq
 
-    if links.length > 1
-      puts "FOUND IT"
-    end
+    puts 'FOUND IT' if links.length > 1
 
-    links.map do |link| 
+    links.map do |link|
       clean_link = link.gsub(' ', '+')
       begin
-        URI.join(base_domain, clean_link).to_s 
+        URI.join(base_domain, clean_link).to_s
       rescue URI::InvalidURIError
         nil
       end
@@ -57,15 +55,16 @@ class ScrapeMeetingWorker
     sleep CouncilScraper::GLOBAL_DELAY
 
     return [] if doc_or_url.is_a?(String) && !doc_or_url.start_with?('http')
+
     if doc_or_url.is_a?(String)
       puts "fetching #{doc_or_url}"
       doc_or_url = get_doc(doc_or_url)
     end
 
-    links = doc_or_url.css('.mgContent a, .mgLinks a').map { |link| link['href'].to_s }.compact.uniq.map do |link| 
+    links = doc_or_url.css('.mgContent a, .mgLinks a').map { |link| link['href'].to_s }.compact.uniq.map do |link|
       clean_link = link.gsub(' ', '+')
       begin
-        URI.join(base_domain, clean_link).to_s 
+        URI.join(base_domain, clean_link).to_s
       rescue URI::InvalidURIError
         nil
       end
@@ -77,7 +76,7 @@ class ScrapeMeetingWorker
         puts link
         link
       elsif depth < 2 && !link.include?('mgMeetingAttendance.aspx') && !link.include?('mgLocationDetails.aspx') && !link.include?('mgIssueHistoryHome.aspx') && !link.include?('mgIssueHistoryChronology.aspx') && !link.include?('ieIssueDetails.aspx')
-        recursive_get_pdfs(link, depth+1)
+        recursive_get_pdfs(link, depth + 1)
       else
         []
       end

@@ -1,5 +1,4 @@
-class PersonMeeting < ApplicationRecord 
-    belongs_to :person
-    belongs_to :meeting
+class PersonMeeting < ApplicationRecord
+  belongs_to :person
+  belongs_to :meeting
 end
-  

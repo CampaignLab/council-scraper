@@ -7,7 +7,7 @@ class Meeting < ApplicationRecord
 
   def apply_tags!(tags)
     tags.each do |tag|
-      MeetingTag.find_or_create_by!(meeting: self, tag: Tag.find_or_create_by!(tag: tag))
+      MeetingTag.find_or_create_by!(meeting: self, tag: Tag.find_or_create_by!(tag:))
     end
   end
 
