@@ -15,7 +15,7 @@
         <td><%= meeting.committee.name %></td>
         <td><%= meeting.date.strftime('%B %d, %Y') %></td>
         <td><%= meeting.name %></td>
-        <td><%= link_to "#{meeting.documents.count} Document", meeting.documents.first.url if meeting.documents.any? %></td>
+        <td><%= link_to "#{meeting.documents.count} Documents", meeting_path(meeting) if meeting.documents.any? %></td>
       </tr>
     <% end %>
   </tbody>

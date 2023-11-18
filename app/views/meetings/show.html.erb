@@ -11,7 +11,7 @@
     <% @meeting.documents.each do |document| %>
       <tr>
         <td><%= document.name %></td>
-        <td><%= link_to document.url, document.url %></td>
+        <td><%= link_to document.url, document.url %> (<%= document.is_minutes %>)</td>
       </tr>
     <% end %>
   </tbody>

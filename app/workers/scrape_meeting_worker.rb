@@ -5,10 +5,16 @@ class ScrapeMeetingWorker
     meeting = Meeting.find(meeting_id)
 
     pdfs = get_printed_minutes(meeting.url)
-    puts meeting.url
     pdfs.each do |pdf|
       document = meeting.documents.find_or_create_by!(url: pdf)
       document.update!(is_minutes: true)
+      document.extract_text!
+    end
+
+    pdfs = recursive_get_pdfs(meeting.url)
+    pdfs.each do |pdf|
+      document = meeting.documents.find_or_create_by!(url: pdf)
+      document.update!(is_minutes: false)
       document.extract_text!
     end
   end
