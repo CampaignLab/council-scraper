@@ -17,10 +17,12 @@ class ScrapeCouncilWorker
       next if block.nil?
       links = block.css('a').map { |link| URI.join(base_domain, link['href']).to_s }
 
+      pp links
+
       links.each do |link|
         puts "fetching #{link}"
-        doc = get_doc(link)
-        name = doc.css('.mgSubTitleTxt').text
+        sub_doc = get_doc(link)
+        name = sub_doc.css('.mgSubTitleTxt').text
         committee_name = name.split(' - ')[0]
         committee = council.committees.find_or_create_by!(name: committee_name)
 

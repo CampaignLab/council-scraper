@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_11_13_212317) do
+ActiveRecord::Schema[7.0].define(version: 2023_11_18_122227) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -31,6 +31,21 @@ ActiveRecord::Schema[7.0].define(version: 2023_11_13_212317) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.text "majority_party"
+  end
+
+  create_table "decisions", force: :cascade do |t|
+    t.bigint "council_id", null: false
+    t.text "url", null: false
+    t.text "decision_maker"
+    t.text "outcome"
+    t.boolean "is_key", default: false, null: false
+    t.boolean "is_callable_in", default: false, null: false
+    t.text "purpose"
+    t.text "content"
+    t.date "date"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["council_id"], name: "index_decisions_on_council_id"
   end
 
   create_table "document_classifications", force: :cascade do |t|
@@ -61,6 +76,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_11_13_212317) do
     t.boolean "contains_attendees", default: false, null: false
     t.boolean "contains_decisions", default: false, null: false
     t.boolean "is_minutes", default: false, null: false
+    t.boolean "is_media", default: false, null: false
     t.index ["meeting_id"], name: "index_documents_on_meeting_id"
   end
 
@@ -121,6 +137,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_11_13_212317) do
   end
 
   add_foreign_key "committees", "councils"
+  add_foreign_key "decisions", "councils"
   add_foreign_key "document_classifications", "documents"
   add_foreign_key "documents", "meetings"
   add_foreign_key "meeting_tags", "meetings"

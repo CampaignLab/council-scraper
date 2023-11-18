@@ -1,0 +1,192 @@
+require:
+  - 'rubocop-rails'
+
+AllCops:
+  CacheRootDirectory: .
+  DisabledByDefault: true
+  Exclude:
+    - 'db/schema.rb'
+    - 'db/seeds.rb'
+    - 'db/migrate/*'
+    - 'app/lib/geolocator.rb'
+    - 'bin/*'
+    # Ignore vendor since we `bundle install --path vendor/bundle` on CI
+    - 'vendor/**/*'
+    - 'gems/**/*'
+    - 'node_modules/**/*'
+
+Layout:
+  Enabled: true
+
+Rails/ForUserScopeNotUsed:
+  Enabled: true
+
+Style/DoubleNegation:
+  Enabled: false
+
+Layout/LineLength:
+  Enabled: false
+
+Lint/SuppressedException:
+  Enabled: false
+
+Layout/EndOfLine:
+  Enabled: false
+
+Layout/FirstHashElementIndentation:
+  Enabled: false
+
+Lint/UnderscorePrefixedVariableName:
+  Enabled: false
+
+Lint:
+  Enabled: true
+
+Lint/AmbiguousBlockAssociation:
+  # Exclude specs because rspec is deliberatly using
+  # a special kind of block styling
+  Exclude:
+    - "spec/**/*"
+
+Lint/AssignmentInCondition:
+  # If you want to assign in the conditional
+  # then the condition must be surrounded with ()
+  Enabled: true
+  AllowSafeAssignment: true
+
+Lint/ConstantDefinitionInBlock:
+  Exclude:
+     - "spec/**/*"
+
+Lint/MissingSuper:
+  Enabled: false
+
+# This clashes with our service pattern
+Lint/Void:
+  Enabled: false
+  
+Lint/SafeNavigationChain:
+  Enabled: false
+
+Style/AndOr:
+  # && / || instead of and / or
+  Enabled: true
+
+Style/ArrayJoin:
+  # use join instead of *
+  Enabled: true
+
+Style/DoubleNegation:
+  # Don't use cryptic !! syntax for checking not nil
+  Enabled: false
+
+Style/MutableConstant:
+  # Have to freeze potentially mutable constants
+  Enabled: true
+  Exclude:
+    - app/workers/neu/ingest_membership_data_worker.rb
+    - spec/services/email/render_email_service_spec.rb
+
+Rails/TimeZone:
+  Enabled: true
+  Exclude:
+    - spec/controllers/api/twilio_controller_spec.rb
+    - spec/services/utility/opening_hours_service_spec.rb
+
+Style/Not:
+  # !x instead of (not x)
+  Enabled: true
+
+Naming/ClassAndModuleCamelCase:
+  Enabled: true
+
+Naming/ConstantName:
+  # SCREAMING_SNAKE_CASE
+  Enabled: true
+
+Naming/FileName:
+  Enabled: true
+
+Naming/MethodName:
+  Enabled: true
+
+Naming/VariableName:
+  Enabled: true
+
+Rails:
+  Enabled: true
+
+Rails/ActiveRecordAliases:
+  Enabled: true
+
+Rails/Blank:
+  Enabled: true
+
+Rails/Date:
+  Enabled: true
+
+Rails/DynamicFindBy:
+  Enabled: true
+  Whitelist:
+    - find_by_sql
+    - find_by_phone
+    - find_by_external_id
+    - find_by_name
+
+Rails/EnumUniqueness:
+  Enabled: true
+
+Rails/EnvironmentComparison:
+  Enabled: true
+
+Rails/Exit:
+  Enabled: true
+
+Rails/FilePath:
+  Enabled: false
+
+Rails/FindBy:
+  Enabled: false
+
+Rails/InverseOf:
+  Enabled: false
+
+Rails/PluralizationGrammar:
+  Enabled: true
+
+Rails/Presence:
+  Enabled: true
+
+Rails/Present:
+  Enabled: true
+
+Rails/RequestReferer:
+  Enabled: true
+
+Rails/SafeNavigation:
+  Enabled: true
+
+Rails/SaveBang:
+  Enabled: true
+  AllowedReceivers:
+    - Stripe::Charge
+    - Twilio::REST::Client::Messaging
+    - Twilio::REST::Client::Addresses
+    - Twilio::REST::Client::IncomingPhoneNumbers
+  Exclude:
+    - spec/validators/search_rules_validator_spec.rb
+
+Rails/HelperInstanceVariable:
+  Enabled: false
+
+Rails/ScopeArgs:
+  Enabled: true
+
+Rails/SkipsModelValidations:
+  Enabled: false
+
+Rails/UnknownEnv:
+  Enabled: true
+
+Rails/UniqueValidationWithoutIndex:
+  Enabled: false
