@@ -4,6 +4,10 @@ class Meeting < ApplicationRecord
   has_many :documents
   has_many :person_meetings
   has_many :meeting_tags
+  
+  scope :with_minutes, -> { 
+    joins(:documents).where(documents: { is_minutes: true })
+  }
 
   def apply_tags!(tags)
     tags.each do |tag|

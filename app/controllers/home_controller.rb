@@ -16,18 +16,18 @@ class HomeController < ApplicationController
   end
 
   def assemble_meetings(council)
-    scope = council ? council.meetings : Meeting
-    scope.order(id: :desc).limit(10)
+    scope = council ? council.meetings.with_minutes : Meeting
+    scope.order(date: :desc).limit(10)
   end
 
   def assemble_decisions(council)
     scope = council ? council.decisions : Decision
-    scope.order(id: :desc).limit(10)
+    scope.order(date: :desc).limit(10)
   end
 
   def tag_and_sort_items(items)
     items.map { |item| tag_item(item) }
-         .sort_by { |hash| -hash[:item].created_at.to_i }
+         .sort_by { |hash| -(hash[:item].date.to_time.to_i) }
   end
 
   def tag_item(item)

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_11_18_122227) do
+ActiveRecord::Schema[7.0].define(version: 2023_11_18_141729) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -31,6 +31,20 @@ ActiveRecord::Schema[7.0].define(version: 2023_11_18_122227) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.text "majority_party"
+  end
+
+  create_table "decision_classifications", force: :cascade do |t|
+    t.bigint "decision_id", null: false
+    t.text "input"
+    t.jsonb "output"
+    t.jsonb "classifications"
+    t.integer "input_token_count"
+    t.integer "output_token_count"
+    t.integer "cost"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.text "model", null: false
+    t.index ["decision_id"], name: "index_decision_classifications_on_decision_id"
   end
 
   create_table "decisions", force: :cascade do |t|
@@ -137,6 +151,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_11_18_122227) do
   end
 
   add_foreign_key "committees", "councils"
+  add_foreign_key "decision_classifications", "decisions"
   add_foreign_key "decisions", "councils"
   add_foreign_key "document_classifications", "documents"
   add_foreign_key "documents", "meetings"
