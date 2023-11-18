@@ -1,27 +1,16 @@
-<div class="card primary" style="width: 100%;">
-    <div class="card-divider">
-        <h4><strong>Meeting:</strong>&nbsp; <a href="/meetings/<%= meeting.id %>"><%= meeting.name&.split('-')&.first&.strip %></a></h4>
+<div class="feed-item meeting">
+    <div class="date">
+        <strong><%= meeting.date.strftime("%d/%m/%Y") %></strong>
     </div>
-    <table>
-        <tbody>
-            <tr>
-                <td width="25%"><strong>Date</strong></td>
-                <td><% if meeting.date.present? %><%= meeting.date.strftime("%d/%m/%Y") %><% end %></td>
-            </tr>
-            <tr>
-                <td width="25%"><strong>Committee</strong></td>
-                <td><%= meeting.committee.name %> <span class="label secondary"><%= meeting.person_meetings.length %></span></td>
-            </tr>
-            <tr>
-                <td width="25%"><strong>Summary</strong></td>
-                <td><%= meeting.about %></td>
-            </tr>
-            <tr>
-                <td width="25%"><strong>Tags</strong></td>
-                <td>
-                    <% meeting.tags.each do |tag| %><span class="label label-primary"><%= tag.tag %></span><% end %>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="left">
+        <strong>Meeting</strong>
+    </div>
+    <div class="right">
+        <p><%= meeting.topline %></p>
+        <p><i><%= meeting.committee.name %></i> <span class="label success"><%= meeting.person_meetings.length %></span></p>
+        <a class="button primary small" href="/meetings/<%= meeting.id %>">See more</a>
+        <div class="tags">
+            <% meeting.tags.each do |tag| %><span class="label secondary"><%= tag.tag %></span><% end %>
+        </div>
+    </div>
 </div>

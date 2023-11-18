@@ -1,21 +1,13 @@
-<div class="card primary" style="width: 100%;">
-    <div class="card-divider">
-        <h4><strong>Decision:</strong>&nbsp; <a href="/decisions/<%= decision.id %>"><%= decision.purpose %></a></h4>
+<div class="feed-item decision">
+    <div class="date">
+        <strong><%= decision.date.strftime("%d/%m/%Y") %></strong>
     </div>
-    <table>
-        <tbody>
-            <tr>
-                <td width="25%"><strong>Date</strong></td>
-                <td><% if decision.date.present? %><%= decision.date.strftime("%d/%m/%Y") %><% end %></td>
-            </tr>
-            <tr>
-                <td width="25%"><strong>Decision maker</strong></td>
-                <td><%= decision.decision_maker %></td>
-            </tr>
-            <tr>
-                <td width="25%"><strong>Summary</strong></td>
-                <td><%= decision.outcome %></td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="left">
+        <strong>Decision</strong>
+    </div>
+    <div class="right">
+        <p><%= decision.topline %></p>
+        <p><i><%= decision.decision_maker %></i></p>
+        <a class="button primary small" href="/decisions/<%= decision.id %>">See more</a>
+    </div>
 </div>
