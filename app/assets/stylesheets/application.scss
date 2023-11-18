@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+
+ .filters {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0px;
+
+    select {
+       margin: 0px;
+       margin-right: 10px;
+    }
+
+    input {
+        margin: 0px;
+    }
+
+    form {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        
+        label {
+            font-weight: bold;
+            font-size: 14px;
+            margin-right: 10px;
+        }
+    }
+ }

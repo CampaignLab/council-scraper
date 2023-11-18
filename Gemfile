@@ -9,7 +9,7 @@ gem 'rubocop-rails', require: false
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails'
-
+gem "sassc-rails"
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.1'
 
