@@ -1,6 +1,15 @@
 <div>
   <h1>Decision Details</h1>
 
+  <% if @decision.decision_classifications.count > 0 %>
+    <div class='card primary' style="padding: 8px;">
+      <h3>Analysis</h3>
+      <% @decision.decision_classifications.last.output.map do |k,v| %>
+        <p><strong><%= k %></strong>: <%= v %></p>
+      <% end %>
+    </div>
+  <% end %>
+
   <p><strong>URL:</strong> <%= @decision.url %></p>
   <p><strong>Decision Maker:</strong> <%= @decision.decision_maker %></p>
   <p><strong>Outcome:</strong> <%= @decision.outcome %></p>
