@@ -17,12 +17,12 @@ class HomeController < ApplicationController
 
   def assemble_meetings(council)
     scope = council ? council.meetings.with_minutes : Meeting
-    scope.order(date: :desc).limit(10)
+    scope.where.not(date: nil).order(date: :desc).limit(10)
   end
 
   def assemble_decisions(council)
     scope = council ? council.decisions : Decision
-    scope.order(date: :desc).limit(10)
+    scope.where.not(date: nil).order(date: :desc).limit(10)
   end
 
   def tag_and_sort_items(items)
