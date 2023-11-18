@@ -1,6 +1,10 @@
 <div>
   <h1>Decision Details</h1>
 
+  <div>
+    <%= @decision.topline %>
+  </div>
+
   <% if @decision.decision_classifications.count > 0 %>
     <div class='card primary' style="padding: 8px;">
       <h3>Analysis</h3>
