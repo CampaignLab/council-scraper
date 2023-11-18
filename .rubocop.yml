@@ -18,8 +18,11 @@ AllCops:
 Layout:
   Enabled: true
 
-Rails/ForUserScopeNotUsed:
-  Enabled: true
+Style/Documentation:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
 
 Style/DoubleNegation:
   Enabled: false

@@ -12,11 +12,6 @@ class StringMatcher
       [id, str, levenshtein_distance(standardized_input, standardize_name(str))]
     end
 
-    # Debug statement to inspect mapped strings
-    mapped_strings.each do |arr|
-      puts "ID: #{arr[0]}, String: #{arr[1]}, Distance: #{arr[2]}, Distance Type: #{arr[2].class}"
-    end
-
     closest_match = mapped_strings.min_by { |_, _, dist| dist }
     distance = closest_match[2]
 
