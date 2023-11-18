@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_11_18_141729) do
+ActiveRecord::Schema[7.0].define(version: 2023_11_18_160252) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -116,6 +116,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_11_18_141729) do
     t.text "about"
     t.jsonb "additional_attendees", default: [], null: false
     t.jsonb "decisions", default: [], null: false
+    t.text "topline"
     t.index ["committee_id"], name: "index_meetings_on_committee_id"
     t.index ["council_id"], name: "index_meetings_on_council_id"
     t.index ["date"], name: "index_meetings_on_date"

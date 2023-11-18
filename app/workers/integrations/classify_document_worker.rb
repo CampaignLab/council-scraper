@@ -38,7 +38,8 @@ class Integrations::ClassifyDocumentWorker
       document.meeting.update!(
         about: document_metadata['about'],
         agenda: document_metadata['agenda'],
-        decisions: document_metadata['decisions']
+        decisions: document_metadata['decisions'],
+        topline: document_metadata['topline']
       )
       document.meeting.apply_tags!(document_metadata['keywords'])
       document.meeting.upsert_attendees!(document_metadata['attendees'].split(',').map(&:strip))
