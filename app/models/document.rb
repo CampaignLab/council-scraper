@@ -1,5 +1,6 @@
 class Document < ApplicationRecord
   belongs_to :meeting
+  has_one :council, through: :meeting
   has_many :document_classifications
 
   PROCESSING_STATUSES = %w[waiting processing processed failed].freeze

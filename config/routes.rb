@@ -10,4 +10,7 @@ Rails.application.routes.draw do
   resources :councils, only: %i[index show]
   resources :decisions, only: %i[index show]
   resources :meetings, only: %i[index show]
+
+  get '/search', to: 'search#index'
+  post '/search', to: 'search#search'
 end

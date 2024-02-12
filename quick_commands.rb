@@ -13,12 +13,12 @@ end
 def classify_council(name)  
   council = Council.find_by!(name: name)
 
-  council.decisions.each do |decision|
+  council.decisions.where.missing(:decision_classifications).each do |decision|
     decision.classify!
   end
 
   council.meetings.each do |meeting|
-    meeting.documents.each do |d|
+    meeting.documents.where.missing(:document_classifications).where(is_minutes: true).each do |d|
       d.classify!
     end
   end

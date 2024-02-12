@@ -1,0 +1,28 @@
+<h1>Search</h1>
+
+<%= form_with url: search_path, method: :get, local: true, class: 'my-4' do |form| %>
+  <div class="form-row">
+    <div class="col-9">
+      <%= form.text_field :query, placeholder: 'Enter search query', class: 'form-control' %>
+    </div>
+    <div class="col-3">
+      <%= form.submit 'Search', class: 'btn btn-primary' %>
+    </div>
+  </div>
+<% end %>
+
+<% if @results.present? %>
+  <div class="mt-4">
+    <h4>Search Results:</h4>
+    <ul class="list-group">
+      <% @results.each do |result| %>
+        <li class="list-group-item">
+          <a href="<%= result['object'].url %>"><%= result['object'].meeting.name %> - <%= result['object'].id %></a><br />
+          <small><%== result['highlight']['text'][0] %></small>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+<% else %>
+  <p>No results found</p>
+<% end %>
