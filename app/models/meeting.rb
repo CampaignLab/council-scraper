@@ -9,6 +9,7 @@ class Meeting < ApplicationRecord
   scope :with_minutes, -> { 
     joins(:documents).where(documents: { is_minutes: true })
   }
+  scope :in_last, ->(days) { where('created_at >= ?', days.days.ago) }
 
   def apply_tags!(tags)
     tags.each do |tag|

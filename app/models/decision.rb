@@ -2,6 +2,8 @@ class Decision < ApplicationRecord
   belongs_to :council
   has_many :decision_classifications
 
+  scope :in_last, ->(days) { where('created_at >= ?', days.days.ago) }
+
   def classify!(model: nil)
     Integrations::ClassifyDecisionWorker.perform_async(self.id, model)
   end

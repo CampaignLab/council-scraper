@@ -8,7 +8,8 @@ class Document < ApplicationRecord
 
   scope :processed, -> { where(processing_status: 'processed') }
   scope :unprocessed, -> { where(processing_status: 'waiting') }
-
+  scope :in_last, ->(days) { where('created_at >= ?', days.days.ago) }
+  
   def extract_text!
     return unless pdf?
     return if text.present?

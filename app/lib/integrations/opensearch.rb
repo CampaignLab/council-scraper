@@ -5,7 +5,7 @@ class Integrations::Opensearch
   attr_reader :api_client
 
   def initialize
-    if ENV['RAILS_ENV'] == 'development'
+    if ENV.has_key?('USE_LOCAL_OPENSEARCH')
       @api_client = OpenSearch::Client.new({
         host: 'http://localhost:9200', # The local OpenSearch instance address
         log: true
