@@ -2,51 +2,30 @@
 
 <div class="container">
   <div class="columns is-multiline">
-    <div class="column is-6-desktop is-6-tablet">
-      <table class='sync-table'>
-        <thead>
-          <tr>
-            <th>Council Name</th>
-            <% (1..52).each do |week| %>
-              <th></th>
-            <% end %>
-          </tr>
-        </thead>
-        <tbody>
-          <% @statuses[0...(@statuses.length / 2).to_i].each do |council| %>
+    <% [0...(@statuses.length / 3).to_i, (@statuses.length / 3).to_i...(2 * (@statuses.length / 3).to_i), (2 * (@statuses.length / 3).to_i)...@statuses.length].each do |range| %>
+      <div class="column is-4-desktop is-4-tablet">
+        <table class='sync-table'>
+          <thead>
             <tr>
-              <td><%= council['name'] %></td>
-              <% council['statuses'].each do |status| %>
-                <!-- Assuming statuses are already an array; otherwise, you'll need to parse it -->
-                <td class="status-<%= status.downcase %> status" title="<%= status %>"></td>
+              <th>Council Name</th>
+              <% (1..52).each do |week| %>
+                <th></th>
               <% end %>
             </tr>
-          <% end %>
-        </tbody>
-      </table>
-    </div>
-    <div class="column is-6-desktop is-6-tablet">
-      <table class='sync-table'>
-        <thead>
-          <tr>
-            <th>Council Name</th>
-            <% (1..52).each do |week| %>
-              <th></th>
+          </thead>
+          <tbody>
+            <% @statuses[range].each do |council| %>
+              <tr>
+                <td><a href="/councils/<%= council['id'] %>"%><%= council['name'] %></a></td>
+                <% council['statuses'].each do |status| %>
+                  <!-- Assuming statuses are already an array; otherwise, you'll need to parse it -->
+                  <td class="status-<%= status.downcase %> status" title="<%= status %>"></td>
+                <% end %>
+              </tr>
             <% end %>
-          </tr>
-        </thead>
-        <tbody>
-          <% @statuses[(@statuses.length / 2).to_i..-1].each do |council| %>
-            <tr>
-              <td><%= council['name'] %></td>
-              <% council['statuses'].each do |status| %>
-                <!-- Assuming statuses are already an array; otherwise, you'll need to parse it -->
-                <td class="status-<%= status.downcase %> status" title="<%= status %>"></td>
-              <% end %>
-            </tr>
-          <% end %>
-        </tbody>
-      </table>
-    </div>
+          </tbody>
+        </table>
+      </div>
+    <% end %>
   </div>
 </div>
