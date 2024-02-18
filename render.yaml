@@ -1,9 +1,3 @@
-databases:
-  - name: council-scraper
-    region: frankfurt
-    databaseName: councilscraper
-    user: councilscraper
-
 services:
   - type: web
     plan: starter
