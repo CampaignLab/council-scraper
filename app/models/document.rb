@@ -9,7 +9,7 @@ class Document < ApplicationRecord
   scope :processed, -> { where(processing_status: 'processed') }
   scope :unprocessed, -> { where(processing_status: 'waiting') }
   scope :in_last, ->(days) { where('created_at >= ?', days.days.ago) }
-  
+
   def extract_text!
     return unless pdf?
     return if text.present?
@@ -27,6 +27,9 @@ class Document < ApplicationRecord
         text = reader.pages.map(&:text).join("\n").gsub(/
 {2,}/, "\n") # trim any excess newlines
         update!(text:, extract_status: 'success')
+
+        puts "Indexing document #{id}"
+        Integrations::Opensearch.new.index_object!(self)
       end
     rescue PDF::Reader::MalformedPDFError => e
       update!(extract_status: 'failed')
