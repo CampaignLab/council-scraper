@@ -18,7 +18,7 @@ services:
       - key: RAILS_ENV
         value: production
   - type: worker
-    plan: starter
+    plan: standard
     name: council-scraper-sidekiq
     region: frankfurt
     runtime: ruby
