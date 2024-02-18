@@ -42,7 +42,7 @@
         width: 100%;
         display: flex;
         align-items: center;
-        
+
         label {
             font-weight: bold;
             font-size: 14px;
@@ -71,7 +71,7 @@
     align-items: flex-start;
     padding: 10px;
     margin: 10px 0;
-    
+
     &.meeting {
         background: rgba(#F9F3CC, 0.45);
     }
@@ -144,4 +144,36 @@
             flex-wrap: wrap;
         }
     }
+}
+
+.sync-table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  font-size: 5px;
+
+  tr {
+    height: 5px;
+  }
+
+  td, th {
+    padding: 0;
+  }
+
+  .status {
+    width: 5px;
+    height: 5px;
+
+    &.status-waiting {
+        background: lightgray;
+    }
+    &.status-processing {
+        background: yellow;
+    }
+    &.status-processed {
+        background: green;
+    }
+    &.status-error {
+        background: red;
+    }
+  }
 }

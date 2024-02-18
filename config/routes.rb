@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   mount Sidekiq::Web, at: 'sidekiq'
   root 'home#index'
+  get '/status', to: 'home#status'
 
   resources :councils, only: %i[index show]
   resources :decisions, only: %i[index show]

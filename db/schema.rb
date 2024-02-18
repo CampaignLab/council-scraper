@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_11_18_161026) do
+ActiveRecord::Schema[7.0].define(version: 2024_02_18_135930) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -22,6 +22,16 @@ ActiveRecord::Schema[7.0].define(version: 2023_11_18_161026) do
     t.datetime "updated_at", null: false
     t.integer "modern_gov_id"
     t.index ["council_id"], name: "index_committees_on_council_id"
+  end
+
+  create_table "council_syncs", force: :cascade do |t|
+    t.bigint "council_id", null: false
+    t.date "week", null: false
+    t.string "status", default: "waiting", null: false
+    t.datetime "last_synced_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["council_id"], name: "index_council_syncs_on_council_id"
   end
 
   create_table "councils", force: :cascade do |t|
@@ -153,6 +163,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_11_18_161026) do
   end
 
   add_foreign_key "committees", "councils"
+  add_foreign_key "council_syncs", "councils"
   add_foreign_key "decision_classifications", "decisions"
   add_foreign_key "decisions", "councils"
   add_foreign_key "document_classifications", "documents"

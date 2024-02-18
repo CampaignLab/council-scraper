@@ -2,6 +2,9 @@ class ScrapeCouncilWorker
   include Sidekiq::Worker
 
   def perform(council_id, beginning_of_week_str)
+    council_sync = CouncilSync.find_or_create_by!(council_id: council_id, week: beginning_of_week_str)
+    council_sync.update!(status: 'processing')
+
     sleep CouncilScraper::GLOBAL_DELAY
     council = Council.find(council_id)
     beginning_of_week = Date.parse(beginning_of_week_str)
@@ -30,9 +33,11 @@ class ScrapeCouncilWorker
         meeting = council.meetings.find_or_create_by!(url: link)
         meeting.update!(name:, committee:, date: beginning_of_week + day.days)
 
-        ScrapeMeetingWorker.perform_async(meeting.id)
+        ScrapeMeetingWorker.new.perform(meeting.id)
       end
     end
+
+    council_sync.update!(status: 'processed', last_synced_at: Time.now.utc)
   end
 
   def get_doc(url)
