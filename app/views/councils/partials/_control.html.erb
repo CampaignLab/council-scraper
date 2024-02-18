@@ -1,0 +1,77 @@
+<div class="box" style="height: 100%">
+  <h5 class="title is-size-4">Council information</h5>
+  <p>Control: <strong><%= council.majority_party %></strong></p>
+</div>
+
+<script>
+let demoOptions = {
+    donut: {
+        series: [65450, 26950, 5350],
+        chart: {
+            type: 'donut',
+            width: '100%',
+            height: 240,
+        },
+        dataLabels: {
+            enabled: false,
+        },
+        legend: {
+            show: false,
+        },
+        colors: ['#2D70F5', '#382CDD', '#F67A28'],
+        stroke: {
+            lineCap: 'round',
+        },
+        plotOptions: {
+            pie: {
+                donut: {
+                    size: '85%',
+                    labels: {
+                        show: true,
+                        total: {
+                            label: 'Total customers',
+                            showAlways: true,
+                            show: true,
+                        },
+                    },
+                },
+            },
+            stroke: {
+                colors: undefined,
+            },
+        },
+    },
+};
+
+const renderedCharts = [];
+function updateCharts() {
+    if (typeof ApexCharts !== 'function') {
+        return;
+    }
+
+    const chartElements = document.querySelectorAll('.chart');
+
+    chartElements.forEach((chartElement) => {
+        if (renderedCharts.includes(chartElement)) {
+            return;
+        }
+
+        const type = chartElement.getAttribute('data-type');
+        const variant = chartElement.getAttribute('data-variant');
+
+        if (typeof demoOptions[type] === 'object') {
+            let options = demoOptions[type];
+
+            if (typeof options['__variants'] === 'object' && typeof options['__variants'][variant] === 'object') {
+                options = { ...options, ...options['__variants'][variant] };
+            }
+
+            const chart = new ApexCharts(chartElement, options);
+            chart.render();
+            renderedCharts.push(chartElement);
+        }
+    });
+}
+
+updateCharts();
+</script>
