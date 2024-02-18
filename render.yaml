@@ -44,6 +44,16 @@ services:
 envVarGroups:
   - name: prod-settings
     envVars:
+      - key: AWS_OPENSEARCH_PREFIX
+        value: prod
+      - key: AWS_OPENSEARCH_REGION
+        value: eu-central-1
+      - key: AWS_OPENSEARCH_ACCESS_KEY_ID
+        sync: false
+      - key: AWS_OPENSEARCH_SECRET_KEY
+        sync: false
+      - key: AWS_OPENSEARCH_HOST
+        value: https://search-council-gateway-7d7lf7sktdklkart3q2zn4325i.eu-central-1.es.amazonaws.com
       - key: DATABASE_URL
         sync: false
       - key: OPENAI_ACCESS_TOKEN
@@ -52,5 +62,7 @@ envVarGroups:
         sync: false
       - key: RAILS_ENV
         value: production
+      - key: RAILS_MASTER_KEY
+        sync: false
       - key: SECRET_KEY_BASE
         sync: false
