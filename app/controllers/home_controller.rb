@@ -1,8 +1,6 @@
 class HomeController < ApplicationController
   def index
-    @council = council_from_params || nil
-    @tag = tag_from_params || nil
-    @feed_items = assemble_feed_items(@council, @tag)
+    @councils = Council.order(name: :asc)
   end
 
   def status

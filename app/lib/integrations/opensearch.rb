@@ -23,7 +23,7 @@ class Integrations::Opensearch
     end
   end
 
-  def search(query, organisation_ids = [])
+  def search(query, filters = {})
     bool = {
       must: {
         multi_match: {
@@ -34,10 +34,10 @@ class Integrations::Opensearch
       }
     }
 
-    if organisation_ids.present?
+    if filters.has_key?(:organisation_ids)
       bool[:filter] = {
         terms: {
-          organisation_ids: organisation_ids
+          organisation_ids: filters[:organisation_ids]
         }
       }
     end

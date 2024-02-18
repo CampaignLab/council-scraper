@@ -1,34 +1,10 @@
-<div class="filters">
-  <form method="GET" action="/">
-    <label>Council</label>
-    <select name="council_id">
-      <option value="">-- Select --</option>
-      <% Council.all.order(name: :asc).each do |council| %>
-        <option value="<%= council.id %>" <% if @council&.id == council.id %>selected="selected"<% end %>><%= council.name %></option>
+<section>
+  <div class="container">
+    <div class="box mt-4">
+      <h5 class="title is-size-4">Councils</h5>
+      <% @councils.each do |council| %>
+        <%= link_to council.name, council_path(council) %><br />
       <% end %>
-    </select>
-
-    <label>Tag</label>
-    <select name="tag_id">
-      <option value="">-- Select --</option>
-      <% Tag.all.order(tag: :asc).each do |tag| %>
-        <option value="<%= tag.id %>" <% if @tag&.id == tag.id %>selected="selected"<% end %>><%= tag.tag %></option>
-      <% end %>
-    </select>
-    <input type="submit" class="button" value="Filter">
-  </form>
-</div>
-
-<div class="feed">
-  <% @feed_items.each do |item| %>
-    <% if item[:kind] == 'meeting' %>
-      <%= render :partial => 'home/partials/meeting', :object => item[:item] %>
-    <% elsif item[:kind] == 'decision' %>
-      <%= render :partial => 'home/partials/decision', :object => item[:item] %>
-    <% end %>
-  <% end %>
-
-  <% if @feed_items.length == 0 %>
-    <p>There's no data for <%= @council&.name || "any councils" %> yet.</p>
-  <% end %>
-</div>
+    </div>
+  </div>
+</section>
