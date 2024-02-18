@@ -13,10 +13,7 @@ services:
     buildCommand: "WEB=1 ./bin/render-build.sh"
     startCommand: "WEB=1 bundle exec puma -C config/puma.rb"
     envVars:
-      - key: DATABASE_URL
-        fromDatabase:
-          name: council-scraper
-          property: connectionString
+      - fromGroup: prod-settings
       - key: REDIS_URL
         fromService:
           type: redis
@@ -34,10 +31,7 @@ services:
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec sidekiq -C config/sidekiq.yml"
     envVars:
-      - key: DATABASE_URL
-        fromDatabase:
-          name: council-scraper
-          property: connectionString
+      - fromGroup: prod-settings
       - key: REDIS_URL
         fromService:
           type: redis
@@ -53,3 +47,12 @@ services:
     region: frankfurt # optional (defaults to oregon)
     plan: starter # optional (defaults to starter)
     maxmemoryPolicy: volatile-lru # optional (defaults to allkeys-lru)
+envVarGroups:
+  - name: prod-settings
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: RAILS_ENV
+        value: production
+      - key: SECRET_KEY_BASE
+        sync: false
