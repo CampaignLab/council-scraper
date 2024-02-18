@@ -39,6 +39,9 @@
   <form action="/search" method="get" style="margin: 0;" data-turbo="false">
   <div class="navbar-item is-hidden-mobile is-absolute" style="top: 50%; left: 50%; transform: translate(-50%, -50%);">
     <div class="field has-addons">
+      <% if @council.present? %>
+        <p style="display: flex; align-items: center; margin-right: 10px;">Search within <%= @council.name %></p>
+      <% end %>
       <div class="control">
         <button class="button is-outlined has-text-grey-light" type="submit">
           <svg width="21" height="21" viewbox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -47,6 +50,9 @@
         </button>
       </div>
       <div class="control">
+        <% if @council.present? %>
+          <input type="hidden" name="council_id" value="<%= @council.id %>">
+        <% end %>
         <input class="input" type="text" name="query" value="<%=@query%>" placeholder="Type to search...">
       </div>
     </div>

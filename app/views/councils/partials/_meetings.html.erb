@@ -14,8 +14,9 @@
                 <span class="mt-4 -ml-5 is-absolute is-inline-block is-top-0 is-left-0 has-background-success is-flex-shrink-0" style="width: 9px; height: 9px; border-radius: 50% !important;"></span>
                 <div>
                   <a class="button -mt-1 is-ghost p-0 is-size-5 has-text-dark" href="<%= meeting_path(meeting) %>">
-                    <strong><%= meeting.committee.name %></strong> - <%= meeting.name %>
+                    <strong><%= meeting.committee.name %></strong>
                   </a>
+                  <p class="p-0 is-size-6"><%= meeting.name %></p>
                   <p class="p-0 is-size-6 has-text-dark"><%= meeting.about %></p>
                   <div class="is-flex mt-3 is-align-items-center is-size-7 has-text-grey">
                     <svg class="mr-1" width="14" height="14" viewbox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -7,5 +7,6 @@ class DecisionsController < ApplicationController
 
   def show
     @decision = Decision.find(params[:id])
+    @council = @decision.council
   end
 end

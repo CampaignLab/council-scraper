@@ -12,5 +12,6 @@ class MeetingsController < ApplicationController
   
   def show
     @meeting = Meeting.includes(:documents).find(params[:id])
+    @council = @meeting.council
   end
 end

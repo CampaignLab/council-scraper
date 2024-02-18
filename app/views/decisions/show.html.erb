@@ -1,9 +1,10 @@
-<div>
-  <h1>Decision Details</h1>
+<section class="section">
+  <div class="container">
+    <h4 class="title is-size-3">Decision</h4>
 
-  <div>
+    <div class="box">
+  
     <%= @decision.topline %>
-  </div>
 
   <% if @decision.decision_classifications.count > 0 %>
     <div class='card primary' style="padding: 8px;">
@@ -23,3 +24,6 @@
   <p><strong>Content:</strong> <%= @decision.content %></p>
   <p><strong>Date of Decision:</strong> <%= @decision.date.strftime("%B %e, %Y") if @decision.date %></p>
 </div>
+</div>
+</div>
+</section>

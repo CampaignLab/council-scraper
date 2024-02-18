@@ -5,7 +5,7 @@ class CouncilsController < ApplicationController
 
   def show
     @council = Council.find(params[:id])
-    @meetings = @council.meetings.includes(:council, :documents, :committee).order(date: :desc)
-    @decisions = @council.decisions.includes(:council, :decision_classifications).order(date: :desc)
+    @meetings = @council.meetings.includes(:council, :documents, :committee).order(date: :desc).take(10)
+    @decisions = @council.decisions.includes(:council, :decision_classifications).order(date: :desc).take(10)
   end
 end

@@ -1,6 +1,9 @@
-<h1><%= @meeting.name %></h1>
+<section class="section">
+  <div class="container">
+    <h4 class="title is-size-3"><%= @meeting.name %></h4>
 
-<h2>Meeting Details</h2>
+    <div class="box">
+    <h5 class="title is-size-4">Details></h5>
   <p><strong>Name:</strong> <%= @meeting.name %></p>
   <p><strong>URL:</strong> <%= @meeting.url %></p>
   <p><strong>Notes:</strong> <%= @meeting.notes %></p>
@@ -49,3 +52,6 @@
     <% end %>
   </tbody>
 </table>
+</div>
+</div>
+</div>
