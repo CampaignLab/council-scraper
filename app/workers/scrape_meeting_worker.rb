@@ -75,7 +75,7 @@ class ScrapeMeetingWorker
       if main_url.downcase.ends_with?('.pdf') || main_url.downcase.ends_with?('.doc') || main_url.downcase.ends_with?('.docx')
         puts link
         link
-      elsif depth < 2 && !link.include?('mgMeetingAttendance.aspx') && !link.include?('mgLocationDetails.aspx') && !link.include?('mgIssueHistoryHome.aspx') && !link.include?('mgIssueHistoryChronology.aspx') && !link.include?('ieIssueDetails.aspx')
+      elsif depth < 2 && !link.include?('mgMeetingAttendance.aspx') && !link.include?('mgLocationDetails.aspx') && !link.include?('mgIssueHistoryHome.aspx') && !link.include?('mgIssueHistoryChronology.aspx') && !link.include?('ieIssueDetails.aspx') && !link.include?('mgUserInfo.aspx')
         recursive_get_pdfs(link, depth + 1)
       else
         []

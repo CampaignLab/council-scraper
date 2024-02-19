@@ -26,7 +26,7 @@ class Document < ApplicationRecord
         # Extract text from the PDF
         reader = PDF::Reader.new(temp_pdf.path)
         text = reader.pages.map(&:text).join("\n").gsub(/
-{2,}/, "\n") # trim any excess newlines
+{2,}/, "\n").gsub("\u0000", "") # remove null bytes, multiple newlines
         update!(text:, extract_status: 'success')
 
         puts "Indexing document #{id}"
