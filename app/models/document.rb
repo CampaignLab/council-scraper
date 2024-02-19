@@ -14,11 +14,12 @@ class Document < ApplicationRecord
     return unless pdf?
     return if text.present?
 
-    puts "fetching #{url}"
-    response = HTTParty.get(url)
-
     begin
+      puts "fetching #{url}"
+      response = HTTParty.get(url)
+
       Tempfile.create(['downloaded', '.pdf']) do |temp_pdf|
+        temp_pdf.binmode
         temp_pdf.write(response.body)
         temp_pdf.rewind
 
@@ -31,7 +32,7 @@ class Document < ApplicationRecord
         puts "Indexing document #{id}"
         Integrations::Opensearch.new.index_object!(self)
       end
-    rescue PDF::Reader::MalformedPDFError => e
+    rescue PDF::Reader::MalformedPDFError, HTTParty::RedirectionTooDeep => e
       update!(extract_status: 'failed')
     end
   end

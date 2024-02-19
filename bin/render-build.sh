@@ -4,8 +4,6 @@ set -o errexit
 
 bundle install
 
-echo "Database URL: $DATABASE_URL"
-
 # only run this if WEB is set
 if [ ! -z "$WEB" ]; then
   bundle exec rake assets:precompile
