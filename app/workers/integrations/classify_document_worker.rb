@@ -49,6 +49,7 @@ class Integrations::ClassifyDocumentWorker
 
     add_deeper_document_data!
 
+    Integrations::Opensearch.new(mode: 'classification').index_object!(document_classification)
     document_classification
   end
 
