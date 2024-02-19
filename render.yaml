@@ -56,6 +56,10 @@ envVarGroups:
         value: https://search-council-gateway-7d7lf7sktdklkart3q2zn4325i.eu-central-1.es.amazonaws.com
       - key: DATABASE_URL
         sync: false
+      - key: NEW_RELIC_LICENSE_KEY
+        sync: false
+      - key: NEW_RELIC_APP_NAME
+        value: council-scraper (prod)
       - key: OPENAI_ACCESS_TOKEN
         sync: false
       - key: OPENAI_MODEL

@@ -23,7 +23,7 @@ class Integrations::Opensearch
     end
   end
 
-  def search(query, filters = {})
+  def search(query, organisation_ids = [])
     bool = {
       must: {
         multi_match: {
@@ -34,15 +34,15 @@ class Integrations::Opensearch
       }
     }
 
-    if filters.has_key?(:organisation_ids)
+    if organisation_ids.present?
       bool[:filter] = {
         terms: {
-          organisation_ids: filters[:organisation_ids]
+          organisation_ids: organisation_ids
         }
       }
     end
 
-    api_client.search(index: "my-nlp-index", body: {
+    api_client.search(index: index_name, body: {
       query: {
         bool: bool
       },
@@ -79,7 +79,7 @@ class Integrations::Opensearch
     return if document.nil?
 
     api_client.index(
-      index: "my-nlp-index",
+      index: index_name,
       body: object_representation(object),
       id: "#{object.class.name}-#{object.id}",
       refresh: true
@@ -88,7 +88,7 @@ class Integrations::Opensearch
 
   def object_representation(object)
     if object.is_a?(Document)
-      { id: object.id, name: object.name, type: object.class.name, text: object.text[0..1000], organisation_ids: [object.meeting.council_id] }
+      { id: object.id, name: object.name, type: object.class.name, text: object.text, organisation_ids: [object.meeting.council_id] }
     else
       raise UnknownObjectError, "Don't know how to index a #{object.class.name}"
     end
@@ -99,23 +99,4 @@ class Integrations::Opensearch
   end
 
   class UnknownObjectError < StandardError; end
-
-  def configure_ml!
-    # Based on tutorial
-    # https://opensearch.org/docs/latest/search-plugins/neural-search-tutorial/
-
-    # Define the settings you want to update
-    # "flat settings" format as specified https://docs.aws.amazon.com/opensearch-service/latest/developerguide/supported-operations.html#version_api_notes
-    settings = {
-      persistent: {
-        'plugins.ml_commons.only_run_on_ml_node': false,
-        'plugins.ml_commons.native_memory_threshold': '99',
-        'plugins.ml_commons.model_access_control_enabled': true
-      }
-    }
-
-    # Update the cluster settings
-    response = api_client.cluster.put_settings(body: settings)
-    response = api_client.cluster.get_settings
-  end
 end
