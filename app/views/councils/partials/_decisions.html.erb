@@ -10,11 +10,12 @@
               <p>No decisions found.</p>
             <% end %>
             <% items.each do |decision| %>
-              <div class="mb-5 is-flex is-relative is-align-items-center">
+              <div class="mb-5 is-flex is-relative is-align-items-center" style="background-color: <%= decision.color %>">
                 <span class="mt-4 -ml-5 is-absolute is-inline-block is-top-0 is-left-0 has-background-success is-flex-shrink-0" style="width: 9px; height: 9px; border-radius: 50% !important;"></span>
                 <div>
                   <a class="button -mt-1 is-ghost p-0 is-size-5 has-text-dark" href="<%= decision_path(decision) %>">
                     <strong><%= decision.decision_maker %></strong>
+                    <% if decision.purpose.present? %>&nbsp;- <%= decision.purpose %><% end %>
                     <% if decision.outcome.present? %>&nbsp;- <%= decision.outcome %><% end %>
                   </a>
                   <p class="p-0 is-size-6 has-text-dark">
@@ -28,7 +29,7 @@
                   </div>
                 </div>
               </div>
-            <% end %>   
+            <% end %>
           </div>
         </div>
 

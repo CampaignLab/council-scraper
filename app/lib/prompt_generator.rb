@@ -1,8 +1,8 @@
 class PromptGenerator
   MAX_INPUT = 16_000 # this can be set longer, but be careful of model restrictions and cost!
 
-  def self.meeting_notes_classification(document)
-    text = document.slice(0, MAX_INPUT)
+  def self.meeting_notes_classification(text)
+    text = text.slice(0, MAX_INPUT)
 
     prompt = <<-TEXT
           Here is the first part of a meeting from a council in the UK. Please read it, and then output the following answers, in JSON, with the keys listed in brackets by the questions:

@@ -3,10 +3,8 @@ class Integrations::ClassifyDocumentWorker
 
   include Sidekiq::Worker
 
-  def perform(document_id, model)
+  def perform(document_id, model = ENV['OPENAI_MODEL'])
     @document = Document.find(document_id)
-    @model = model || ENV['OPENAI_MODEL']
-
     document.update!(processing_status: 'processing')
 
     # classify document with OpenAI
