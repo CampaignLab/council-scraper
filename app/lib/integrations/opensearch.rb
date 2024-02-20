@@ -5,6 +5,7 @@ class Integrations::Opensearch
   attr_reader :api_client, :mode
 
   def initialize(mode: 'document')
+    @mode = mode
     if ENV.has_key?('USE_LOCAL_OPENSEARCH')
       @api_client = OpenSearch::Client.new({
         host: 'http://localhost:9200', # The local OpenSearch instance address
@@ -23,7 +24,9 @@ class Integrations::Opensearch
     end
   end
 
-  def search(query, organisation_ids = [])
+  def search(query, filters = {})
+    organisation_ids = filters[:organisation_ids] || []
+
     bool = {
       must: {
         multi_match: {
@@ -92,7 +95,7 @@ class Integrations::Opensearch
         id: object.id,
         name: object.name,
         type: object.class.name,
-        text: object.text, 
+        text: object.text,
         meeting_id: object.meeting_id,
         meeting_name: object.meeting.name,
         organisation_ids: [object.meeting.council_id]
