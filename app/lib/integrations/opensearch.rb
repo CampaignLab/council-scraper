@@ -105,7 +105,7 @@ class Integrations::Opensearch
         id: object.id,
         name: object.document.name,
         organisation_ids: [object.meeting.council_id]
-      }.merge(object.classification)
+      }.merge(object.output)
     else
       raise UnknownObjectError, "Don't know how to index a #{object.class.name}"
     end

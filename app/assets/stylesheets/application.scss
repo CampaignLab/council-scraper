@@ -171,6 +171,9 @@
     }
     &.status-processed {
         background: green;
+        &.classify {
+            background: purple;
+        }
     }
     &.status-error {
         background: red;

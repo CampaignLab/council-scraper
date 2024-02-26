@@ -13,6 +13,8 @@ class StringMatcher
     end
 
     closest_match = mapped_strings.min_by { |_, _, dist| dist }
+    return nil if closest_match.blank?
+
     distance = closest_match[2]
 
     if distance > threshold

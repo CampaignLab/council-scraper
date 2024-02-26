@@ -2,7 +2,7 @@ class ScrapeCouncilWorker
   include Sidekiq::Worker
 
   def perform(council_id, beginning_of_week_str)
-    council_sync = CouncilSync.find_or_create_by!(council_id: council_id, week: beginning_of_week_str)
+    council_sync = CouncilSync.find_or_create_by!(council_id: council_id, week: beginning_of_week_str, kind: 'scrape')
     council_sync.update!(status: 'processing')
 
     sleep CouncilScraper::GLOBAL_DELAY

@@ -17,9 +17,16 @@
             <% @statuses[range].each do |council| %>
               <tr>
                 <td><a href="/councils/<%= council['id'] %>"%><%= council['name'] %></a></td>
-                <% council['statuses'].each do |status| %>
+                <% council['scrape_statuses'].each do |status| %>
                   <!-- Assuming statuses are already an array; otherwise, you'll need to parse it -->
                   <td class="status-<%= status.downcase %> status" title="<%= status %>"></td>
+                <% end %>
+              </tr>
+              <tr>
+                <td></td>
+                <% council['classify_statuses'].each do |status| %>
+                  <!-- Assuming statuses are already an array; otherwise, you'll need to parse it -->
+                  <td class="status-<%= status.downcase %> status classify" title="<%= status %>"></td>
                 <% end %>
               </tr>
             <% end %>

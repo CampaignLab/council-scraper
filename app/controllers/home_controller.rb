@@ -5,22 +5,18 @@ class HomeController < ApplicationController
 
   def status
     @statuses = ActiveRecord::Base.connection.execute(<<~SQL
-      SELECT c.id, c.name, array_agg(COALESCE(cs.status, 'waiting') ORDER BY first_day_of_week) AS statuses
-      FROM generate_series(
-          CURRENT_DATE - INTERVAL '364 DAY' + (1 - EXTRACT(ISODOW FROM CURRENT_DATE))::int % 7 * INTERVAL '1 day', -- Adjust to the first Monday before or on 52 weeks ago
-          CURRENT_DATE + (1 - EXTRACT(ISODOW FROM CURRENT_DATE))::int % 7 * INTERVAL '1 day', -- Adjust to the next Monday from today (if today is not Monday)
-          '1 week'::interval
-        ) AS first_day_of_week
-      CROSS JOIN councils c
-      LEFT JOIN council_syncs cs
-        ON (first_day_of_week = cs.week AND c.id = cs.council_id)
-      GROUP BY c.id, c.name
-      ORDER BY c.name;
+    SELECT scrape.id, scrape.name, scrape.statuses as scrape_statuses, classify.statuses as classify_statuses
+      FROM ( #{sql_for_sync_kind('scrape')} ) as scrape
+      LEFT JOIN ( #{sql_for_sync_kind('classify')} ) as classify
+        ON scrape.id = classify.id
+      ORDER BY scrape.name
     SQL
     ).to_a
 
     @statuses.map! do |row|
-      row['statuses'] = row['statuses'].tr('{}', '').split(',') if row['statuses'].is_a?(String)
+      # Convert statuses to arrays
+      row['scrape_statuses'] = row['scrape_statuses'].tr('{}', '').split(',') if row['scrape_statuses'].is_a?(String)
+      row['classify_statuses'] = row['classify_statuses'].tr('{}', '').split(',') if row['classify_statuses'].is_a?(String)
       row
     end
   end
@@ -59,5 +55,23 @@ class HomeController < ApplicationController
   def tag_item(item)
     kind = item.is_a?(Meeting) ? 'meeting' : 'decision'
     { kind: kind, item: item }
+  end
+
+  def sql_for_sync_kind(kind)
+    <<~SQL
+      SELECT
+        c.id,
+        c.name,
+        array_agg(COALESCE(cs.status, 'waiting') ORDER BY first_day_of_week) AS statuses
+      FROM generate_series(
+          CURRENT_DATE - INTERVAL '364 DAY' + (1 - EXTRACT(ISODOW FROM CURRENT_DATE))::int % 7 * INTERVAL '1 day', -- Adjust to the first Monday before or on 52 weeks ago
+          CURRENT_DATE + (1 - EXTRACT(ISODOW FROM CURRENT_DATE))::int % 7 * INTERVAL '1 day', -- Adjust to the next Monday from today (if today is not Monday)
+          '1 week'::interval
+        ) AS first_day_of_week
+      CROSS JOIN councils c
+      LEFT JOIN council_syncs cs
+        ON (first_day_of_week = cs.week AND c.id = cs.council_id AND cs.kind = '#{kind}')
+      GROUP BY c.id, c.name
+    SQL
   end
 end
