@@ -30,7 +30,7 @@ class ScrapeOpenCouncilDataWorker
       party = row['partyName']
 
       councillor = Person.find_or_create_by!(ocd_id:, council:)
-      councillor.update!(name:, party:, council:, is_councillor: true)
+      councillor.update!(name:, party:, is_councillor: true)
     end
   end
 

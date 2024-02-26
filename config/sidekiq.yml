@@ -4,5 +4,5 @@
 :scheduler:
   :schedule:
     scrape_councils:
-      cron: '* * 3 * * *'   # Runs once per day at 3am
+      cron: '* * 3 * 0 *'   # Runs every Monday
       class: ScrapeCouncilsWorker
