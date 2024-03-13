@@ -1,7 +1,7 @@
 class ScrapeCouncilsWorker
   include Sidekiq::Worker
 
-  def perform(num_weeks_back = 6)
+  def perform(num_weeks_back = 4)
     CSV.foreach('data/councils.csv', headers: true) do |row|
       council = Council.find_or_create_by!(external_id: row['id'])
       council.update!(name: row['name'], base_scrape_url: row['url'])

@@ -38,6 +38,7 @@ gem 'nokogiri'
 gem 'pdf-reader'
 gem 'ruby-openai'
 gem 'sidekiq'
+gem 'sidekiq-scheduler'
 gem 'opensearch-ruby'
 gem 'opensearch-aws-sigv4'
 
