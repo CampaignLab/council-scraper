@@ -32,7 +32,8 @@ class Integrations::Opensearch
         multi_match: {
           query: query,
           fields: ['*'],
-          type: 'best_fields'
+          type: 'phrase',
+          slop: 10
         }
       }
     }
@@ -53,7 +54,7 @@ class Integrations::Opensearch
         fields: {
           '*' => {} # Apply highlighting to all fields
         },
-        fragment_size: 50, # The size of the highlighted fragment in characters
+        fragment_size: 300, # The size of the highlighted fragment in characters
         number_of_fragments: 1, # The number of fragments returned per field
         post_tags: ["</strong>"], # Define the tag used to highlight the matching query terms
         pre_tags: ["<strong>"] # Define the tag used to highlight the matching query terms
