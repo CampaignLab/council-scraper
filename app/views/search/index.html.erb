@@ -1,7 +1,7 @@
 <section class="section">
   <div class="container">
     <h5 class="title is-size-4">Search</h5>
-    <%= render "partials/search", query: @query, council_id: @council_id %>
+    <%= render "partials/search", query: @query, mode: @mode, council_id: @council_id %>
 
     <% if @query.present? %>
       <div class="box mt-2">
@@ -11,8 +11,10 @@
             <ul class="list-group">
               <% @results.each do |result| %>
                 <li class="list-group-item">
-                  <a href="<%= result['object'].url %>"><%= result['object'].meeting.name %> - <%= result['object'].id %></a><br />
-                  <small><%== result['highlight']['text'][0] %></small>
+                  <%= result['object'].council.name %>: <a href="<%= result['object'].url %>"><%= result['object'].meeting.name %> - <%= result['object'].id %></a><br />
+                  <% result['highlight'].each do |key, value| %>
+                    <%== value.join('<br />') %><br />
+                  <% end %>
                 </li>
               <% end %>
             </ul>

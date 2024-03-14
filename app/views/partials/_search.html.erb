@@ -1,29 +1,60 @@
 <div class="box">
-  <form action="/search" method="get" style="margin: 0;" data-turbo="false">
-
-  <div class="field">
-  <div class="control">
-    <select name="council_id">
-      <option value="">-- Select --</option>
-      <% Council.all.order(name: :asc).each do |council| %>
-        <option value="<%= council.id %>" <% if council_id == council.id %>selected="selected"<% end %>><%= council.name %></option>
-      <% end %>
-    </select>
-  </div>
-  </div>
-
+  <form action="/search" method="get" data-turbo="false">
     <div class="field has-addons">
       <div class="control">
-        <button class="button is-outlined has-text-grey-light" type="submit">
-          <svg width="21" height="21" viewbox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M20.7 19.3L17 15.6C20.1 11.7 19.5 6 15.6 2.9C11.7 -0.2 5.99999 0.5 2.89999 4.3C-0.200006 8.2 0.499995 13.9 4.29999 17C7.59999 19.6 12.3 19.6 15.6 17L19.3 20.7C19.7 21.1 20.3 21.1 20.7 20.7C21.1 20.3 21.1 19.7 20.7 19.3ZM9.99999 17C6.09999 17 2.99999 13.9 2.99999 10C2.99999 6.1 6.09999 3 9.99999 3C13.9 3 17 6.1 17 10C17 13.9 13.9 17 9.99999 17Z" fill="currentColor"></path>
-          </svg>
+        <button class="button is-primary" type="submit">
+          <span class="icon is-small">
+            <i class="fas fa-search"></i> <!-- Assuming you are using FontAwesome -->
+          </span>
         </button>
       </div>
-      <div class="control">
-        <input class="input" type="text" name="query" value="<%=query%>" placeholder="Type to search...">
+
+      <div class="control is-expanded">
+        <input class="input" type="text" name="query" value="<%= query %>" placeholder="Type to search...">
       </div>
     </div>
 
+    <div class="columns is-mobile is-vcentered">
+      <div class="column">
+        <div class="field">
+          <div class="control">
+            <div class="select is-fullwidth">
+              <select name="council_id">
+                <option value="">-- (Optional) Select a council --</option>
+                <% Council.all.order(name: :asc).each do |council| %>
+                  <option value="<%= council.id %>" <% if council_id == council.id %>selected="selected"<% end %>>
+                    <%= council.name %>
+                  </option>
+                <% end %>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="field is-grouped">
+          <label class="radio">
+            Search within:
+          </label>
+          <label class="radio">
+            <input type="radio" name="mode" value="document" <% if mode == 'document' %>checked="checked"<% end %>>
+            Raw Text
+          </label>
+          <label class="radio">
+            <input type="radio" name="mode" value="classification" <% if mode == 'classification' %>checked="checked"<% end %>>
+            OpenAI Summary
+          </label>
+        </div>
+      </div>
+
+      <div class="column is-narrow">
+        <div class="field">
+          <div class="control has-text-right">
+            <button class="button is-primary" type="submit">Search</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </form>
 </div>
